@@ -24,12 +24,13 @@ while t:
 
 total = (notas[0]+notas[1]+notas[2]+notas[3]+notas[4])/5
 
+#RETORNA TRUE OU FALSE
 def checar_aprovacao():
     return total >= 7
 
-#CASO SEJA TRUE ESTA APROVADO E SE FOR FALSE ESTA REPROVADO
 checagem = checar_aprovacao()
 
+#CASO SEJA TRUE ESTA APROVADO E SE FOR FALSE ESTA REPROVADO
 if checagem:
     print('APROVADO')
 else:
