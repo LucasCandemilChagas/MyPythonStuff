@@ -32,11 +32,11 @@ checagem = checar_aprovacao()
 
 #CASO SEJA TRUE ESTA APROVADO E SE FOR FALSE ESTA REPROVADO
 if checagem:
-    print('APROVADO')
+    print(f'Media {total} - APROVADO')
 else:
     notaG2 = def_notas()
     if (notaG2+total)/2 >= 5:
-        print('APROVADO')
+        print(f'Media {notaG2} - APROVADO')
     else:
-        print('REPROVADO')
+        print(f'Media {notaG2} - REPROVADO')
 
