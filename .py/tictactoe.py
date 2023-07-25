@@ -46,21 +46,21 @@ def player_XO(players):
         players[2] = 'X'
         
 def verification_win(game_board,p):
-    if players[p] == game_board[7] and players[p] == game_board[8] and players[p] == game_board[9]:
+    if players[p] == game_board[7] == game_board[8] == game_board[9]:
         return p
-    elif players[p] == game_board[4] and players[p] == game_board[5] and players[p] == game_board[6]:
+    elif players[p] == game_board[4] == game_board[5] == game_board[6]:
         return p
-    elif players[p] == game_board[1] and players[p] == game_board[2] and players[p] == game_board[3]:
+    elif players[p] == game_board[1] == game_board[2] == game_board[3]:
         return p
-    elif players[p] == game_board[1] and players[p] == game_board[4] and players[p] == game_board[7]:
+    elif players[p] == game_board[1] == game_board[4] == game_board[7]:
         return p
-    elif players[p] == game_board[2] and players[p] == game_board[5] and players[p] == game_board[8]:
+    elif players[p] == game_board[2] == game_board[5] == game_board[8]:
         return p
-    elif players[p] == game_board[3] and players[p] == game_board[6] and players[p] == game_board[9]:
+    elif players[p] == game_board[3] == game_board[6] == game_board[9]:
         return p
-    elif players[p] == game_board[1] and players[p] == game_board[5] and players[p] == game_board[9]:
+    elif players[p] == game_board[1] == game_board[5] == game_board[9]:
         return p
-    elif players[p] == game_board[3] and players[p] == game_board[5] and players[p] == game_board[7]:
+    elif players[p] == game_board[3] == game_board[5] == game_board[7]:
         return p
     else:
         if not full_board_check(game_board):
