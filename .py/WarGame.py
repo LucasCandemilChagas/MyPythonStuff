@@ -44,15 +44,13 @@ class Player:
     
     def remove_one(self):
         return self.hand.pop(0)
-    
-    #Add one Card object in his hand  
-    def add_one(self, new_card):
-        self.hand.append(new_card)
         
-    #Add multiple Card objects in his hand    
+    #Add one or more cards to the player hand  
     def add_cards(self,new_cards):
         if(type(new_cards) == type([])):
             self.hand.extend(new_cards)
+        else:
+            self.hand.append(new_cards)
      
     def __str__(self):
         return f'Player {self.name} has {len(self.hand)} cards'
@@ -66,8 +64,8 @@ ply1 = Player('Lucas')
 ply2 = Player('Gauterio')
 
 for i in range(26):
-    ply1.add_one(deck.grab_card())
-    ply2.add_one(deck.grab_card())
+    ply1.add_cards(deck.grab_card())
+    ply2.add_cards(deck.grab_card())
 
 #Game Logic
 #while that if game is still in progress it stays inside the while
