@@ -12,7 +12,7 @@ player_total = 100
 player_bet = 0
 player_winnings = 0
 
-dealers_hand = []
+
 
 class Card:
 
@@ -53,7 +53,7 @@ class Player:
     
     def remove_one(self):
         return self.hand.pop(0)      
-        
+       
     #Add one card to the player hand  
     def add_card(self,new_card):
         self.hand.append(new_card)
@@ -79,6 +79,10 @@ def win_bet(player_total):
 def lose_bet(player_total):
     player_total -= player_bet
 
+    
+
+dealer = Player('Dealer')
+
 deck = Deck()
 
 deck.shuffle()
@@ -87,13 +91,44 @@ player_bet = int(input('Insert your bet: '))
 
 while player_bet > player_total:
     player_bet = int(input(f'Error, bet is higher than your chips ({player_total}), please try again: '))    
-
+    
 p1 = Player('Lucas')
-
-for i in range(2):
-    p1.add_card(deck.grab_card())
-    dealers_hand.append(deck.grab_card())
-
-p1.adjust_for_ace()
+while game_on:
+    for i in range(2):
+        p1.add_card(deck.grab_card())
+        dealer.add_card(deck.grab_card())
+        
+    print(f'Dealer has {dealer.hand[0]}')
+    print(f'Player has {p1.hand[0]} and {p1.hand[1]}')
+    hit = input('Do you wanna hit? (y/n): ')
+    
+    while hit == 'y' and dealer.value < 17:
+        print('Player Hit!')
+        p1.add_card(deck.grab_card())
+        p1.adjust_for_ace()
+        if p1.value < 21:
+            if hit == 'y':
+                print('Player Hit!')
+                p1.add_card(deck.grab_card())
+                p1.adjust_for_ace()
+            else:
+                print('Bust')
+                game_on = False
+            
+        
+    while dealer.value < 17:
+        print('Dealer Hit!')
+        dealer.add_card(deck.grab_card())
+        dealer.adjust_for_ace()
+        
+        
+    p1.adjust_for_ace()
+    #If Bust end game
+    if p1.value < dealer.value:
+        print('Lose!')
+        game_on = False
+    else:
+        print('Win!')
+        game_on = False
 
 print(p1)

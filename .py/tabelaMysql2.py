@@ -19,28 +19,26 @@ db_config = mysql.connector.connect(
 cursor = db_config.cursor()
 
 # Comando SQL para criar a tabela
-create_table_query = """
-CREATE TABLE itens_pedidos (
-    id int AUTO_INCREMENT PRIMARY KEY,
-    descricao char(30),
-    estoque int,
-    valor decimal(6,2)
-)
-"""
+#create_table_query = """
+#CREATE TABLE itens_pedidos (
+#    id int AUTO_INCREMENT PRIMARY KEY,
+#    id_produto int,
+#    qtde int,
+#    valor decimal(6,2)
+#)
+#"""
 
 # Executando o comando SQL para criar a tabela
 #cursor.execute(create_table_query)
 #j = 200
-#for i in range(200):
-#    id = j
-#    j+=1
-#    descricao = gerador.ecommerce_name()
-#    estoque = random.randint(5,100)
-#    valor = random.uniform(100.00,1000.00)
-#    cursor.execute("""
-#    INSERT INTO produtos (id, descricao, estoque, valor)
-#    VALUES (%s, %s, %s, %s);
-#    """, (id, descricao, estoque, valor))
+for i in range(200):
+    id_produto = random.randint(200,400)
+    qtde = random.randint(1,10)
+    valor = 0
+    cursor.execute("""
+    INSERT INTO itens_pedidos (id_produto, qtde, valor)
+    VALUES (%s, %s, %s);
+    """, (id_produto, qtde, valor))
 
 
 
