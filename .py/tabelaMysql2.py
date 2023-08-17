@@ -19,27 +19,31 @@ db_config = mysql.connector.connect(
 cursor = db_config.cursor()
 
 # Comando SQL para criar a tabela
-#create_table_query = """
-#CREATE TABLE itens_pedidos (
-#    id int AUTO_INCREMENT PRIMARY KEY,
-#    id_produto int,
-#    qtde int,
-#    valor decimal(6,2)
-#)
-#"""
+create_table_query = """
+CREATE TABLE itens_pedidos (
+    id int AUTO_INCREMENT PRIMARY KEY,
+    id_pedido int,
+    id_produto int,
+    qtde int,
+    valor decimal(6,2)
+)
+"""
 
 # Executando o comando SQL para criar a tabela
-#cursor.execute(create_table_query)
-#j = 200
+cursor.execute("""
+               DROP TABLE itens_pedidos
+               """)
+cursor.execute(create_table_query)
+j = 200
 for i in range(200):
     id_produto = random.randint(200,400)
+    id_pedido = random.randint(6000,6999)
     qtde = random.randint(1,10)
     valor = 0
     cursor.execute("""
-    INSERT INTO itens_pedidos (id_produto, qtde, valor)
-    VALUES (%s, %s, %s);
-    """, (id_produto, qtde, valor))
-
+    INSERT INTO itens_pedidos (id_produto,id_pedido, qtde, valor)
+    VALUES (%s, %s, %s, %s);
+    """, (id_produto, id_pedido, qtde, valor))
 
 
 
