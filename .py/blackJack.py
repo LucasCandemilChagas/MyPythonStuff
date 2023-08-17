@@ -12,8 +12,6 @@ player_total = 100
 player_bet = 0
 player_winnings = 0
 
-
-
 class Card:
 
     def __init__(self, suit, rank):      
@@ -73,13 +71,35 @@ class Player:
     def __str__(self):
         return f'Player {self.name} has {len(self.hand)} cards with {self.value} value'
 
-def win_bet(player_total):
+def win_bet():
+    global player_total
     player_total += player_bet
 
-def lose_bet(player_total):
+def lose_bet():
+    global player_total
     player_total -= player_bet
 
+def reset():
+    dealer = Player('Dealer')
+    deck = Deck()
+    deck.shuffle()
+    p1 = Player('Lucas')
+    for i in range(2):
+        p1.add_card(deck.grab_card())
+        dealer.add_card(deck.grab_card())
     
+def check_win():
+    if p1.value < dealer.value and dealer.value < 21:
+        print(f'You Lose! - Dealer hand value: {dealer.value} and Player hand value: {p1.value}')
+        lose_bet()
+        print("\nPlayer's winnings stand at", player_total)
+        game_on = False
+    else:
+        print('You Win!')
+        win_bet()
+        # Inform Player of their chips total 
+        print("\nPlayer's winnings stand at", player_total)
+        game_on = False
 
 dealer = Player('Dealer')
 
@@ -98,37 +118,30 @@ while game_on:
         p1.add_card(deck.grab_card())
         dealer.add_card(deck.grab_card())
         
-    print(f'Dealer has {dealer.hand[0]}')
+    print(f'Dealer has {dealer.hand[0]} - Value: {dealer.value}')
     print(f'Player has {p1.hand[0]} and {p1.hand[1]}')
-    hit = input('Do you wanna hit? (y/n): ')
+
+    hit = input('Do you wanna hit? (y/n): ').capitalize()
     
-    while hit == 'y' and dealer.value < 17:
+    while hit == 'Y':
         print('Player Hit!')
         p1.add_card(deck.grab_card())
         p1.adjust_for_ace()
-        if p1.value < 21:
-            if hit == 'y':
-                print('Player Hit!')
-                p1.add_card(deck.grab_card())
-                p1.adjust_for_ace()
-            else:
-                print('Bust')
-                game_on = False
+        hit = input('Do you wanna hit? (y/n): ').capitalize()
+        
+    
+    if p1.value <= 21: 
+        print('Dealer is playing!')	   
+        while dealer.value < 17:
+            print('Dealer Hit!')
+            dealer.add_card(deck.grab_card())
+            dealer.adjust_for_ace()
             
-        
-    while dealer.value < 17:
-        print('Dealer Hit!')
-        dealer.add_card(deck.grab_card())
-        dealer.adjust_for_ace()
-        
-        
-    p1.adjust_for_ace()
-    #If Bust end game
-    if p1.value < dealer.value:
-        print('Lose!')
-        game_on = False
-    else:
-        print('Win!')
-        game_on = False
-
+    check_win()
+ 
+    gameon = input('Wanna play again? (y/n): ').capitalize()
+    
+    if gameon == 'Y':
+        game_on = True
+        reset()
 print(p1)
