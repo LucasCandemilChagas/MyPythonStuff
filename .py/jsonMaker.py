@@ -8,21 +8,40 @@ db_config = mysql.connector.connect(
   password="root"
 )
 
-cursor = db_config.cursor()
+cursor = db_config.cursor(buffered=True)
+cursor1 = db_config.cursor(buffered=True)
 
 cursor.execute("SELECT * FROM pedidos")
-pedidos = {"pedidos":[]}
+cursor1.execute("SELECT * FROM itens_pedidos")
 
-for linha in cursor.fetchall():
-    pedidos['pedidos'].append(
+c = cursor.fetchall()
+c1 = cursor1.fetchall()
+
+pedidos = {"pedidos":[]}
+i=0
+
+for linha in c:
+    pedidos['pedidos'].append( 
         {
             "id": linha[0],
             "id_cliente": linha[1],
             "data_pedido": linha[2],
-            "valor_pedido": linha[3]
+            "valor_pedido": linha[3],
+            "itens_pedidos": []
         }
     )
-    
+    for line in c1:
+        if linha[0] == line[1]:
+            pedidos["pedidos"][i]['itens_pedidos'].append(
+                {
+                   'id': line[0],
+                   'id_pedido': line[1],
+                   'id_produto': line[2],
+                   'qtde': line[3],
+                   'valor': line[4]
+                }
+            )
+    i+=1
     
 with open("Pedidos.json", "w") as arquivo:
     try:    
