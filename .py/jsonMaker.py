@@ -1,6 +1,7 @@
 import json
 import mysql.connector
 
+# Logando ao banco de dados
 db_config = mysql.connector.connect(
   host="localhost",
   user="root",
@@ -8,19 +9,29 @@ db_config = mysql.connector.connect(
   password="root"
 )
 
-cursor = db_config.cursor(buffered=True)
-cursor1 = db_config.cursor(buffered=True)
+# Conectando duas vezes ao banco de dados
+cursorPed = db_config.cursor(buffered=True)
+cursorIPed = db_config.cursor(buffered=True)
+cursorCli = db_config.cursor(buffered=True)
+cursorProd = db_config.cursor(buffered=True)
 
-cursor.execute("SELECT * FROM pedidos")
-cursor1.execute("SELECT * FROM itens_pedidos")
+cursorPed.execute("SELECT * FROM pedidos")
+cursorIPed.execute("SELECT * FROM itens_pedidos")
+cursorCli.execute("SELECT * FROM clientes")
+cursorProd.execute("SELECT * FROM produtos")
 
-c = cursor.fetchall()
-c1 = cursor1.fetchall()
-
+#Armazenando os dados dos dois SELECT para eventos futuros
+cP = cursorPed.fetchall()
+cI = cursorIPed.fetchall()
+cCli = cursorCli.fetchall()
+cPr = cursorProd.fetchall()
+#Criando json
 pedidos = {"pedidos":[]}
 i=0
+j=0
 
-for linha in c:
+#Inserindo os dados de cP e cI no json
+for linha in cP:
     pedidos['pedidos'].append( 
         {
             "id": linha[0],
@@ -30,19 +41,50 @@ for linha in c:
             "itens_pedidos": []
         }
     )
-    for line in c1:
+    #Percorre o banco de dados itens_pedidos 
+    # e adiciona em pedidos["pedidos"][index de linha]['itens_pedidos']
+    # os dados de line caso seu id_pedido seja igual a id do BD pedidos
+    for line in cI:
         if linha[0] == line[1]:
             pedidos["pedidos"][i]['itens_pedidos'].append(
                 {
                    'id': line[0],
                    'id_pedido': line[1],
                    'id_produto': line[2],
+                   'produto': [],
                    'qtde': line[3],
                    'valor': line[4]
                 }
             )
+            #Pega o produto desse line e adiciona
+            for p in cPr:
+                if p[0] == line[2]:
+                    try:
+                        pedidos["pedidos"][i]['itens_pedidos'][j]['produto'].append( 
+                            {
+                                'id': p[0],
+                                'descricao': p[1],
+                                'estoque': p[2],
+                                'valor': p[3]
+                            }
+                        )
+                            
+                        #Caso tenha mais de um itens_pedidos o 
+                        # incremento abaixo 
+                        # garantira que ao fazer o append() acima ele 
+                        # colocara o produto no itens_pedidos certo
+                        j+=1
+
+                        break
+                    
+                    except:
+                        print('Exception')
+                        size = len(pedidos["pedidos"][i]['itens_pedidos'])
+                        print(f'Length - {size}  j - {j}')    
+    j=0    
     i+=1
-    
+
+#Criando arquivo json   
 with open("Pedidos.json", "w") as arquivo:
     try:    
         json.dump(pedidos, arquivo, indent=4, sort_keys=True, default=str)
