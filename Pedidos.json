@@ -1,14 +1,21 @@
 {
     "pedidos": [
         {
+            "cliente": [
+                {
+                    "endereco": "61969 Ethan Fall Suite 518\nPaulahaven, IA 14689",
+                    "id": 1,
+                    "idade": null,
+                    "nome": "Micheal Randall",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1997-05-17",
             "id": 6015,
-            "id_cliente": 1,
             "itens_pedidos": [
                 {
                     "id": 137,
                     "id_pedido": 6015,
-                    "id_produto": 394,
                     "produto": [
                         {
                             "descricao": "Car",
@@ -24,14 +31,21 @@
             "valor_pedido": "4888.24"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "91766 Cole Street Apt. 788\nWest Robert, MP 78192",
+                    "id": 73,
+                    "idade": null,
+                    "nome": "Jessica Williams",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2004-07-23",
             "id": 6016,
-            "id_cliente": 73,
             "itens_pedidos": [
                 {
                     "id": 193,
                     "id_pedido": 6016,
-                    "id_produto": 329,
                     "produto": [
                         {
                             "descricao": "Practical Pizza",
@@ -47,14 +61,21 @@
             "valor_pedido": "3871.53"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "6477 Aguilar River Suite 938\nNorth Brendaview, NE 38233",
+                    "id": 63,
+                    "idade": null,
+                    "nome": "Brittany George",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2023-05-25",
             "id": 6035,
-            "id_cliente": 63,
             "itens_pedidos": [
                 {
                     "id": 86,
                     "id_pedido": 6035,
-                    "id_produto": 396,
                     "produto": [
                         {
                             "descricao": "Ergonomic Shoes",
@@ -70,14 +91,21 @@
             "valor_pedido": "4083.40"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "91612 Jessica Tunnel Apt. 418\nNew Kimberly, PR 22785",
+                    "id": 84,
+                    "idade": null,
+                    "nome": "Leah Brewer",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2006-12-17",
             "id": 6043,
-            "id_cliente": 84,
             "itens_pedidos": [
                 {
                     "id": 175,
                     "id_pedido": 6043,
-                    "id_produto": 201,
                     "produto": [
                         {
                             "descricao": "Metal Salad",
@@ -93,14 +121,21 @@
             "valor_pedido": "4674.30"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "3332 Jennifer Motorway Suite 199\nDennisstad, WY 90222",
+                    "id": 91,
+                    "idade": null,
+                    "nome": "Bryan Mason",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1990-08-15",
             "id": 6045,
-            "id_cliente": 91,
             "itens_pedidos": [
                 {
                     "id": 114,
                     "id_pedido": 6045,
-                    "id_produto": 319,
                     "produto": [
                         {
                             "descricao": "Unbranded Shirt",
@@ -116,14 +151,21 @@
             "valor_pedido": "2935.45"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "1779 David Spring Suite 110\nWilsonmouth, NM 11997",
+                    "id": 59,
+                    "idade": null,
+                    "nome": "Christine Nguyen",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1983-12-03",
             "id": 6058,
-            "id_cliente": 59,
             "itens_pedidos": [
                 {
                     "id": 66,
                     "id_pedido": 6058,
-                    "id_produto": 236,
                     "produto": [
                         {
                             "descricao": "Sausages",
@@ -139,14 +181,21 @@
             "valor_pedido": "8494.70"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "61969 Ethan Fall Suite 518\nPaulahaven, IA 14689",
+                    "id": 1,
+                    "idade": null,
+                    "nome": "Micheal Randall",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2001-06-19",
             "id": 6066,
-            "id_cliente": 1,
             "itens_pedidos": [
                 {
                     "id": 177,
                     "id_pedido": 6066,
-                    "id_produto": 242,
                     "produto": [
                         {
                             "descricao": "Fresh Towels",
@@ -162,14 +211,21 @@
             "valor_pedido": "767.47"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "70628 David Lodge\nNorth Anita, HI 13678",
+                    "id": 60,
+                    "idade": null,
+                    "nome": "Kayla Davis",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2010-08-09",
             "id": 6073,
-            "id_cliente": 60,
             "itens_pedidos": [
                 {
                     "id": 51,
                     "id_pedido": 6073,
-                    "id_produto": 365,
                     "produto": [
                         {
                             "descricao": "Wooden Bike",
@@ -185,14 +241,21 @@
             "valor_pedido": "2031.80"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "968 Heather Well\nPort Anthonymouth, ID 70789",
+                    "id": 99,
+                    "idade": null,
+                    "nome": "Deborah Cook",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1972-04-29",
             "id": 6074,
-            "id_cliente": 99,
             "itens_pedidos": [
                 {
                     "id": 77,
                     "id_pedido": 6074,
-                    "id_produto": 387,
                     "produto": [
                         {
                             "descricao": "Bike",
@@ -208,14 +271,21 @@
             "valor_pedido": "976.83"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "623 Collins Brook\nMatthewland, VT 05578",
+                    "id": 70,
+                    "idade": null,
+                    "nome": "Joshua Vasquez",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1988-07-04",
             "id": 6077,
-            "id_cliente": 70,
             "itens_pedidos": [
                 {
                     "id": 49,
                     "id_pedido": 6077,
-                    "id_produto": 247,
                     "produto": [
                         {
                             "descricao": "Gently Used Salad",
@@ -231,14 +301,21 @@
             "valor_pedido": "197.85"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "567 David Springs\nNew Howard, OK 31032",
+                    "id": 72,
+                    "idade": null,
+                    "nome": "Darrell Wilson",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1985-11-14",
             "id": 6081,
-            "id_cliente": 72,
             "itens_pedidos": [
                 {
                     "id": 147,
                     "id_pedido": 6081,
-                    "id_produto": 382,
                     "produto": [
                         {
                             "descricao": "Chair",
@@ -254,14 +331,21 @@
             "valor_pedido": "1184.24"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "4155 John Crossing Suite 923\nJeffreymouth, AZ 63886",
+                    "id": 49,
+                    "idade": null,
+                    "nome": "Christopher Davis",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2003-05-18",
             "id": 6082,
-            "id_cliente": 49,
             "itens_pedidos": [
                 {
                     "id": 75,
                     "id_pedido": 6082,
-                    "id_produto": 386,
                     "produto": [
                         {
                             "descricao": "Handmade Towels",
@@ -276,7 +360,6 @@
                 {
                     "id": 106,
                     "id_pedido": 6082,
-                    "id_produto": 229,
                     "produto": [
                         {
                             "descricao": "Soap",
@@ -292,14 +375,21 @@
             "valor_pedido": "5095.64"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "03895 Moody Throughway\nMichelleside, FM 67654",
+                    "id": 24,
+                    "idade": null,
+                    "nome": "Anne Robinson",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2000-03-15",
             "id": 6084,
-            "id_cliente": 24,
             "itens_pedidos": [
                 {
                     "id": 135,
                     "id_pedido": 6084,
-                    "id_produto": 258,
                     "produto": [
                         {
                             "descricao": "For repair Towels",
@@ -315,14 +405,21 @@
             "valor_pedido": "8509.95"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "083 Brandi Views Apt. 715\nNorth Justinview, MD 81095",
+                    "id": 100,
+                    "idade": null,
+                    "nome": "Elizabeth Johnson",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2010-01-29",
             "id": 6090,
-            "id_cliente": 100,
             "itens_pedidos": [
                 {
                     "id": 3,
                     "id_pedido": 6090,
-                    "id_produto": 358,
                     "produto": [
                         {
                             "descricao": "Refined Soft Mouse",
@@ -338,14 +435,21 @@
             "valor_pedido": "1166.80"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "5729 Christina Garden Suite 943\nBrooksview, ND 73466",
+                    "id": 44,
+                    "idade": null,
+                    "nome": "Jessica Krause",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1975-05-10",
             "id": 6092,
-            "id_cliente": 44,
             "itens_pedidos": [
                 {
                     "id": 5,
                     "id_pedido": 6092,
-                    "id_produto": 383,
                     "produto": [
                         {
                             "descricao": "Fantastic Cotton Salad",
@@ -361,14 +465,21 @@
             "valor_pedido": "4384.20"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "46319 Luna Alley Apt. 778\nEast Sheilamouth, SD 26385",
+                    "id": 30,
+                    "idade": null,
+                    "nome": "Peggy Ferguson",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1989-02-13",
             "id": 6096,
-            "id_cliente": 30,
             "itens_pedidos": [
                 {
                     "id": 15,
                     "id_pedido": 6096,
-                    "id_produto": 398,
                     "produto": [
                         {
                             "descricao": "Shirt",
@@ -384,14 +495,21 @@
             "valor_pedido": "303.98"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "0564 Sergio Mission\nMcclainport, IN 02328",
+                    "id": 65,
+                    "idade": null,
+                    "nome": "Michael Meyer",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1982-01-22",
             "id": 6100,
-            "id_cliente": 65,
             "itens_pedidos": [
                 {
                     "id": 54,
                     "id_pedido": 6100,
-                    "id_produto": 240,
                     "produto": [
                         {
                             "descricao": "Intelligent Metal Computer",
@@ -407,14 +525,21 @@
             "valor_pedido": "328.45"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "Unit 0248 Box 6995\nDPO AP 63404",
+                    "id": 22,
+                    "idade": null,
+                    "nome": "April Richardson",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2002-03-31",
             "id": 6102,
-            "id_cliente": 22,
             "itens_pedidos": [
                 {
                     "id": 11,
                     "id_pedido": 6102,
-                    "id_produto": 346,
                     "produto": [
                         {
                             "descricao": "Towels",
@@ -429,7 +554,6 @@
                 {
                     "id": 170,
                     "id_pedido": 6102,
-                    "id_produto": 317,
                     "produto": [
                         {
                             "descricao": "For repair Tuna",
@@ -445,14 +569,21 @@
             "valor_pedido": "8422.57"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "1779 David Spring Suite 110\nWilsonmouth, NM 11997",
+                    "id": 59,
+                    "idade": null,
+                    "nome": "Christine Nguyen",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2001-03-28",
             "id": 6107,
-            "id_cliente": 59,
             "itens_pedidos": [
                 {
                     "id": 121,
                     "id_pedido": 6107,
-                    "id_produto": 387,
                     "produto": [
                         {
                             "descricao": "Bike",
@@ -468,14 +599,21 @@
             "valor_pedido": "3256.10"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "46319 Luna Alley Apt. 778\nEast Sheilamouth, SD 26385",
+                    "id": 30,
+                    "idade": null,
+                    "nome": "Peggy Ferguson",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1994-05-15",
             "id": 6114,
-            "id_cliente": 30,
             "itens_pedidos": [
                 {
                     "id": 184,
                     "id_pedido": 6114,
-                    "id_produto": 293,
                     "produto": [
                         {
                             "descricao": "Gently Used Steel Chips",
@@ -491,14 +629,21 @@
             "valor_pedido": "291.66"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "3394 Audrey Springs\nJenniferland, OK 49132",
+                    "id": 4,
+                    "idade": null,
+                    "nome": "Jessica Wall",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2007-01-20",
             "id": 6115,
-            "id_cliente": 4,
             "itens_pedidos": [
                 {
                     "id": 128,
                     "id_pedido": 6115,
-                    "id_produto": 292,
                     "produto": [
                         {
                             "descricao": "Cheese",
@@ -514,14 +659,21 @@
             "valor_pedido": "3470.67"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "30903 Simpson Fall Apt. 340\nPort Briannahaven, IN 14907",
+                    "id": 97,
+                    "idade": null,
+                    "nome": "Vincent Ross",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1978-09-05",
             "id": 6116,
-            "id_cliente": 97,
             "itens_pedidos": [
                 {
                     "id": 12,
                     "id_pedido": 6116,
-                    "id_produto": 291,
                     "produto": [
                         {
                             "descricao": "Incredible Rubber Chair",
@@ -536,7 +688,6 @@
                 {
                     "id": 120,
                     "id_pedido": 6116,
-                    "id_produto": 286,
                     "produto": [
                         {
                             "descricao": "Incredible Rubber Mouse",
@@ -552,14 +703,21 @@
             "valor_pedido": "4046.67"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "Unit 8449 Box 9545\nDPO AP 81310",
+                    "id": 77,
+                    "idade": null,
+                    "nome": "Kristopher Ball",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1998-01-12",
             "id": 6126,
-            "id_cliente": 77,
             "itens_pedidos": [
                 {
                     "id": 102,
                     "id_pedido": 6126,
-                    "id_produto": 230,
                     "produto": [
                         {
                             "descricao": "Hat",
@@ -575,14 +733,21 @@
             "valor_pedido": "4551.20"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "951 Bernard Bypass Suite 176\nJamieshire, PA 55437",
+                    "id": 33,
+                    "idade": null,
+                    "nome": "Juan Chandler",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2023-03-26",
             "id": 6130,
-            "id_cliente": 33,
             "itens_pedidos": [
                 {
                     "id": 73,
                     "id_pedido": 6130,
-                    "id_produto": 351,
                     "produto": [
                         {
                             "descricao": "Soft Chair",
@@ -598,14 +763,21 @@
             "valor_pedido": "219.82"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "70628 David Lodge\nNorth Anita, HI 13678",
+                    "id": 60,
+                    "idade": null,
+                    "nome": "Kayla Davis",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1985-03-22",
             "id": 6132,
-            "id_cliente": 60,
             "itens_pedidos": [
                 {
                     "id": 167,
                     "id_pedido": 6132,
-                    "id_produto": 316,
                     "produto": [
                         {
                             "descricao": "Fantastic Wooden Computer",
@@ -621,14 +793,21 @@
             "valor_pedido": "8841.42"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "9685 Michael Dale\nMatthewberg, NJ 49768",
+                    "id": 75,
+                    "idade": null,
+                    "nome": "Sheila Kline",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1982-12-14",
             "id": 6133,
-            "id_cliente": 75,
             "itens_pedidos": [
                 {
                     "id": 163,
                     "id_pedido": 6133,
-                    "id_produto": 251,
                     "produto": [
                         {
                             "descricao": "Tasty Wooden Ball",
@@ -644,14 +823,21 @@
             "valor_pedido": "3708.75"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "15750 Cox Camp\nEast Heatherville, IL 71327",
+                    "id": 95,
+                    "idade": null,
+                    "nome": "Rebecca Cardenas",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1989-01-26",
             "id": 6150,
-            "id_cliente": 95,
             "itens_pedidos": [
                 {
                     "id": 90,
                     "id_pedido": 6150,
-                    "id_produto": 251,
                     "produto": [
                         {
                             "descricao": "Tasty Wooden Ball",
@@ -667,14 +853,21 @@
             "valor_pedido": "5192.25"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "70628 David Lodge\nNorth Anita, HI 13678",
+                    "id": 60,
+                    "idade": null,
+                    "nome": "Kayla Davis",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1996-08-14",
             "id": 6153,
-            "id_cliente": 60,
             "itens_pedidos": [
                 {
                     "id": 16,
                     "id_pedido": 6153,
-                    "id_produto": 233,
                     "produto": [
                         {
                             "descricao": "Concrete Table",
@@ -690,14 +883,21 @@
             "valor_pedido": "1964.82"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "038 Jones Valleys Apt. 134\nPort Bryanmouth, WA 12745",
+                    "id": 78,
+                    "idade": null,
+                    "nome": "Stephanie Ochoa",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1973-12-25",
             "id": 6179,
-            "id_cliente": 78,
             "itens_pedidos": [
                 {
                     "id": 171,
                     "id_pedido": 6179,
-                    "id_produto": 234,
                     "produto": [
                         {
                             "descricao": "Awesome Cheese",
@@ -713,14 +913,21 @@
             "valor_pedido": "7396.56"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "Unit 9237 Box 9416\nDPO AA 29234",
+                    "id": 32,
+                    "idade": null,
+                    "nome": "Lucas Chagas",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2003-10-30",
             "id": 6182,
-            "id_cliente": 32,
             "itens_pedidos": [
                 {
                     "id": 91,
                     "id_pedido": 6182,
-                    "id_produto": 366,
                     "produto": [
                         {
                             "descricao": "Awesome Towels",
@@ -736,14 +943,21 @@
             "valor_pedido": "1023.04"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "690 Corey Harbors Apt. 804\nWeaverburgh, GU 13392",
+                    "id": 76,
+                    "idade": null,
+                    "nome": "Kenneth Holmes",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1997-04-11",
             "id": 6183,
-            "id_cliente": 76,
             "itens_pedidos": [
                 {
                     "id": 52,
                     "id_pedido": 6183,
-                    "id_produto": 322,
                     "produto": [
                         {
                             "descricao": "Intelligent Granite Hat",
@@ -758,7 +972,6 @@
                 {
                     "id": 89,
                     "id_pedido": 6183,
-                    "id_produto": 221,
                     "produto": [
                         {
                             "descricao": "Granite Chair",
@@ -774,14 +987,21 @@
             "valor_pedido": "5574.88"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "03895 Moody Throughway\nMichelleside, FM 67654",
+                    "id": 24,
+                    "idade": null,
+                    "nome": "Anne Robinson",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1976-10-28",
             "id": 6184,
-            "id_cliente": 24,
             "itens_pedidos": [
                 {
                     "id": 29,
                     "id_pedido": 6184,
-                    "id_produto": 205,
                     "produto": [
                         {
                             "descricao": "Concrete Fish",
@@ -797,14 +1017,21 @@
             "valor_pedido": "970.96"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "30903 Simpson Fall Apt. 340\nPort Briannahaven, IN 14907",
+                    "id": 97,
+                    "idade": null,
+                    "nome": "Vincent Ross",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2022-06-27",
             "id": 6195,
-            "id_cliente": 97,
             "itens_pedidos": [
                 {
                     "id": 92,
                     "id_pedido": 6195,
-                    "id_produto": 302,
                     "produto": [
                         {
                             "descricao": "Handmade Steel Pizza",
@@ -820,14 +1047,21 @@
             "valor_pedido": "1320.03"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "07087 Adrian Springs Apt. 122\nNorth Rebeccaville, PR 38773",
+                    "id": 64,
+                    "idade": null,
+                    "nome": "Kristie Sanchez",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2005-10-31",
             "id": 6196,
-            "id_cliente": 64,
             "itens_pedidos": [
                 {
                     "id": 17,
                     "id_pedido": 6196,
-                    "id_produto": 327,
                     "produto": [
                         {
                             "descricao": "Refined Computer",
@@ -843,14 +1077,21 @@
             "valor_pedido": "4374.18"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "92001 Ariel Station Apt. 390\nEast Carrietown, IL 51499",
+                    "id": 51,
+                    "idade": null,
+                    "nome": "Kelly Cox",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2012-12-25",
             "id": 6200,
-            "id_cliente": 51,
             "itens_pedidos": [
                 {
                     "id": 57,
                     "id_pedido": 6200,
-                    "id_produto": 327,
                     "produto": [
                         {
                             "descricao": "Refined Computer",
@@ -866,14 +1107,21 @@
             "valor_pedido": "4860.20"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "Unit 0248 Box 6995\nDPO AP 63404",
+                    "id": 22,
+                    "idade": null,
+                    "nome": "April Richardson",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2013-08-24",
             "id": 6203,
-            "id_cliente": 22,
             "itens_pedidos": [
                 {
                     "id": 43,
                     "id_pedido": 6203,
-                    "id_produto": 289,
                     "produto": [
                         {
                             "descricao": "Wooden Gloves",
@@ -889,14 +1137,21 @@
             "valor_pedido": "3009.60"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "1779 David Spring Suite 110\nWilsonmouth, NM 11997",
+                    "id": 59,
+                    "idade": null,
+                    "nome": "Christine Nguyen",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1978-01-09",
             "id": 6221,
-            "id_cliente": 59,
             "itens_pedidos": [
                 {
                     "id": 134,
                     "id_pedido": 6221,
-                    "id_produto": 362,
                     "produto": [
                         {
                             "descricao": "New Chair",
@@ -912,14 +1167,21 @@
             "valor_pedido": "2921.40"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "5729 Christina Garden Suite 943\nBrooksview, ND 73466",
+                    "id": 44,
+                    "idade": null,
+                    "nome": "Jessica Krause",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2007-03-22",
             "id": 6222,
-            "id_cliente": 44,
             "itens_pedidos": [
                 {
                     "id": 34,
                     "id_pedido": 6222,
-                    "id_produto": 261,
                     "produto": [
                         {
                             "descricao": "Soft Chicken",
@@ -935,14 +1197,21 @@
             "valor_pedido": "2672.05"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "1779 David Spring Suite 110\nWilsonmouth, NM 11997",
+                    "id": 59,
+                    "idade": null,
+                    "nome": "Christine Nguyen",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1973-10-04",
             "id": 6225,
-            "id_cliente": 59,
             "itens_pedidos": [
                 {
                     "id": 40,
                     "id_pedido": 6225,
-                    "id_produto": 356,
                     "produto": [
                         {
                             "descricao": "Gorgeous Plastic Shirt",
@@ -957,7 +1226,6 @@
                 {
                     "id": 69,
                     "id_pedido": 6225,
-                    "id_produto": 245,
                     "produto": [
                         {
                             "descricao": "Shirt",
@@ -973,14 +1241,21 @@
             "valor_pedido": "5942.03"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "91766 Cole Street Apt. 788\nWest Robert, MP 78192",
+                    "id": 73,
+                    "idade": null,
+                    "nome": "Jessica Williams",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2001-11-05",
             "id": 6228,
-            "id_cliente": 73,
             "itens_pedidos": [
                 {
                     "id": 82,
                     "id_pedido": 6228,
-                    "id_produto": 359,
                     "produto": [
                         {
                             "descricao": "Small Table",
@@ -996,14 +1271,21 @@
             "valor_pedido": "1697.07"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "Unit 0675 Box 0154\nDPO AA 23642",
+                    "id": 15,
+                    "idade": null,
+                    "nome": "Sarah Hodges",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2018-04-07",
             "id": 6229,
-            "id_cliente": 15,
             "itens_pedidos": [
                 {
                     "id": 68,
                     "id_pedido": 6229,
-                    "id_produto": 276,
                     "produto": [
                         {
                             "descricao": "Cheese",
@@ -1019,14 +1301,21 @@
             "valor_pedido": "5707.60"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "03895 Moody Throughway\nMichelleside, FM 67654",
+                    "id": 24,
+                    "idade": null,
+                    "nome": "Anne Robinson",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1990-04-17",
             "id": 6234,
-            "id_cliente": 24,
             "itens_pedidos": [
                 {
                     "id": 37,
                     "id_pedido": 6234,
-                    "id_produto": 340,
                     "produto": [
                         {
                             "descricao": "Refined Rubber Chair",
@@ -1041,7 +1330,6 @@
                 {
                     "id": 151,
                     "id_pedido": 6234,
-                    "id_produto": 374,
                     "produto": [
                         {
                             "descricao": "Frozen Keyboard",
@@ -1057,14 +1345,21 @@
             "valor_pedido": "15105.06"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "690 Corey Harbors Apt. 804\nWeaverburgh, GU 13392",
+                    "id": 76,
+                    "idade": null,
+                    "nome": "Kenneth Holmes",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1999-07-03",
             "id": 6240,
-            "id_cliente": 76,
             "itens_pedidos": [
                 {
                     "id": 145,
                     "id_pedido": 6240,
-                    "id_produto": 220,
                     "produto": [
                         {
                             "descricao": "Granite Shoes",
@@ -1080,14 +1375,13 @@
             "valor_pedido": "1379.85"
         },
         {
+            "cliente": [],
             "data_pedido": "1999-09-03",
             "id": 6241,
-            "id_cliente": 98,
             "itens_pedidos": [
                 {
                     "id": 28,
                     "id_pedido": 6241,
-                    "id_produto": 301,
                     "produto": [
                         {
                             "descricao": "Rubber Fish",
@@ -1103,14 +1397,21 @@
             "valor_pedido": "4240.35"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "206 Joseph Club\nJulieville, UT 34001",
+                    "id": 54,
+                    "idade": null,
+                    "nome": "Maria Harmon",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1970-01-20",
             "id": 6245,
-            "id_cliente": 54,
             "itens_pedidos": [
                 {
                     "id": 176,
                     "id_pedido": 6245,
-                    "id_produto": 348,
                     "produto": [
                         {
                             "descricao": "Licensed Plastic Hat",
@@ -1126,14 +1427,21 @@
             "valor_pedido": "5043.36"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "5897 Perez Fields Suite 489\nEast Christine, PR 52441",
+                    "id": 42,
+                    "idade": null,
+                    "nome": "Sarah Duncan",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1986-03-26",
             "id": 6249,
-            "id_cliente": 42,
             "itens_pedidos": [
                 {
                     "id": 194,
                     "id_pedido": 6249,
-                    "id_produto": 341,
                     "produto": [
                         {
                             "descricao": "Car",
@@ -1149,14 +1457,21 @@
             "valor_pedido": "6938.89"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "PSC 4034, Box 7866\nAPO AP 50881",
+                    "id": 93,
+                    "idade": null,
+                    "nome": "Brooke Gonzalez",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2022-06-07",
             "id": 6250,
-            "id_cliente": 93,
             "itens_pedidos": [
                 {
                     "id": 13,
                     "id_pedido": 6250,
-                    "id_produto": 281,
                     "produto": [
                         {
                             "descricao": "Used Ball",
@@ -1171,7 +1486,6 @@
                 {
                     "id": 58,
                     "id_pedido": 6250,
-                    "id_produto": 365,
                     "produto": [
                         {
                             "descricao": "Wooden Bike",
@@ -1187,14 +1501,21 @@
             "valor_pedido": "4537.58"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "2948 Michael River\nSouth Susan, DE 37948",
+                    "id": 47,
+                    "idade": null,
+                    "nome": "Michelle Williamson",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1986-03-27",
             "id": 6264,
-            "id_cliente": 47,
             "itens_pedidos": [
                 {
                     "id": 70,
                     "id_pedido": 6264,
-                    "id_produto": 241,
                     "produto": [
                         {
                             "descricao": "Intelligent Plastic Pizza",
@@ -1209,7 +1530,6 @@
                 {
                     "id": 112,
                     "id_pedido": 6264,
-                    "id_produto": 242,
                     "produto": [
                         {
                             "descricao": "Fresh Towels",
@@ -1224,7 +1544,6 @@
                 {
                     "id": 165,
                     "id_pedido": 6264,
-                    "id_produto": 334,
                     "produto": [
                         {
                             "descricao": "Shirt",
@@ -1240,14 +1559,21 @@
             "valor_pedido": "8098.20"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "271 Lane Underpass Suite 823\nKellyhaven, IL 12171",
+                    "id": 25,
+                    "idade": null,
+                    "nome": "Angela Tate",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1999-09-24",
             "id": 6267,
-            "id_cliente": 25,
             "itens_pedidos": [
                 {
                     "id": 47,
                     "id_pedido": 6267,
-                    "id_produto": 213,
                     "produto": [
                         {
                             "descricao": "Refined Soap",
@@ -1263,14 +1589,21 @@
             "valor_pedido": "2880.64"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "97252 Phillip Estate Suite 030\nMargaretshire, OH 63334",
+                    "id": 38,
+                    "idade": null,
+                    "nome": "Paul Oliver",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2013-11-02",
             "id": 6268,
-            "id_cliente": 38,
             "itens_pedidos": [
                 {
                     "id": 41,
                     "id_pedido": 6268,
-                    "id_produto": 334,
                     "produto": [
                         {
                             "descricao": "Shirt",
@@ -1286,14 +1619,21 @@
             "valor_pedido": "4951.36"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "0564 Sergio Mission\nMcclainport, IN 02328",
+                    "id": 65,
+                    "idade": null,
+                    "nome": "Michael Meyer",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2016-12-24",
             "id": 6269,
-            "id_cliente": 65,
             "itens_pedidos": [
                 {
                     "id": 98,
                     "id_pedido": 6269,
-                    "id_produto": 258,
                     "produto": [
                         {
                             "descricao": "For repair Towels",
@@ -1308,7 +1648,6 @@
                 {
                     "id": 108,
                     "id_pedido": 6269,
-                    "id_produto": 290,
                     "produto": [
                         {
                             "descricao": "Practical Hat",
@@ -1324,14 +1663,21 @@
             "valor_pedido": "5062.68"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "2948 Michael River\nSouth Susan, DE 37948",
+                    "id": 47,
+                    "idade": null,
+                    "nome": "Michelle Williamson",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2018-05-10",
             "id": 6270,
-            "id_cliente": 47,
             "itens_pedidos": [
                 {
                     "id": 188,
                     "id_pedido": 6270,
-                    "id_produto": 227,
                     "produto": [
                         {
                             "descricao": "Unbranded Steel Pants",
@@ -1347,14 +1693,21 @@
             "valor_pedido": "1106.30"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "91612 Jessica Tunnel Apt. 418\nNew Kimberly, PR 22785",
+                    "id": 84,
+                    "idade": null,
+                    "nome": "Leah Brewer",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1991-11-28",
             "id": 6276,
-            "id_cliente": 84,
             "itens_pedidos": [
                 {
                     "id": 168,
                     "id_pedido": 6276,
-                    "id_produto": 314,
                     "produto": [
                         {
                             "descricao": "Handcrafted Concrete Pants",
@@ -1370,14 +1723,21 @@
             "valor_pedido": "3091.48"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "271 Lane Underpass Suite 823\nKellyhaven, IL 12171",
+                    "id": 25,
+                    "idade": null,
+                    "nome": "Angela Tate",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1995-12-09",
             "id": 6280,
-            "id_cliente": 25,
             "itens_pedidos": [
                 {
                     "id": 72,
                     "id_pedido": 6280,
-                    "id_produto": 382,
                     "produto": [
                         {
                             "descricao": "Chair",
@@ -1393,14 +1753,21 @@
             "valor_pedido": "5329.08"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "0564 Sergio Mission\nMcclainport, IN 02328",
+                    "id": 65,
+                    "idade": null,
+                    "nome": "Michael Meyer",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2001-03-29",
             "id": 6287,
-            "id_cliente": 65,
             "itens_pedidos": [
                 {
                     "id": 18,
                     "id_pedido": 6287,
-                    "id_produto": 326,
                     "produto": [
                         {
                             "descricao": "Small Mouse",
@@ -1415,7 +1782,6 @@
                 {
                     "id": 140,
                     "id_pedido": 6287,
-                    "id_produto": 387,
                     "produto": [
                         {
                             "descricao": "Bike",
@@ -1431,14 +1797,21 @@
             "valor_pedido": "2623.24"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "951 Bernard Bypass Suite 176\nJamieshire, PA 55437",
+                    "id": 33,
+                    "idade": null,
+                    "nome": "Juan Chandler",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2020-05-13",
             "id": 6290,
-            "id_cliente": 33,
             "itens_pedidos": [
                 {
                     "id": 36,
                     "id_pedido": 6290,
-                    "id_produto": 351,
                     "produto": [
                         {
                             "descricao": "Soft Chair",
@@ -1454,14 +1827,21 @@
             "valor_pedido": "329.73"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "1354 Fuentes Fields Apt. 608\nDanielborough, KY 47851",
+                    "id": 3,
+                    "idade": null,
+                    "nome": "Joanna Christensen",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2009-12-18",
             "id": 6302,
-            "id_cliente": 3,
             "itens_pedidos": [
                 {
                     "id": 200,
                     "id_pedido": 6302,
-                    "id_produto": 381,
                     "produto": [
                         {
                             "descricao": "Ergonomic Towels",
@@ -1477,14 +1857,21 @@
             "valor_pedido": "315.99"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "60686 Shelby Spur\nNancymouth, NE 09751",
+                    "id": 13,
+                    "idade": null,
+                    "nome": "Tina Watson",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1990-07-21",
             "id": 6307,
-            "id_cliente": 13,
             "itens_pedidos": [
                 {
                     "id": 100,
                     "id_pedido": 6307,
-                    "id_produto": 327,
                     "produto": [
                         {
                             "descricao": "Refined Computer",
@@ -1500,14 +1887,21 @@
             "valor_pedido": "972.04"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "66025 Ethan Turnpike Suite 731\nThomasmouth, VI 20717",
+                    "id": 16,
+                    "idade": null,
+                    "nome": "Melissa Carroll",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2023-01-11",
             "id": 6324,
-            "id_cliente": 16,
             "itens_pedidos": [
                 {
                     "id": 97,
                     "id_pedido": 6324,
-                    "id_produto": 255,
                     "produto": [
                         {
                             "descricao": "Steel Chair",
@@ -1523,14 +1917,21 @@
             "valor_pedido": "560.79"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "891 James Gardens Apt. 809\nJenniferchester, ME 26840",
+                    "id": 5,
+                    "idade": null,
+                    "nome": "Andrea Schwartz",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1970-07-07",
             "id": 6331,
-            "id_cliente": 5,
             "itens_pedidos": [
                 {
                     "id": 33,
                     "id_pedido": 6331,
-                    "id_produto": 326,
                     "produto": [
                         {
                             "descricao": "Small Mouse",
@@ -1546,14 +1947,21 @@
             "valor_pedido": "990.60"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "0564 Sergio Mission\nMcclainport, IN 02328",
+                    "id": 65,
+                    "idade": null,
+                    "nome": "Michael Meyer",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2021-02-05",
             "id": 6335,
-            "id_cliente": 65,
             "itens_pedidos": [
                 {
                     "id": 67,
                     "id_pedido": 6335,
-                    "id_produto": 326,
                     "produto": [
                         {
                             "descricao": "Small Mouse",
@@ -1569,14 +1977,21 @@
             "valor_pedido": "990.60"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "0907 Williamson Drives\nNorth Carrietown, WA 05089",
+                    "id": 18,
+                    "idade": null,
+                    "nome": "Ryan Thomas",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1972-03-25",
             "id": 6336,
-            "id_cliente": 18,
             "itens_pedidos": [
                 {
                     "id": 187,
                     "id_pedido": 6336,
-                    "id_produto": 203,
                     "produto": [
                         {
                             "descricao": "Tasty Hat",
@@ -1592,14 +2007,21 @@
             "valor_pedido": "4202.60"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "0786 Robert Path Apt. 678\nBrownmouth, NH 99014",
+                    "id": 27,
+                    "idade": null,
+                    "nome": "Diana Cruz",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1978-08-28",
             "id": 6347,
-            "id_cliente": 27,
             "itens_pedidos": [
                 {
                     "id": 196,
                     "id_pedido": 6347,
-                    "id_produto": 321,
                     "produto": [
                         {
                             "descricao": "Incredible Frozen Shirt",
@@ -1615,14 +2037,21 @@
             "valor_pedido": "3555.06"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "64352 William Centers\nRandyland, FL 24890",
+                    "id": 80,
+                    "idade": null,
+                    "nome": "Zachary Horton",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1982-05-17",
             "id": 6348,
-            "id_cliente": 80,
             "itens_pedidos": [
                 {
                     "id": 59,
                     "id_pedido": 6348,
-                    "id_produto": 279,
                     "produto": [
                         {
                             "descricao": "Fish",
@@ -1638,14 +2067,21 @@
             "valor_pedido": "3219.30"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "2102 Renee Forest\nTammiechester, VI 35967",
+                    "id": 19,
+                    "idade": null,
+                    "nome": "Cory Kelley",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1978-07-13",
             "id": 6355,
-            "id_cliente": 19,
             "itens_pedidos": [
                 {
                     "id": 181,
                     "id_pedido": 6355,
-                    "id_produto": 276,
                     "produto": [
                         {
                             "descricao": "Cheese",
@@ -1661,14 +2097,21 @@
             "valor_pedido": "2853.80"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "USS Reyes\nFPO AP 42252",
+                    "id": 85,
+                    "idade": null,
+                    "nome": "Richard Sutton",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2006-04-16",
             "id": 6359,
-            "id_cliente": 85,
             "itens_pedidos": [
                 {
                     "id": 26,
                     "id_pedido": 6359,
-                    "id_produto": 283,
                     "produto": [
                         {
                             "descricao": "Gently Used Fresh Car",
@@ -1684,14 +2127,21 @@
             "valor_pedido": "4392.30"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "1468 Hill Springs\nKeithfurt, PA 20232",
+                    "id": 92,
+                    "idade": null,
+                    "nome": "Sean Smith",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2007-12-11",
             "id": 6362,
-            "id_cliente": 92,
             "itens_pedidos": [
                 {
                     "id": 132,
                     "id_pedido": 6362,
-                    "id_produto": 266,
                     "produto": [
                         {
                             "descricao": "Unbranded Steel Salad",
@@ -1707,14 +2157,21 @@
             "valor_pedido": "390.58"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "083 Brandi Views Apt. 715\nNorth Justinview, MD 81095",
+                    "id": 100,
+                    "idade": null,
+                    "nome": "Elizabeth Johnson",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1976-03-01",
             "id": 6364,
-            "id_cliente": 100,
             "itens_pedidos": [
                 {
                     "id": 161,
                     "id_pedido": 6364,
-                    "id_produto": 232,
                     "produto": [
                         {
                             "descricao": "Chicken",
@@ -1730,14 +2187,21 @@
             "valor_pedido": "7710.88"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "91612 Jessica Tunnel Apt. 418\nNew Kimberly, PR 22785",
+                    "id": 84,
+                    "idade": null,
+                    "nome": "Leah Brewer",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1974-05-04",
             "id": 6366,
-            "id_cliente": 84,
             "itens_pedidos": [
                 {
                     "id": 85,
                     "id_pedido": 6366,
-                    "id_produto": 244,
                     "produto": [
                         {
                             "descricao": "For repair Pants",
@@ -1753,14 +2217,21 @@
             "valor_pedido": "1772.78"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "66025 Ethan Turnpike Suite 731\nThomasmouth, VI 20717",
+                    "id": 16,
+                    "idade": null,
+                    "nome": "Melissa Carroll",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2009-07-12",
             "id": 6372,
-            "id_cliente": 16,
             "itens_pedidos": [
                 {
                     "id": 149,
                     "id_pedido": 6372,
-                    "id_produto": 277,
                     "produto": [
                         {
                             "descricao": "Mouse",
@@ -1776,14 +2247,21 @@
             "valor_pedido": "3936.00"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "051 Jessica Port Apt. 631\nEast Kellyville, OK 01010",
+                    "id": 96,
+                    "idade": null,
+                    "nome": "Daniel Cohen",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2009-05-20",
             "id": 6380,
-            "id_cliente": 96,
             "itens_pedidos": [
                 {
                     "id": 32,
                     "id_pedido": 6380,
-                    "id_produto": 285,
                     "produto": [
                         {
                             "descricao": "Computer",
@@ -1799,14 +2277,21 @@
             "valor_pedido": "510.64"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "3394 Audrey Springs\nJenniferland, OK 49132",
+                    "id": 4,
+                    "idade": null,
+                    "nome": "Jessica Wall",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1984-02-22",
             "id": 6390,
-            "id_cliente": 4,
             "itens_pedidos": [
                 {
                     "id": 96,
                     "id_pedido": 6390,
-                    "id_produto": 264,
                     "produto": [
                         {
                             "descricao": "Sleek Fresh Pants",
@@ -1822,14 +2307,21 @@
             "valor_pedido": "907.53"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "206 Joseph Club\nJulieville, UT 34001",
+                    "id": 54,
+                    "idade": null,
+                    "nome": "Maria Harmon",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2021-08-20",
             "id": 6391,
-            "id_cliente": 54,
             "itens_pedidos": [
                 {
                     "id": 160,
                     "id_pedido": 6391,
-                    "id_produto": 316,
                     "produto": [
                         {
                             "descricao": "Fantastic Wooden Computer",
@@ -1845,14 +2337,21 @@
             "valor_pedido": "8841.42"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "PSC 3610, Box 1208\nAPO AA 58658",
+                    "id": 87,
+                    "idade": null,
+                    "nome": "Jennifer Horn",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1998-10-27",
             "id": 6397,
-            "id_cliente": 87,
             "itens_pedidos": [
                 {
                     "id": 136,
                     "id_pedido": 6397,
-                    "id_produto": 342,
                     "produto": [
                         {
                             "descricao": "Gorgeous Steel Soap",
@@ -1868,14 +2367,21 @@
             "valor_pedido": "905.76"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "820 Kimberly Bypass\nNew Heather, SC 61861",
+                    "id": 23,
+                    "idade": null,
+                    "nome": "Laura Herrera",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1995-02-20",
             "id": 6401,
-            "id_cliente": 23,
             "itens_pedidos": [
                 {
                     "id": 62,
                     "id_pedido": 6401,
-                    "id_produto": 287,
                     "produto": [
                         {
                             "descricao": "Cotton Table",
@@ -1891,14 +2397,21 @@
             "valor_pedido": "1358.78"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "4232 Edward Groves Apt. 498\nRodriguezhaven, AL 48269",
+                    "id": 20,
+                    "idade": null,
+                    "nome": "Rebecca Reynolds",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1974-11-19",
             "id": 6403,
-            "id_cliente": 20,
             "itens_pedidos": [
                 {
                     "id": 164,
                     "id_pedido": 6403,
-                    "id_produto": 312,
                     "produto": [
                         {
                             "descricao": "Gorgeous Wooden Chair",
@@ -1914,14 +2427,21 @@
             "valor_pedido": "1660.68"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "6477 Aguilar River Suite 938\nNorth Brendaview, NE 38233",
+                    "id": 63,
+                    "idade": null,
+                    "nome": "Brittany George",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2008-10-25",
             "id": 6423,
-            "id_cliente": 63,
             "itens_pedidos": [
                 {
                     "id": 122,
                     "id_pedido": 6423,
-                    "id_produto": 277,
                     "produto": [
                         {
                             "descricao": "Mouse",
@@ -1937,14 +2457,21 @@
             "valor_pedido": "6297.60"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "Unit 0675 Box 0154\nDPO AA 23642",
+                    "id": 15,
+                    "idade": null,
+                    "nome": "Sarah Hodges",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2001-06-28",
             "id": 6425,
-            "id_cliente": 15,
             "itens_pedidos": [
                 {
                     "id": 22,
                     "id_pedido": 6425,
-                    "id_produto": 396,
                     "produto": [
                         {
                             "descricao": "Ergonomic Shoes",
@@ -1959,7 +2486,6 @@
                 {
                     "id": 87,
                     "id_pedido": 6425,
-                    "id_produto": 258,
                     "produto": [
                         {
                             "descricao": "For repair Towels",
@@ -1975,14 +2501,21 @@
             "valor_pedido": "4620.61"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "2102 Renee Forest\nTammiechester, VI 35967",
+                    "id": 19,
+                    "idade": null,
+                    "nome": "Cory Kelley",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1988-05-28",
             "id": 6428,
-            "id_cliente": 19,
             "itens_pedidos": [
                 {
                     "id": 155,
                     "id_pedido": 6428,
-                    "id_produto": 309,
                     "produto": [
                         {
                             "descricao": "Gorgeous Sausages",
@@ -1998,14 +2531,21 @@
             "valor_pedido": "6415.84"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "46319 Luna Alley Apt. 778\nEast Sheilamouth, SD 26385",
+                    "id": 30,
+                    "idade": null,
+                    "nome": "Peggy Ferguson",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2012-07-14",
             "id": 6431,
-            "id_cliente": 30,
             "itens_pedidos": [
                 {
                     "id": 109,
                     "id_pedido": 6431,
-                    "id_produto": 219,
                     "produto": [
                         {
                             "descricao": "Granite Soap",
@@ -2021,14 +2561,21 @@
             "valor_pedido": "460.86"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "61969 Ethan Fall Suite 518\nPaulahaven, IA 14689",
+                    "id": 1,
+                    "idade": null,
+                    "nome": "Micheal Randall",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1995-12-22",
             "id": 6433,
-            "id_cliente": 1,
             "itens_pedidos": [
                 {
                     "id": 143,
                     "id_pedido": 6433,
-                    "id_produto": 358,
                     "produto": [
                         {
                             "descricao": "Refined Soft Mouse",
@@ -2044,14 +2591,21 @@
             "valor_pedido": "2917.00"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "271 Lane Underpass Suite 823\nKellyhaven, IL 12171",
+                    "id": 25,
+                    "idade": null,
+                    "nome": "Angela Tate",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1978-09-16",
             "id": 6435,
-            "id_cliente": 25,
             "itens_pedidos": [
                 {
                     "id": 142,
                     "id_pedido": 6435,
-                    "id_produto": 225,
                     "produto": [
                         {
                             "descricao": "Wooden Ball",
@@ -2067,14 +2621,21 @@
             "valor_pedido": "855.70"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "52193 Rios Extensions Apt. 950\nMorrowland, CT 28647",
+                    "id": 43,
+                    "idade": null,
+                    "nome": "Gloria Smith",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1976-04-30",
             "id": 6440,
-            "id_cliente": 43,
             "itens_pedidos": [
                 {
                     "id": 158,
                     "id_pedido": 6440,
-                    "id_produto": 302,
                     "produto": [
                         {
                             "descricao": "Handmade Steel Pizza",
@@ -2090,14 +2651,21 @@
             "valor_pedido": "3080.07"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "60197 Randall Shoals\nFrankchester, TN 63248",
+                    "id": 71,
+                    "idade": null,
+                    "nome": "Clinton Williams",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2017-04-28",
             "id": 6443,
-            "id_cliente": 71,
             "itens_pedidos": [
                 {
                     "id": 93,
                     "id_pedido": 6443,
-                    "id_produto": 381,
                     "produto": [
                         {
                             "descricao": "Ergonomic Towels",
@@ -2113,14 +2681,21 @@
             "valor_pedido": "3159.90"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "60197 Randall Shoals\nFrankchester, TN 63248",
+                    "id": 71,
+                    "idade": null,
+                    "nome": "Clinton Williams",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1976-04-02",
             "id": 6444,
-            "id_cliente": 71,
             "itens_pedidos": [
                 {
                     "id": 178,
                     "id_pedido": 6444,
-                    "id_produto": 300,
                     "produto": [
                         {
                             "descricao": "Handcrafted Fish",
@@ -2136,14 +2711,21 @@
             "valor_pedido": "1076.96"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "65804 Sharon Cape Suite 041\nLake Eric, NE 63996",
+                    "id": 74,
+                    "idade": null,
+                    "nome": "Richard Moon",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2017-04-22",
             "id": 6464,
-            "id_cliente": 74,
             "itens_pedidos": [
                 {
                     "id": 198,
                     "id_pedido": 6464,
-                    "id_produto": 282,
                     "produto": [
                         {
                             "descricao": "Soft Mouse",
@@ -2159,14 +2741,21 @@
             "valor_pedido": "4172.77"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "60197 Randall Shoals\nFrankchester, TN 63248",
+                    "id": 71,
+                    "idade": null,
+                    "nome": "Clinton Williams",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2017-09-30",
             "id": 6465,
-            "id_cliente": 71,
             "itens_pedidos": [
                 {
                     "id": 118,
                     "id_pedido": 6465,
-                    "id_produto": 258,
                     "produto": [
                         {
                             "descricao": "For repair Towels",
@@ -2182,14 +2771,21 @@
             "valor_pedido": "1891.10"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "15750 Cox Camp\nEast Heatherville, IL 71327",
+                    "id": 95,
+                    "idade": null,
+                    "nome": "Rebecca Cardenas",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1993-06-03",
             "id": 6466,
-            "id_cliente": 95,
             "itens_pedidos": [
                 {
                     "id": 76,
                     "id_pedido": 6466,
-                    "id_produto": 332,
                     "produto": [
                         {
                             "descricao": "Used Concrete Pizza",
@@ -2205,14 +2801,21 @@
             "valor_pedido": "5233.04"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "2948 Michael River\nSouth Susan, DE 37948",
+                    "id": 47,
+                    "idade": null,
+                    "nome": "Michelle Williamson",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1997-12-14",
             "id": 6481,
-            "id_cliente": 47,
             "itens_pedidos": [
                 {
                     "id": 101,
                     "id_pedido": 6481,
-                    "id_produto": 213,
                     "produto": [
                         {
                             "descricao": "Refined Soap",
@@ -2228,14 +2831,21 @@
             "valor_pedido": "1080.24"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "389 Glover Parkways\nPort Rebeccafort, PA 71114",
+                    "id": 9,
+                    "idade": null,
+                    "nome": "Debbie Wilson",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1985-08-05",
             "id": 6482,
-            "id_cliente": 9,
             "itens_pedidos": [
                 {
                     "id": 21,
                     "id_pedido": 6482,
-                    "id_produto": 223,
                     "produto": [
                         {
                             "descricao": "Unbranded Bacon",
@@ -2250,7 +2860,6 @@
                 {
                     "id": 148,
                     "id_pedido": 6482,
-                    "id_produto": 231,
                     "produto": [
                         {
                             "descricao": "Computer",
@@ -2266,14 +2875,21 @@
             "valor_pedido": "9671.56"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "65804 Sharon Cape Suite 041\nLake Eric, NE 63996",
+                    "id": 74,
+                    "idade": null,
+                    "nome": "Richard Moon",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1996-12-02",
             "id": 6483,
-            "id_cliente": 74,
             "itens_pedidos": [
                 {
                     "id": 115,
                     "id_pedido": 6483,
-                    "id_produto": 209,
                     "produto": [
                         {
                             "descricao": "Cotton Table",
@@ -2289,14 +2905,21 @@
             "valor_pedido": "5080.98"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "73321 Sharon Ville Suite 342\nMatthewton, HI 29574",
+                    "id": 86,
+                    "idade": null,
+                    "nome": "Margaret Mason",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2006-09-19",
             "id": 6492,
-            "id_cliente": 86,
             "itens_pedidos": [
                 {
                     "id": 124,
                     "id_pedido": 6492,
-                    "id_produto": 324,
                     "produto": [
                         {
                             "descricao": "Salad",
@@ -2312,14 +2935,21 @@
             "valor_pedido": "1700.80"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "6015 Rose Rapid Suite 502\nAndrewshire, MS 07422",
+                    "id": 69,
+                    "idade": null,
+                    "nome": "Sarah Walker",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1977-08-07",
             "id": 6494,
-            "id_cliente": 69,
             "itens_pedidos": [
                 {
                     "id": 111,
                     "id_pedido": 6494,
-                    "id_produto": 299,
                     "produto": [
                         {
                             "descricao": "Sleek Rubber Table",
@@ -2335,14 +2965,21 @@
             "valor_pedido": "3204.30"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "860 Kristina Centers\nJacksonhaven, UT 88156",
+                    "id": 8,
+                    "idade": null,
+                    "nome": "Jose Rodriguez",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2022-02-26",
             "id": 6495,
-            "id_cliente": 8,
             "itens_pedidos": [
                 {
                     "id": 173,
                     "id_pedido": 6495,
-                    "id_produto": 355,
                     "produto": [
                         {
                             "descricao": "Concrete Chips",
@@ -2358,14 +2995,21 @@
             "valor_pedido": "386.84"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "25593 Hill Shores Apt. 910\nWilsonfort, MN 56174",
+                    "id": 62,
+                    "idade": null,
+                    "nome": "Mary Robinson",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1978-07-16",
             "id": 6502,
-            "id_cliente": 62,
             "itens_pedidos": [
                 {
                     "id": 141,
                     "id_pedido": 6502,
-                    "id_produto": 399,
                     "produto": [
                         {
                             "descricao": "Sleek Wooden Mouse",
@@ -2381,14 +3025,21 @@
             "valor_pedido": "5831.22"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "66025 Ethan Turnpike Suite 731\nThomasmouth, VI 20717",
+                    "id": 16,
+                    "idade": null,
+                    "nome": "Melissa Carroll",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2006-07-15",
             "id": 6504,
-            "id_cliente": 16,
             "itens_pedidos": [
                 {
                     "id": 185,
                     "id_pedido": 6504,
-                    "id_produto": 212,
                     "produto": [
                         {
                             "descricao": "Steel Shoes",
@@ -2404,14 +3055,21 @@
             "valor_pedido": "1148.13"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "0786 Robert Path Apt. 678\nBrownmouth, NH 99014",
+                    "id": 27,
+                    "idade": null,
+                    "nome": "Diana Cruz",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1991-12-22",
             "id": 6505,
-            "id_cliente": 27,
             "itens_pedidos": [
                 {
                     "id": 23,
                     "id_pedido": 6505,
-                    "id_produto": 306,
                     "produto": [
                         {
                             "descricao": "Frozen Bacon",
@@ -2427,14 +3085,21 @@
             "valor_pedido": "1541.28"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "5780 Price Pine Suite 779\nAshleyview, VI 78749",
+                    "id": 53,
+                    "idade": null,
+                    "nome": "Megan Hernandez",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1980-06-28",
             "id": 6506,
-            "id_cliente": 53,
             "itens_pedidos": [
                 {
                     "id": 2,
                     "id_pedido": 6506,
-                    "id_produto": 345,
                     "produto": [
                         {
                             "descricao": "Refined Steel Shirt",
@@ -2450,14 +3115,21 @@
             "valor_pedido": "389.35"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "13510 Crawford Squares\nLake Jillton, CO 79584",
+                    "id": 7,
+                    "idade": null,
+                    "nome": "Allison Gregory",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1998-11-09",
             "id": 6532,
-            "id_cliente": 7,
             "itens_pedidos": [
                 {
                     "id": 182,
                     "id_pedido": 6532,
-                    "id_produto": 271,
                     "produto": [
                         {
                             "descricao": "Gorgeous Soap",
@@ -2473,14 +3145,21 @@
             "valor_pedido": "600.03"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "13510 Crawford Squares\nLake Jillton, CO 79584",
+                    "id": 7,
+                    "idade": null,
+                    "nome": "Allison Gregory",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1986-12-31",
             "id": 6544,
-            "id_cliente": 7,
             "itens_pedidos": [
                 {
                     "id": 14,
                     "id_pedido": 6544,
-                    "id_produto": 361,
                     "produto": [
                         {
                             "descricao": "Fresh Mouse",
@@ -2496,14 +3175,21 @@
             "valor_pedido": "536.11"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "690 Corey Harbors Apt. 804\nWeaverburgh, GU 13392",
+                    "id": 76,
+                    "idade": null,
+                    "nome": "Kenneth Holmes",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2002-05-05",
             "id": 6547,
-            "id_cliente": 76,
             "itens_pedidos": [
                 {
                     "id": 138,
                     "id_pedido": 6547,
-                    "id_produto": 327,
                     "produto": [
                         {
                             "descricao": "Refined Computer",
@@ -2519,14 +3205,21 @@
             "valor_pedido": "2916.12"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "52193 Rios Extensions Apt. 950\nMorrowland, CT 28647",
+                    "id": 43,
+                    "idade": null,
+                    "nome": "Gloria Smith",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1972-06-06",
             "id": 6552,
-            "id_cliente": 43,
             "itens_pedidos": [
                 {
                     "id": 48,
                     "id_pedido": 6552,
-                    "id_produto": 227,
                     "produto": [
                         {
                             "descricao": "Unbranded Steel Pants",
@@ -2542,14 +3235,21 @@
             "valor_pedido": "663.78"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "4232 Edward Groves Apt. 498\nRodriguezhaven, AL 48269",
+                    "id": 20,
+                    "idade": null,
+                    "nome": "Rebecca Reynolds",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2015-01-21",
             "id": 6556,
-            "id_cliente": 20,
             "itens_pedidos": [
                 {
                     "id": 174,
                     "id_pedido": 6556,
-                    "id_produto": 310,
                     "produto": [
                         {
                             "descricao": "Tuna",
@@ -2565,14 +3265,21 @@
             "valor_pedido": "1381.20"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "0540 Brett Grove Suite 456\nWilsonchester, MP 06794",
+                    "id": 21,
+                    "idade": null,
+                    "nome": "Shaun Lyons",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1979-11-22",
             "id": 6558,
-            "id_cliente": 21,
             "itens_pedidos": [
                 {
                     "id": 103,
                     "id_pedido": 6558,
-                    "id_produto": 373,
                     "produto": [
                         {
                             "descricao": "Gloves",
@@ -2587,7 +3294,6 @@
                 {
                     "id": 126,
                     "id_pedido": 6558,
-                    "id_produto": 383,
                     "produto": [
                         {
                             "descricao": "Fantastic Cotton Salad",
@@ -2602,7 +3308,6 @@
                 {
                     "id": 154,
                     "id_pedido": 6558,
-                    "id_produto": 346,
                     "produto": [
                         {
                             "descricao": "Towels",
@@ -2618,14 +3323,21 @@
             "valor_pedido": "16714.50"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "5897 Perez Fields Suite 489\nEast Christine, PR 52441",
+                    "id": 42,
+                    "idade": null,
+                    "nome": "Sarah Duncan",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1970-03-07",
             "id": 6565,
-            "id_cliente": 42,
             "itens_pedidos": [
                 {
                     "id": 50,
                     "id_pedido": 6565,
-                    "id_produto": 346,
                     "produto": [
                         {
                             "descricao": "Towels",
@@ -2641,14 +3353,21 @@
             "valor_pedido": "1698.50"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "763 Larry Branch Apt. 560\nPort Melissa, CT 76728",
+                    "id": 31,
+                    "idade": null,
+                    "nome": "Edward Soto",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1988-12-11",
             "id": 6572,
-            "id_cliente": 31,
             "itens_pedidos": [
                 {
                     "id": 139,
                     "id_pedido": 6572,
-                    "id_produto": 293,
                     "produto": [
                         {
                             "descricao": "Gently Used Steel Chips",
@@ -2664,14 +3383,21 @@
             "valor_pedido": "291.66"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "66025 Ethan Turnpike Suite 731\nThomasmouth, VI 20717",
+                    "id": 16,
+                    "idade": null,
+                    "nome": "Melissa Carroll",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1979-12-24",
             "id": 6581,
-            "id_cliente": 16,
             "itens_pedidos": [
                 {
                     "id": 150,
                     "id_pedido": 6581,
-                    "id_produto": 233,
                     "produto": [
                         {
                             "descricao": "Concrete Table",
@@ -2687,14 +3413,21 @@
             "valor_pedido": "654.94"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "8375 Donaldson Loaf Apt. 446\nAllisonmouth, IA 42717",
+                    "id": 55,
+                    "idade": null,
+                    "nome": "Brandon Butler",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1979-07-31",
             "id": 6585,
-            "id_cliente": 55,
             "itens_pedidos": [
                 {
                     "id": 63,
                     "id_pedido": 6585,
-                    "id_produto": 270,
                     "produto": [
                         {
                             "descricao": "Awesome Cotton Pizza",
@@ -2709,7 +3442,6 @@
                 {
                     "id": 84,
                     "id_pedido": 6585,
-                    "id_produto": 389,
                     "produto": [
                         {
                             "descricao": "Used Frozen Pizza",
@@ -2725,14 +3457,21 @@
             "valor_pedido": "4449.72"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "64352 William Centers\nRandyland, FL 24890",
+                    "id": 80,
+                    "idade": null,
+                    "nome": "Zachary Horton",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1999-04-15",
             "id": 6586,
-            "id_cliente": 80,
             "itens_pedidos": [
                 {
                     "id": 39,
                     "id_pedido": 6586,
-                    "id_produto": 359,
                     "produto": [
                         {
                             "descricao": "Small Table",
@@ -2748,14 +3487,21 @@
             "valor_pedido": "2262.76"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "Unit 0675 Box 0154\nDPO AA 23642",
+                    "id": 15,
+                    "idade": null,
+                    "nome": "Sarah Hodges",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1976-02-16",
             "id": 6590,
-            "id_cliente": 15,
             "itens_pedidos": [
                 {
                     "id": 169,
                     "id_pedido": 6590,
-                    "id_produto": 360,
                     "produto": [
                         {
                             "descricao": "Gorgeous Computer",
@@ -2771,14 +3517,21 @@
             "valor_pedido": "2840.46"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "6477 Aguilar River Suite 938\nNorth Brendaview, NE 38233",
+                    "id": 63,
+                    "idade": null,
+                    "nome": "Brittany George",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1981-06-26",
             "id": 6593,
-            "id_cliente": 63,
             "itens_pedidos": [
                 {
                     "id": 9,
                     "id_pedido": 6593,
-                    "id_produto": 276,
                     "produto": [
                         {
                             "descricao": "Cheese",
@@ -2794,14 +3547,21 @@
             "valor_pedido": "1141.52"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "095 White Dam\nMichaelstad, IA 58489",
+                    "id": 48,
+                    "idade": null,
+                    "nome": "Melissa Edwards",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2006-11-28",
             "id": 6602,
-            "id_cliente": 48,
             "itens_pedidos": [
                 {
                     "id": 153,
                     "id_pedido": 6602,
-                    "id_produto": 314,
                     "produto": [
                         {
                             "descricao": "Handcrafted Concrete Pants",
@@ -2817,14 +3577,21 @@
             "valor_pedido": "4637.22"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "5871 Alice Fork\nNew Shaunville, OR 31846",
+                    "id": 6,
+                    "idade": null,
+                    "nome": "Kelsey Barron",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1987-01-24",
             "id": 6606,
-            "id_cliente": 6,
             "itens_pedidos": [
                 {
                     "id": 80,
                     "id_pedido": 6606,
-                    "id_produto": 359,
                     "produto": [
                         {
                             "descricao": "Small Table",
@@ -2840,14 +3607,21 @@
             "valor_pedido": "4525.52"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "8375 Donaldson Loaf Apt. 446\nAllisonmouth, IA 42717",
+                    "id": 55,
+                    "idade": null,
+                    "nome": "Brandon Butler",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1980-08-20",
             "id": 6611,
-            "id_cliente": 55,
             "itens_pedidos": [
                 {
                     "id": 24,
                     "id_pedido": 6611,
-                    "id_produto": 225,
                     "produto": [
                         {
                             "descricao": "Wooden Ball",
@@ -2863,14 +3637,21 @@
             "valor_pedido": "171.14"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "4612 Smith Ford\nEvansport, MD 88358",
+                    "id": 94,
+                    "idade": null,
+                    "nome": "Haley Erickson",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2002-09-07",
             "id": 6618,
-            "id_cliente": 94,
             "itens_pedidos": [
                 {
                     "id": 27,
                     "id_pedido": 6618,
-                    "id_produto": 297,
                     "produto": [
                         {
                             "descricao": "Gently Used Salad",
@@ -2886,14 +3667,21 @@
             "valor_pedido": "1053.20"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "46319 Luna Alley Apt. 778\nEast Sheilamouth, SD 26385",
+                    "id": 30,
+                    "idade": null,
+                    "nome": "Peggy Ferguson",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1993-04-04",
             "id": 6624,
-            "id_cliente": 30,
             "itens_pedidos": [
                 {
                     "id": 183,
                     "id_pedido": 6624,
-                    "id_produto": 382,
                     "produto": [
                         {
                             "descricao": "Chair",
@@ -2909,14 +3697,21 @@
             "valor_pedido": "592.12"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "9685 Michael Dale\nMatthewberg, NJ 49768",
+                    "id": 75,
+                    "idade": null,
+                    "nome": "Sheila Kline",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1992-01-15",
             "id": 6625,
-            "id_cliente": 75,
             "itens_pedidos": [
                 {
                     "id": 130,
                     "id_pedido": 6625,
-                    "id_produto": 279,
                     "produto": [
                         {
                             "descricao": "Fish",
@@ -2932,14 +3727,21 @@
             "valor_pedido": "643.86"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "2102 Renee Forest\nTammiechester, VI 35967",
+                    "id": 19,
+                    "idade": null,
+                    "nome": "Cory Kelley",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1977-02-28",
             "id": 6630,
-            "id_cliente": 19,
             "itens_pedidos": [
                 {
                     "id": 10,
                     "id_pedido": 6630,
-                    "id_produto": 248,
                     "produto": [
                         {
                             "descricao": "For repair Soft Bike",
@@ -2954,7 +3756,6 @@
                 {
                     "id": 46,
                     "id_pedido": 6630,
-                    "id_produto": 395,
                     "produto": [
                         {
                             "descricao": "Intelligent Frozen Tuna",
@@ -2970,14 +3771,21 @@
             "valor_pedido": "8064.56"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "Unit 2247 Box 3151\nDPO AE 72977",
+                    "id": 41,
+                    "idade": null,
+                    "nome": "Tiffany Bass",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1976-10-24",
             "id": 6641,
-            "id_cliente": 41,
             "itens_pedidos": [
                 {
                     "id": 172,
                     "id_pedido": 6641,
-                    "id_produto": 246,
                     "produto": [
                         {
                             "descricao": "Towels",
@@ -2993,14 +3801,21 @@
             "valor_pedido": "968.08"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "0786 Robert Path Apt. 678\nBrownmouth, NH 99014",
+                    "id": 27,
+                    "idade": null,
+                    "nome": "Diana Cruz",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1982-06-23",
             "id": 6645,
-            "id_cliente": 27,
             "itens_pedidos": [
                 {
                     "id": 8,
                     "id_pedido": 6645,
-                    "id_produto": 238,
                     "produto": [
                         {
                             "descricao": "Plastic Towels",
@@ -3016,14 +3831,21 @@
             "valor_pedido": "197.38"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "2644 Chan Terrace Suite 557\nPort Cameronmouth, SC 10654",
+                    "id": 82,
+                    "idade": null,
+                    "nome": "Andrew Johnson",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2000-11-10",
             "id": 6655,
-            "id_cliente": 82,
             "itens_pedidos": [
                 {
                     "id": 61,
                     "id_pedido": 6655,
-                    "id_produto": 254,
                     "produto": [
                         {
                             "descricao": "Handcrafted Chair",
@@ -3039,14 +3861,21 @@
             "valor_pedido": "1861.09"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "Unit 2247 Box 3151\nDPO AE 72977",
+                    "id": 41,
+                    "idade": null,
+                    "nome": "Tiffany Bass",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1984-02-07",
             "id": 6663,
-            "id_cliente": 41,
             "itens_pedidos": [
                 {
                     "id": 31,
                     "id_pedido": 6663,
-                    "id_produto": 268,
                     "produto": [
                         {
                             "descricao": "Unbranded Car",
@@ -3062,14 +3891,21 @@
             "valor_pedido": "641.88"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "567 David Springs\nNew Howard, OK 31032",
+                    "id": 72,
+                    "idade": null,
+                    "nome": "Darrell Wilson",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2009-06-11",
             "id": 6666,
-            "id_cliente": 72,
             "itens_pedidos": [
                 {
                     "id": 45,
                     "id_pedido": 6666,
-                    "id_produto": 374,
                     "produto": [
                         {
                             "descricao": "Frozen Keyboard",
@@ -3085,14 +3921,21 @@
             "valor_pedido": "999.23"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "2948 Michael River\nSouth Susan, DE 37948",
+                    "id": 47,
+                    "idade": null,
+                    "nome": "Michelle Williamson",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2007-01-24",
             "id": 6668,
-            "id_cliente": 47,
             "itens_pedidos": [
                 {
                     "id": 104,
                     "id_pedido": 6668,
-                    "id_produto": 327,
                     "produto": [
                         {
                             "descricao": "Refined Computer",
@@ -3108,14 +3951,21 @@
             "valor_pedido": "2916.12"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "2001 Small Orchard\nWest Michael, GA 85296",
+                    "id": 56,
+                    "idade": null,
+                    "nome": "Matthew Liu",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1994-10-01",
             "id": 6671,
-            "id_cliente": 56,
             "itens_pedidos": [
                 {
                     "id": 180,
                     "id_pedido": 6671,
-                    "id_produto": 278,
                     "produto": [
                         {
                             "descricao": "Table",
@@ -3131,14 +3981,21 @@
             "valor_pedido": "6845.84"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "271 Lane Underpass Suite 823\nKellyhaven, IL 12171",
+                    "id": 25,
+                    "idade": null,
+                    "nome": "Angela Tate",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2020-04-17",
             "id": 6672,
-            "id_cliente": 25,
             "itens_pedidos": [
                 {
                     "id": 192,
                     "id_pedido": 6672,
-                    "id_produto": 239,
                     "produto": [
                         {
                             "descricao": "Wooden Shirt",
@@ -3154,14 +4011,21 @@
             "valor_pedido": "6842.80"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "389 Glover Parkways\nPort Rebeccafort, PA 71114",
+                    "id": 9,
+                    "idade": null,
+                    "nome": "Debbie Wilson",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2013-11-14",
             "id": 6678,
-            "id_cliente": 9,
             "itens_pedidos": [
                 {
                     "id": 166,
                     "id_pedido": 6678,
-                    "id_produto": 278,
                     "produto": [
                         {
                             "descricao": "Table",
@@ -3177,14 +4041,21 @@
             "valor_pedido": "7701.57"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "1779 David Spring Suite 110\nWilsonmouth, NM 11997",
+                    "id": 59,
+                    "idade": null,
+                    "nome": "Christine Nguyen",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1997-07-26",
             "id": 6685,
-            "id_cliente": 59,
             "itens_pedidos": [
                 {
                     "id": 129,
                     "id_pedido": 6685,
-                    "id_produto": 222,
                     "produto": [
                         {
                             "descricao": "Soap",
@@ -3200,14 +4071,21 @@
             "valor_pedido": "7935.03"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "3332 Jennifer Motorway Suite 199\nDennisstad, WY 90222",
+                    "id": 91,
+                    "idade": null,
+                    "nome": "Bryan Mason",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2022-10-20",
             "id": 6693,
-            "id_cliente": 91,
             "itens_pedidos": [
                 {
                     "id": 79,
                     "id_pedido": 6693,
-                    "id_produto": 237,
                     "produto": [
                         {
                             "descricao": "Shoes",
@@ -3223,14 +4101,21 @@
             "valor_pedido": "1358.30"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "2102 Renee Forest\nTammiechester, VI 35967",
+                    "id": 19,
+                    "idade": null,
+                    "nome": "Cory Kelley",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1992-01-03",
             "id": 6695,
-            "id_cliente": 19,
             "itens_pedidos": [
                 {
                     "id": 107,
                     "id_pedido": 6695,
-                    "id_produto": 266,
                     "produto": [
                         {
                             "descricao": "Unbranded Steel Salad",
@@ -3245,7 +4130,6 @@
                 {
                     "id": 133,
                     "id_pedido": 6695,
-                    "id_produto": 290,
                     "produto": [
                         {
                             "descricao": "Practical Hat",
@@ -3261,14 +4145,21 @@
             "valor_pedido": "1972.04"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "891 James Gardens Apt. 809\nJenniferchester, ME 26840",
+                    "id": 5,
+                    "idade": null,
+                    "nome": "Andrea Schwartz",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2009-09-23",
             "id": 6696,
-            "id_cliente": 5,
             "itens_pedidos": [
                 {
                     "id": 95,
                     "id_pedido": 6696,
-                    "id_produto": 307,
                     "produto": [
                         {
                             "descricao": "Practical Cheese",
@@ -3284,14 +4175,21 @@
             "valor_pedido": "5436.45"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "51489 Bobby Stream Apt. 867\nLoganborough, VT 78201",
+                    "id": 67,
+                    "idade": null,
+                    "nome": "Kelly Lopez",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2013-10-24",
             "id": 6701,
-            "id_cliente": 67,
             "itens_pedidos": [
                 {
                     "id": 152,
                     "id_pedido": 6701,
-                    "id_produto": 268,
                     "produto": [
                         {
                             "descricao": "Unbranded Car",
@@ -3307,14 +4205,21 @@
             "valor_pedido": "855.84"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "15750 Cox Camp\nEast Heatherville, IL 71327",
+                    "id": 95,
+                    "idade": null,
+                    "nome": "Rebecca Cardenas",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1998-12-30",
             "id": 6712,
-            "id_cliente": 95,
             "itens_pedidos": [
                 {
                     "id": 74,
                     "id_pedido": 6712,
-                    "id_produto": 334,
                     "produto": [
                         {
                             "descricao": "Shirt",
@@ -3330,14 +4235,21 @@
             "valor_pedido": "4332.44"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "038 Jones Valleys Apt. 134\nPort Bryanmouth, WA 12745",
+                    "id": 78,
+                    "idade": null,
+                    "nome": "Stephanie Ochoa",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2012-02-05",
             "id": 6716,
-            "id_cliente": 78,
             "itens_pedidos": [
                 {
                     "id": 191,
                     "id_pedido": 6716,
-                    "id_produto": 356,
                     "produto": [
                         {
                             "descricao": "Gorgeous Plastic Shirt",
@@ -3353,14 +4265,21 @@
             "valor_pedido": "4991.95"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "25593 Hill Shores Apt. 910\nWilsonfort, MN 56174",
+                    "id": 62,
+                    "idade": null,
+                    "nome": "Mary Robinson",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2006-07-24",
             "id": 6722,
-            "id_cliente": 62,
             "itens_pedidos": [
                 {
                     "id": 157,
                     "id_pedido": 6722,
-                    "id_produto": 370,
                     "produto": [
                         {
                             "descricao": "Incredible Steel Sausages",
@@ -3376,14 +4295,21 @@
             "valor_pedido": "349.14"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "Unit 8449 Box 9545\nDPO AP 81310",
+                    "id": 77,
+                    "idade": null,
+                    "nome": "Kristopher Ball",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2020-10-01",
             "id": 6723,
-            "id_cliente": 77,
             "itens_pedidos": [
                 {
                     "id": 64,
                     "id_pedido": 6723,
-                    "id_produto": 290,
                     "produto": [
                         {
                             "descricao": "Practical Hat",
@@ -3399,14 +4325,21 @@
             "valor_pedido": "800.30"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "499 Brown Skyway\nMillstown, IA 31488",
+                    "id": 61,
+                    "idade": null,
+                    "nome": "Edward Moon",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1984-07-25",
             "id": 6724,
-            "id_cliente": 61,
             "itens_pedidos": [
                 {
                     "id": 65,
                     "id_pedido": 6724,
-                    "id_produto": 210,
                     "produto": [
                         {
                             "descricao": "Cotton Sausages",
@@ -3422,14 +4355,21 @@
             "valor_pedido": "7013.50"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "860 Kristina Centers\nJacksonhaven, UT 88156",
+                    "id": 8,
+                    "idade": null,
+                    "nome": "Jose Rodriguez",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1976-09-03",
             "id": 6732,
-            "id_cliente": 8,
             "itens_pedidos": [
                 {
                     "id": 56,
                     "id_pedido": 6732,
-                    "id_produto": 205,
                     "produto": [
                         {
                             "descricao": "Concrete Fish",
@@ -3445,14 +4385,21 @@
             "valor_pedido": "4854.80"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "042 Nicole Court\nDeleonborough, MD 36868",
+                    "id": 2,
+                    "idade": null,
+                    "nome": "John Price",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1988-07-18",
             "id": 6734,
-            "id_cliente": 2,
             "itens_pedidos": [
                 {
                     "id": 83,
                     "id_pedido": 6734,
-                    "id_produto": 281,
                     "produto": [
                         {
                             "descricao": "Used Ball",
@@ -3468,14 +4415,21 @@
             "valor_pedido": "428.90"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "97252 Phillip Estate Suite 030\nMargaretshire, OH 63334",
+                    "id": 38,
+                    "idade": null,
+                    "nome": "Paul Oliver",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2012-06-29",
             "id": 6735,
-            "id_cliente": 38,
             "itens_pedidos": [
                 {
                     "id": 199,
                     "id_pedido": 6735,
-                    "id_produto": 238,
                     "produto": [
                         {
                             "descricao": "Plastic Towels",
@@ -3491,14 +4445,21 @@
             "valor_pedido": "1184.28"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "623 Collins Brook\nMatthewland, VT 05578",
+                    "id": 70,
+                    "idade": null,
+                    "nome": "Joshua Vasquez",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1975-10-16",
             "id": 6744,
-            "id_cliente": 70,
             "itens_pedidos": [
                 {
                     "id": 189,
                     "id_pedido": 6744,
-                    "id_produto": 390,
                     "produto": [
                         {
                             "descricao": "Towels",
@@ -3514,14 +4475,21 @@
             "valor_pedido": "621.63"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "2948 Michael River\nSouth Susan, DE 37948",
+                    "id": 47,
+                    "idade": null,
+                    "nome": "Michelle Williamson",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2021-05-16",
             "id": 6746,
-            "id_cliente": 47,
             "itens_pedidos": [
                 {
                     "id": 156,
                     "id_pedido": 6746,
-                    "id_produto": 381,
                     "produto": [
                         {
                             "descricao": "Ergonomic Towels",
@@ -3537,14 +4505,21 @@
             "valor_pedido": "2843.91"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "87677 Hunter Rest Suite 868\nConwaychester, DC 72178",
+                    "id": 34,
+                    "idade": null,
+                    "nome": "Jack Baker",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2016-04-12",
             "id": 6755,
-            "id_cliente": 34,
             "itens_pedidos": [
                 {
                     "id": 78,
                     "id_pedido": 6755,
-                    "id_produto": 277,
                     "produto": [
                         {
                             "descricao": "Mouse",
@@ -3560,14 +4535,21 @@
             "valor_pedido": "3936.00"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "91612 Jessica Tunnel Apt. 418\nNew Kimberly, PR 22785",
+                    "id": 84,
+                    "idade": null,
+                    "nome": "Leah Brewer",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1986-05-04",
             "id": 6762,
-            "id_cliente": 84,
             "itens_pedidos": [
                 {
                     "id": 25,
                     "id_pedido": 6762,
-                    "id_produto": 244,
                     "produto": [
                         {
                             "descricao": "For repair Pants",
@@ -3583,14 +4565,21 @@
             "valor_pedido": "7091.12"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "095 White Dam\nMichaelstad, IA 58489",
+                    "id": 48,
+                    "idade": null,
+                    "nome": "Melissa Edwards",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2012-04-01",
             "id": 6768,
-            "id_cliente": 48,
             "itens_pedidos": [
                 {
                     "id": 71,
                     "id_pedido": 6768,
-                    "id_produto": 388,
                     "produto": [
                         {
                             "descricao": "Concrete Cheese",
@@ -3606,14 +4595,21 @@
             "valor_pedido": "3868.40"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "91065 Watson Drive Suite 400\nWardmouth, CA 52940",
+                    "id": 88,
+                    "idade": null,
+                    "nome": "Tina Barry",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1999-04-03",
             "id": 6771,
-            "id_cliente": 88,
             "itens_pedidos": [
                 {
                     "id": 162,
                     "id_pedido": 6771,
-                    "id_produto": 233,
                     "produto": [
                         {
                             "descricao": "Concrete Table",
@@ -3629,14 +4625,21 @@
             "valor_pedido": "2947.23"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "2001 Small Orchard\nWest Michael, GA 85296",
+                    "id": 56,
+                    "idade": null,
+                    "nome": "Matthew Liu",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2019-11-19",
             "id": 6776,
-            "id_cliente": 56,
             "itens_pedidos": [
                 {
                     "id": 4,
                     "id_pedido": 6776,
-                    "id_produto": 294,
                     "produto": [
                         {
                             "descricao": "Ball",
@@ -3652,14 +4655,21 @@
             "valor_pedido": "6445.74"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "2948 Michael River\nSouth Susan, DE 37948",
+                    "id": 47,
+                    "idade": null,
+                    "nome": "Michelle Williamson",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2002-09-02",
             "id": 6782,
-            "id_cliente": 47,
             "itens_pedidos": [
                 {
                     "id": 81,
                     "id_pedido": 6782,
-                    "id_produto": 314,
                     "produto": [
                         {
                             "descricao": "Handcrafted Concrete Pants",
@@ -3675,14 +4685,21 @@
             "valor_pedido": "3091.48"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "389 Glover Parkways\nPort Rebeccafort, PA 71114",
+                    "id": 9,
+                    "idade": null,
+                    "nome": "Debbie Wilson",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2010-12-09",
             "id": 6801,
-            "id_cliente": 9,
             "itens_pedidos": [
                 {
                     "id": 88,
                     "id_pedido": 6801,
-                    "id_produto": 208,
                     "produto": [
                         {
                             "descricao": "Sleek Mouse",
@@ -3698,14 +4715,21 @@
             "valor_pedido": "3343.20"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "9393 Kevin Crossing Suite 927\nMelissaburgh, AR 41456",
+                    "id": 81,
+                    "idade": null,
+                    "nome": "Michael Chavez",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2019-01-10",
             "id": 6814,
-            "id_cliente": 81,
             "itens_pedidos": [
                 {
                     "id": 179,
                     "id_pedido": 6814,
-                    "id_produto": 270,
                     "produto": [
                         {
                             "descricao": "Awesome Cotton Pizza",
@@ -3721,14 +4745,21 @@
             "valor_pedido": "831.60"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "095 White Dam\nMichaelstad, IA 58489",
+                    "id": 48,
+                    "idade": null,
+                    "nome": "Melissa Edwards",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1998-08-29",
             "id": 6815,
-            "id_cliente": 48,
             "itens_pedidos": [
                 {
                     "id": 197,
                     "id_pedido": 6815,
-                    "id_produto": 280,
                     "produto": [
                         {
                             "descricao": "Keyboard",
@@ -3744,14 +4775,21 @@
             "valor_pedido": "2652.21"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "0903 Lauren Path Suite 316\nLopezchester, ME 26313",
+                    "id": 36,
+                    "idade": null,
+                    "nome": "Kathryn Perez",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1976-05-19",
             "id": 6819,
-            "id_cliente": 36,
             "itens_pedidos": [
                 {
                     "id": 44,
                     "id_pedido": 6819,
-                    "id_produto": 291,
                     "produto": [
                         {
                             "descricao": "Incredible Rubber Chair",
@@ -3767,14 +4805,21 @@
             "valor_pedido": "3121.47"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "PSC 4034, Box 7866\nAPO AP 50881",
+                    "id": 93,
+                    "idade": null,
+                    "nome": "Brooke Gonzalez",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1973-11-07",
             "id": 6836,
-            "id_cliente": 93,
             "itens_pedidos": [
                 {
                     "id": 110,
                     "id_pedido": 6836,
-                    "id_produto": 283,
                     "produto": [
                         {
                             "descricao": "Gently Used Fresh Car",
@@ -3790,14 +4835,21 @@
             "valor_pedido": "6149.22"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "4232 Edward Groves Apt. 498\nRodriguezhaven, AL 48269",
+                    "id": 20,
+                    "idade": null,
+                    "nome": "Rebecca Reynolds",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1982-12-24",
             "id": 6840,
-            "id_cliente": 20,
             "itens_pedidos": [
                 {
                     "id": 6,
                     "id_pedido": 6840,
-                    "id_produto": 328,
                     "produto": [
                         {
                             "descricao": "Rustic Wooden Gloves",
@@ -3813,14 +4865,21 @@
             "valor_pedido": "1484.40"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "2948 Michael River\nSouth Susan, DE 37948",
+                    "id": 47,
+                    "idade": null,
+                    "nome": "Michelle Williamson",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1991-10-05",
             "id": 6846,
-            "id_cliente": 47,
             "itens_pedidos": [
                 {
                     "id": 20,
                     "id_pedido": 6846,
-                    "id_produto": 257,
                     "produto": [
                         {
                             "descricao": "Concrete Table",
@@ -3836,14 +4895,21 @@
             "valor_pedido": "968.74"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "0540 Brett Grove Suite 456\nWilsonchester, MP 06794",
+                    "id": 21,
+                    "idade": null,
+                    "nome": "Shaun Lyons",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2022-09-03",
             "id": 6847,
-            "id_cliente": 21,
             "itens_pedidos": [
                 {
                     "id": 123,
                     "id_pedido": 6847,
-                    "id_produto": 362,
                     "produto": [
                         {
                             "descricao": "New Chair",
@@ -3859,14 +4925,21 @@
             "valor_pedido": "3895.20"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "Unit 0248 Box 6995\nDPO AP 63404",
+                    "id": 22,
+                    "idade": null,
+                    "nome": "April Richardson",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2022-04-05",
             "id": 6849,
-            "id_cliente": 22,
             "itens_pedidos": [
                 {
                     "id": 131,
                     "id_pedido": 6849,
-                    "id_produto": 227,
                     "produto": [
                         {
                             "descricao": "Unbranded Steel Pants",
@@ -3882,14 +4955,21 @@
             "valor_pedido": "663.78"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "66025 Ethan Turnpike Suite 731\nThomasmouth, VI 20717",
+                    "id": 16,
+                    "idade": null,
+                    "nome": "Melissa Carroll",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1983-06-28",
             "id": 6852,
-            "id_cliente": 16,
             "itens_pedidos": [
                 {
                     "id": 53,
                     "id_pedido": 6852,
-                    "id_produto": 293,
                     "produto": [
                         {
                             "descricao": "Gently Used Steel Chips",
@@ -3904,7 +4984,6 @@
                 {
                     "id": 125,
                     "id_pedido": 6852,
-                    "id_produto": 386,
                     "produto": [
                         {
                             "descricao": "Handmade Towels",
@@ -3920,14 +4999,21 @@
             "valor_pedido": "5003.16"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "65804 Sharon Cape Suite 041\nLake Eric, NE 63996",
+                    "id": 74,
+                    "idade": null,
+                    "nome": "Richard Moon",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1980-01-07",
             "id": 6864,
-            "id_cliente": 74,
             "itens_pedidos": [
                 {
                     "id": 127,
                     "id_pedido": 6864,
-                    "id_produto": 374,
                     "produto": [
                         {
                             "descricao": "Frozen Keyboard",
@@ -3943,14 +5029,21 @@
             "valor_pedido": "4996.15"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "87677 Hunter Rest Suite 868\nConwaychester, DC 72178",
+                    "id": 34,
+                    "idade": null,
+                    "nome": "Jack Baker",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2013-10-30",
             "id": 6872,
-            "id_cliente": 34,
             "itens_pedidos": [
                 {
                     "id": 60,
                     "id_pedido": 6872,
-                    "id_produto": 221,
                     "produto": [
                         {
                             "descricao": "Granite Chair",
@@ -3966,14 +5059,21 @@
             "valor_pedido": "1363.20"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "9393 Kevin Crossing Suite 927\nMelissaburgh, AR 41456",
+                    "id": 81,
+                    "idade": null,
+                    "nome": "Michael Chavez",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1986-09-02",
             "id": 6880,
-            "id_cliente": 81,
             "itens_pedidos": [
                 {
                     "id": 38,
                     "id_pedido": 6880,
-                    "id_produto": 313,
                     "produto": [
                         {
                             "descricao": "New Keyboard",
@@ -3989,14 +5089,21 @@
             "valor_pedido": "2878.08"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "52193 Rios Extensions Apt. 950\nMorrowland, CT 28647",
+                    "id": 43,
+                    "idade": null,
+                    "nome": "Gloria Smith",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2014-02-28",
             "id": 6895,
-            "id_cliente": 43,
             "itens_pedidos": [
                 {
                     "id": 117,
                     "id_pedido": 6895,
-                    "id_produto": 250,
                     "produto": [
                         {
                             "descricao": "Refined Ball",
@@ -4011,7 +5118,6 @@
                 {
                     "id": 146,
                     "id_pedido": 6895,
-                    "id_produto": 236,
                     "produto": [
                         {
                             "descricao": "Sausages",
@@ -4027,14 +5133,21 @@
             "valor_pedido": "7098.02"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "4423 Anthony Forge Apt. 656\nWest Michele, UT 38353",
+                    "id": 90,
+                    "idade": null,
+                    "nome": "Kenneth Miller",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1997-02-23",
             "id": 6909,
-            "id_cliente": 90,
             "itens_pedidos": [
                 {
                     "id": 19,
                     "id_pedido": 6909,
-                    "id_produto": 345,
                     "produto": [
                         {
                             "descricao": "Refined Steel Shirt",
@@ -4050,14 +5163,21 @@
             "valor_pedido": "3504.15"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "763 Larry Branch Apt. 560\nPort Melissa, CT 76728",
+                    "id": 31,
+                    "idade": null,
+                    "nome": "Edward Soto",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2022-10-04",
             "id": 6913,
-            "id_cliente": 31,
             "itens_pedidos": [
                 {
                     "id": 30,
                     "id_pedido": 6913,
-                    "id_produto": 295,
                     "produto": [
                         {
                             "descricao": "Plastic Chair",
@@ -4073,14 +5193,21 @@
             "valor_pedido": "172.15"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "65804 Sharon Cape Suite 041\nLake Eric, NE 63996",
+                    "id": 74,
+                    "idade": null,
+                    "nome": "Richard Moon",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2019-06-01",
             "id": 6915,
-            "id_cliente": 74,
             "itens_pedidos": [
                 {
                     "id": 1,
                     "id_pedido": 6915,
-                    "id_produto": 315,
                     "produto": [
                         {
                             "descricao": "Plastic Chair",
@@ -4096,14 +5223,21 @@
             "valor_pedido": "7890.88"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "973 Donaldson Ridge Suite 258\nThomasside, ME 76370",
+                    "id": 11,
+                    "idade": null,
+                    "nome": "Lisa Mccarthy",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2018-02-26",
             "id": 6916,
-            "id_cliente": 11,
             "itens_pedidos": [
                 {
                     "id": 144,
                     "id_pedido": 6916,
-                    "id_produto": 334,
                     "produto": [
                         {
                             "descricao": "Shirt",
@@ -4119,14 +5253,21 @@
             "valor_pedido": "6189.20"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "763 Larry Branch Apt. 560\nPort Melissa, CT 76728",
+                    "id": 31,
+                    "idade": null,
+                    "nome": "Edward Soto",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1986-03-14",
             "id": 6918,
-            "id_cliente": 31,
             "itens_pedidos": [
                 {
                     "id": 42,
                     "id_pedido": 6918,
-                    "id_produto": 332,
                     "produto": [
                         {
                             "descricao": "Used Concrete Pizza",
@@ -4141,7 +5282,6 @@
                 {
                     "id": 94,
                     "id_pedido": 6918,
-                    "id_produto": 223,
                     "produto": [
                         {
                             "descricao": "Unbranded Bacon",
@@ -4157,14 +5297,21 @@
             "valor_pedido": "10109.58"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "973 Donaldson Ridge Suite 258\nThomasside, ME 76370",
+                    "id": 11,
+                    "idade": null,
+                    "nome": "Lisa Mccarthy",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1981-02-01",
             "id": 6929,
-            "id_cliente": 11,
             "itens_pedidos": [
                 {
                     "id": 55,
                     "id_pedido": 6929,
-                    "id_produto": 326,
                     "produto": [
                         {
                             "descricao": "Small Mouse",
@@ -4180,14 +5327,21 @@
             "valor_pedido": "825.50"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "2948 Michael River\nSouth Susan, DE 37948",
+                    "id": 47,
+                    "idade": null,
+                    "nome": "Michelle Williamson",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2009-02-17",
             "id": 6934,
-            "id_cliente": 47,
             "itens_pedidos": [
                 {
                     "id": 116,
                     "id_pedido": 6934,
-                    "id_produto": 292,
                     "produto": [
                         {
                             "descricao": "Cheese",
@@ -4203,14 +5357,21 @@
             "valor_pedido": "1542.52"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "623 Collins Brook\nMatthewland, VT 05578",
+                    "id": 70,
+                    "idade": null,
+                    "nome": "Joshua Vasquez",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2015-06-16",
             "id": 6935,
-            "id_cliente": 70,
             "itens_pedidos": [
                 {
                     "id": 113,
                     "id_pedido": 6935,
-                    "id_produto": 336,
                     "produto": [
                         {
                             "descricao": "Sleek Towels",
@@ -4226,14 +5387,21 @@
             "valor_pedido": "2806.44"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "951 Bernard Bypass Suite 176\nJamieshire, PA 55437",
+                    "id": 33,
+                    "idade": null,
+                    "nome": "Juan Chandler",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2006-04-07",
             "id": 6940,
-            "id_cliente": 33,
             "itens_pedidos": [
                 {
                     "id": 159,
                     "id_pedido": 6940,
-                    "id_produto": 206,
                     "produto": [
                         {
                             "descricao": "Salad",
@@ -4249,14 +5417,21 @@
             "valor_pedido": "1141.84"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "0564 Sergio Mission\nMcclainport, IN 02328",
+                    "id": 65,
+                    "idade": null,
+                    "nome": "Michael Meyer",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1988-04-26",
             "id": 6954,
-            "id_cliente": 65,
             "itens_pedidos": [
                 {
                     "id": 190,
                     "id_pedido": 6954,
-                    "id_produto": 379,
                     "produto": [
                         {
                             "descricao": "Gorgeous Fish",
@@ -4272,14 +5447,21 @@
             "valor_pedido": "3387.90"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "70628 David Lodge\nNorth Anita, HI 13678",
+                    "id": 60,
+                    "idade": null,
+                    "nome": "Kayla Davis",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "2005-01-12",
             "id": 6956,
-            "id_cliente": 60,
             "itens_pedidos": [
                 {
                     "id": 105,
                     "id_pedido": 6956,
-                    "id_produto": 289,
                     "produto": [
                         {
                             "descricao": "Wooden Gloves",
@@ -4295,14 +5477,21 @@
             "valor_pedido": "3762.00"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "199 Brady Forks Apt. 626\nKyleborough, NV 26983",
+                    "id": 35,
+                    "idade": null,
+                    "nome": "Diane Campbell",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1976-06-14",
             "id": 6973,
-            "id_cliente": 35,
             "itens_pedidos": [
                 {
                     "id": 186,
                     "id_pedido": 6973,
-                    "id_produto": 287,
                     "produto": [
                         {
                             "descricao": "Cotton Table",
@@ -4318,14 +5507,21 @@
             "valor_pedido": "4076.34"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "506 Mark Field Suite 523\nTranview, NE 76916",
+                    "id": 66,
+                    "idade": null,
+                    "nome": "Gregory Peterson",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1995-07-16",
             "id": 6979,
-            "id_cliente": 66,
             "itens_pedidos": [
                 {
                     "id": 99,
                     "id_pedido": 6979,
-                    "id_produto": 364,
                     "produto": [
                         {
                             "descricao": "Unbranded Fish",
@@ -4341,14 +5537,21 @@
             "valor_pedido": "3783.18"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "690 Corey Harbors Apt. 804\nWeaverburgh, GU 13392",
+                    "id": 76,
+                    "idade": null,
+                    "nome": "Kenneth Holmes",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1975-12-25",
             "id": 6981,
-            "id_cliente": 76,
             "itens_pedidos": [
                 {
                     "id": 195,
                     "id_pedido": 6981,
-                    "id_produto": 207,
                     "produto": [
                         {
                             "descricao": "Steel Computer",
@@ -4363,7 +5566,6 @@
                 {
                     "id": 202,
                     "id_pedido": 6981,
-                    "id_produto": 230,
                     "produto": [
                         {
                             "descricao": "Hat",
@@ -4378,7 +5580,6 @@
                 {
                     "id": 206,
                     "id_pedido": 6981,
-                    "id_produto": 230,
                     "produto": [
                         {
                             "descricao": "Hat",
@@ -4394,14 +5595,21 @@
             "valor_pedido": "1858.76"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "60686 Shelby Spur\nNancymouth, NE 09751",
+                    "id": 13,
+                    "idade": null,
+                    "nome": "Tina Watson",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "1989-05-08",
             "id": 6986,
-            "id_cliente": 13,
             "itens_pedidos": [
                 {
                     "id": 7,
                     "id_pedido": 6986,
-                    "id_produto": 285,
                     "produto": [
                         {
                             "descricao": "Computer",
@@ -4417,14 +5625,21 @@
             "valor_pedido": "2553.20"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "9157 Torres Neck Suite 264\nWest Jenniferville, WV 91007",
+                    "id": 45,
+                    "idade": null,
+                    "nome": "Jessica Maldonado",
+                    "sexo": "F"
+                }
+            ],
             "data_pedido": "1999-06-13",
             "id": 6988,
-            "id_cliente": 45,
             "itens_pedidos": [
                 {
                     "id": 119,
                     "id_pedido": 6988,
-                    "id_produto": 281,
                     "produto": [
                         {
                             "descricao": "Used Ball",
@@ -4440,14 +5655,21 @@
             "valor_pedido": "1930.05"
         },
         {
+            "cliente": [
+                {
+                    "endereco": "973 Donaldson Ridge Suite 258\nThomasside, ME 76370",
+                    "id": 11,
+                    "idade": null,
+                    "nome": "Lisa Mccarthy",
+                    "sexo": "M"
+                }
+            ],
             "data_pedido": "2001-12-19",
             "id": 6996,
-            "id_cliente": 11,
             "itens_pedidos": [
                 {
                     "id": 35,
                     "id_pedido": 6996,
-                    "id_produto": 289,
                     "produto": [
                         {
                             "descricao": "Wooden Gloves",

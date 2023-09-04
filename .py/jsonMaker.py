@@ -27,30 +27,43 @@ cCli = cursorCli.fetchall()
 cPr = cursorProd.fetchall()
 #Criando json
 pedidos = {"pedidos":[]}
-i=0
 j=0
 
 #Inserindo os dados de cP e cI no json
-for linha in cP:
+for index, linha in enumerate(cP):
     pedidos['pedidos'].append( 
         {
             "id": linha[0],
-            "id_cliente": linha[1],
+            #"id_cliente": linha[1],
+            'cliente': [],
             "data_pedido": linha[2],
             "valor_pedido": linha[3],
             "itens_pedidos": []
         }
     )
+    
+    for cli in cCli: 
+        if cli[0] == linha[1]:
+             pedidos["pedidos"][index]['cliente'].append(
+                {
+                   'id': cli[0],
+                   'nome': cli[1],
+                   'sexo': cli[2],
+                   'idade': cli[3],
+                   'endereco': cli[4]
+                }
+            )
+
     #Percorre o banco de dados itens_pedidos 
     # e adiciona em pedidos["pedidos"][index de linha]['itens_pedidos']
     # os dados de line caso seu id_pedido seja igual a id do BD pedidos
     for line in cI:
         if linha[0] == line[1]:
-            pedidos["pedidos"][i]['itens_pedidos'].append(
+            pedidos["pedidos"][index]['itens_pedidos'].append(
                 {
                    'id': line[0],
                    'id_pedido': line[1],
-                   'id_produto': line[2],
+                   #'id_produto': line[2],
                    'produto': [],
                    'qtde': line[3],
                    'valor': line[4]
@@ -60,7 +73,7 @@ for linha in cP:
             for p in cPr:
                 if p[0] == line[2]:
                     try:
-                        pedidos["pedidos"][i]['itens_pedidos'][j]['produto'].append( 
+                        pedidos["pedidos"][index]['itens_pedidos'][j]['produto'].append( 
                             {
                                 'id': p[0],
                                 'descricao': p[1],
@@ -79,10 +92,9 @@ for linha in cP:
                     
                     except:
                         print('Exception')
-                        size = len(pedidos["pedidos"][i]['itens_pedidos'])
+                        size = len(pedidos["pedidos"][index]['itens_pedidos'])
                         print(f'Length - {size}  j - {j}')    
     j=0    
-    i+=1
 
 #Criando arquivo json   
 with open("Pedidos.json", "w") as arquivo:
