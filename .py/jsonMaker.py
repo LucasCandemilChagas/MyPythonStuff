@@ -29,19 +29,7 @@ cPr = cursorProd.fetchall()
 pedidos = {"pedidos":[]}
 j=0
 
-#Inserindo os dados de cP e cI no json
-for index, linha in enumerate(cP):
-    pedidos['pedidos'].append( 
-        {
-            "id": linha[0],
-            #"id_cliente": linha[1],
-            'cliente': [],
-            "data_pedido": linha[2],
-            "valor_pedido": linha[3],
-            "itens_pedidos": []
-        }
-    )
-    
+def clienteBD(linha):
     for cli in cCli: 
         if cli[0] == linha[1]:
              pedidos["pedidos"][index]['cliente'].append(
@@ -54,23 +42,9 @@ for index, linha in enumerate(cP):
                 }
             )
 
-    #Percorre o banco de dados itens_pedidos 
-    # e adiciona em pedidos["pedidos"][index de linha]['itens_pedidos']
-    # os dados de line caso seu id_pedido seja igual a id do BD pedidos
-    for line in cI:
-        if linha[0] == line[1]:
-            pedidos["pedidos"][index]['itens_pedidos'].append(
-                {
-                   'id': line[0],
-                   'id_pedido': line[1],
-                   #'id_produto': line[2],
-                   'produto': [],
-                   'qtde': line[3],
-                   'valor': line[4]
-                }
-            )
-            #Pega o produto desse line e adiciona
-            for p in cPr:
+def prod(line):
+    global j
+    for p in cPr:
                 if p[0] == line[2]:
                     try:
                         pedidos["pedidos"][index]['itens_pedidos'][j]['produto'].append( 
@@ -93,7 +67,43 @@ for index, linha in enumerate(cP):
                     except:
                         print('Exception')
                         size = len(pedidos["pedidos"][index]['itens_pedidos'])
-                        print(f'Length - {size}  j - {j}')    
+                        print(f'Length - {size}  j - {j}')
+            
+def itens_prod(linha):
+    for line in cI:
+        if linha[0] == line[1]:
+            pedidos["pedidos"][index]['itens_pedidos'].append(
+                {
+                   'id': line[0],
+                   'id_pedido': line[1],
+                   #'id_produto': line[2],
+                   'produto': [],
+                   'qtde': line[3],
+                   'valor': line[4]
+                }
+            )
+            #Pega o produto desse line e adiciona
+            prod(line)
+
+#Inserindo os dados de cP e cI no json
+for index, linha in enumerate(cP):
+    pedidos['pedidos'].append( 
+        {
+            "id": linha[0],
+            #"id_cliente": linha[1],
+            'cliente': [],
+            "data_pedido": linha[2],
+            "valor_pedido": linha[3],
+            "itens_pedidos": []
+        }
+    )
+    
+    clienteBD(linha)
+    
+    #Percorre o banco de dados itens_pedidos 
+    # e adiciona em pedidos["pedidos"][index de linha]['itens_pedidos']
+    # os dados de line caso seu id_pedido seja igual a id do BD pedidos
+    itens_prod(linha)
     j=0    
 
 #Criando arquivo json   
