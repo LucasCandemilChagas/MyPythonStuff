@@ -1,5 +1,6 @@
 import json
 import mysql.connector
+import shutil
 
 # Logando ao banco de dados
 db_config = mysql.connector.connect(
@@ -15,9 +16,9 @@ cursorIPed = db_config.cursor(buffered=True)
 cursorCli = db_config.cursor(buffered=True)
 cursorProd = db_config.cursor(buffered=True)
 
-cursorPed.execute("SELECT * FROM pedidos")
+cursorPed.execute("SELECT * FROM pedidos order by id_cliente,id")
 cursorIPed.execute("SELECT * FROM itens_pedidos")
-cursorCli.execute("SELECT * FROM clientes")
+cursorCli.execute("SELECT * FROM clientes order by id")
 cursorProd.execute("SELECT * FROM produtos")
 
 #Armazenando os dados dos dois SELECT para eventos futuros
@@ -112,5 +113,7 @@ with open("Pedidos.json", "w") as arquivo:
         json.dump(pedidos, arquivo, indent=4, sort_keys=True, default=str)
     except:
        print(type(pedidos))
+       
+shutil.move("Pedidos.json",'C:\\Users\\lucas\\OneDrive - PUCRS - BR\\Arquivos Aula\\CC\\Projetos\\MyPythonStuff\\.json')
 
 print("Connected to database")

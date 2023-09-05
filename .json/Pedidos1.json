@@ -1,0 +1,2850 @@
+{
+    "pedidos": [
+        {
+            "data_pedido": "1997-05-17",
+            "id": 6015,
+            "id_cliente": 1,
+            "itens_pedidos": [
+                {
+                    "id": 137,
+                    "id_pedido": 6015,
+                    "id_produto": 394,
+                    "qtde": 8,
+                    "valor": "4888.24"
+                }
+            ],
+            "valor_pedido": "4888.24"
+        },
+        {
+            "data_pedido": "2004-07-23",
+            "id": 6016,
+            "id_cliente": 73,
+            "itens_pedidos": [
+                {
+                    "id": 193,
+                    "id_pedido": 6016,
+                    "id_produto": 329,
+                    "qtde": 9,
+                    "valor": "3871.53"
+                }
+            ],
+            "valor_pedido": "3871.53"
+        },
+        {
+            "data_pedido": "2023-05-25",
+            "id": 6035,
+            "id_cliente": 63,
+            "itens_pedidos": [
+                {
+                    "id": 86,
+                    "id_pedido": 6035,
+                    "id_produto": 396,
+                    "qtde": 10,
+                    "valor": "4083.40"
+                }
+            ],
+            "valor_pedido": "4083.40"
+        },
+        {
+            "data_pedido": "2006-12-17",
+            "id": 6043,
+            "id_cliente": 84,
+            "itens_pedidos": [
+                {
+                    "id": 175,
+                    "id_pedido": 6043,
+                    "id_produto": 201,
+                    "qtde": 6,
+                    "valor": "4674.30"
+                }
+            ],
+            "valor_pedido": "4674.30"
+        },
+        {
+            "data_pedido": "1990-08-15",
+            "id": 6045,
+            "id_cliente": 91,
+            "itens_pedidos": [
+                {
+                    "id": 114,
+                    "id_pedido": 6045,
+                    "id_produto": 319,
+                    "qtde": 5,
+                    "valor": "2935.45"
+                }
+            ],
+            "valor_pedido": "2935.45"
+        },
+        {
+            "data_pedido": "1983-12-03",
+            "id": 6058,
+            "id_cliente": 59,
+            "itens_pedidos": [
+                {
+                    "id": 66,
+                    "id_pedido": 6058,
+                    "id_produto": 236,
+                    "qtde": 10,
+                    "valor": "8494.70"
+                }
+            ],
+            "valor_pedido": "8494.70"
+        },
+        {
+            "data_pedido": "2001-06-19",
+            "id": 6066,
+            "id_cliente": 1,
+            "itens_pedidos": [
+                {
+                    "id": 177,
+                    "id_pedido": 6066,
+                    "id_produto": 242,
+                    "qtde": 1,
+                    "valor": "767.47"
+                }
+            ],
+            "valor_pedido": "767.47"
+        },
+        {
+            "data_pedido": "2010-08-09",
+            "id": 6073,
+            "id_cliente": 60,
+            "itens_pedidos": [
+                {
+                    "id": 51,
+                    "id_pedido": 6073,
+                    "id_produto": 365,
+                    "qtde": 5,
+                    "valor": "2031.80"
+                }
+            ],
+            "valor_pedido": "2031.80"
+        },
+        {
+            "data_pedido": "1972-04-29",
+            "id": 6074,
+            "id_cliente": 99,
+            "itens_pedidos": [
+                {
+                    "id": 77,
+                    "id_pedido": 6074,
+                    "id_produto": 387,
+                    "qtde": 3,
+                    "valor": "976.83"
+                }
+            ],
+            "valor_pedido": "976.83"
+        },
+        {
+            "data_pedido": "1988-07-04",
+            "id": 6077,
+            "id_cliente": 70,
+            "itens_pedidos": [
+                {
+                    "id": 49,
+                    "id_pedido": 6077,
+                    "id_produto": 247,
+                    "qtde": 1,
+                    "valor": "197.85"
+                }
+            ],
+            "valor_pedido": "197.85"
+        },
+        {
+            "data_pedido": "1985-11-14",
+            "id": 6081,
+            "id_cliente": 72,
+            "itens_pedidos": [
+                {
+                    "id": 147,
+                    "id_pedido": 6081,
+                    "id_produto": 382,
+                    "qtde": 2,
+                    "valor": "1184.24"
+                }
+            ],
+            "valor_pedido": "1184.24"
+        },
+        {
+            "data_pedido": "2003-05-18",
+            "id": 6082,
+            "id_cliente": 49,
+            "itens_pedidos": [
+                {
+                    "id": 75,
+                    "id_pedido": 6082,
+                    "id_produto": 386,
+                    "qtde": 4,
+                    "valor": "1705.12"
+                },
+                {
+                    "id": 106,
+                    "id_pedido": 6082,
+                    "id_produto": 229,
+                    "qtde": 7,
+                    "valor": "3390.52"
+                }
+            ],
+            "valor_pedido": "5095.64"
+        },
+        {
+            "data_pedido": "2000-03-15",
+            "id": 6084,
+            "id_cliente": 24,
+            "itens_pedidos": [
+                {
+                    "id": 135,
+                    "id_pedido": 6084,
+                    "id_produto": 258,
+                    "qtde": 9,
+                    "valor": "8509.95"
+                }
+            ],
+            "valor_pedido": "8509.95"
+        },
+        {
+            "data_pedido": "2010-01-29",
+            "id": 6090,
+            "id_cliente": 100,
+            "itens_pedidos": [
+                {
+                    "id": 3,
+                    "id_pedido": 6090,
+                    "id_produto": 358,
+                    "qtde": 2,
+                    "valor": "1166.80"
+                }
+            ],
+            "valor_pedido": "1166.80"
+        },
+        {
+            "data_pedido": "1975-05-10",
+            "id": 6092,
+            "id_cliente": 44,
+            "itens_pedidos": [
+                {
+                    "id": 5,
+                    "id_pedido": 6092,
+                    "id_produto": 383,
+                    "qtde": 6,
+                    "valor": "4384.20"
+                }
+            ],
+            "valor_pedido": "4384.20"
+        },
+        {
+            "data_pedido": "1989-02-13",
+            "id": 6096,
+            "id_cliente": 30,
+            "itens_pedidos": [
+                {
+                    "id": 15,
+                    "id_pedido": 6096,
+                    "id_produto": 398,
+                    "qtde": 2,
+                    "valor": "303.98"
+                }
+            ],
+            "valor_pedido": "303.98"
+        },
+        {
+            "data_pedido": "1982-01-22",
+            "id": 6100,
+            "id_cliente": 65,
+            "itens_pedidos": [
+                {
+                    "id": 54,
+                    "id_pedido": 6100,
+                    "id_produto": 240,
+                    "qtde": 1,
+                    "valor": "328.45"
+                }
+            ],
+            "valor_pedido": "328.45"
+        },
+        {
+            "data_pedido": "2002-03-31",
+            "id": 6102,
+            "id_cliente": 22,
+            "itens_pedidos": [
+                {
+                    "id": 11,
+                    "id_pedido": 6102,
+                    "id_produto": 346,
+                    "qtde": 7,
+                    "valor": "5944.75"
+                },
+                {
+                    "id": 170,
+                    "id_pedido": 6102,
+                    "id_produto": 317,
+                    "qtde": 3,
+                    "valor": "2477.82"
+                }
+            ],
+            "valor_pedido": "8422.57"
+        },
+        {
+            "data_pedido": "2001-03-28",
+            "id": 6107,
+            "id_cliente": 59,
+            "itens_pedidos": [
+                {
+                    "id": 121,
+                    "id_pedido": 6107,
+                    "id_produto": 387,
+                    "qtde": 10,
+                    "valor": "3256.10"
+                }
+            ],
+            "valor_pedido": "3256.10"
+        },
+        {
+            "data_pedido": "1994-05-15",
+            "id": 6114,
+            "id_cliente": 30,
+            "itens_pedidos": [
+                {
+                    "id": 184,
+                    "id_pedido": 6114,
+                    "id_produto": 293,
+                    "qtde": 1,
+                    "valor": "291.66"
+                }
+            ],
+            "valor_pedido": "291.66"
+        },
+        {
+            "data_pedido": "2007-01-20",
+            "id": 6115,
+            "id_cliente": 4,
+            "itens_pedidos": [
+                {
+                    "id": 128,
+                    "id_pedido": 6115,
+                    "id_produto": 292,
+                    "qtde": 9,
+                    "valor": "3470.67"
+                }
+            ],
+            "valor_pedido": "3470.67"
+        },
+        {
+            "data_pedido": "1978-09-05",
+            "id": 6116,
+            "id_cliente": 97,
+            "itens_pedidos": [
+                {
+                    "id": 12,
+                    "id_pedido": 6116,
+                    "id_produto": 291,
+                    "qtde": 1,
+                    "valor": "346.83"
+                },
+                {
+                    "id": 120,
+                    "id_pedido": 6116,
+                    "id_produto": 286,
+                    "qtde": 4,
+                    "valor": "3699.84"
+                }
+            ],
+            "valor_pedido": "4046.67"
+        },
+        {
+            "data_pedido": "1998-01-12",
+            "id": 6126,
+            "id_cliente": 77,
+            "itens_pedidos": [
+                {
+                    "id": 102,
+                    "id_pedido": 6126,
+                    "id_produto": 230,
+                    "qtde": 10,
+                    "valor": "4551.20"
+                }
+            ],
+            "valor_pedido": "4551.20"
+        },
+        {
+            "data_pedido": "2023-03-26",
+            "id": 6130,
+            "id_cliente": 33,
+            "itens_pedidos": [
+                {
+                    "id": 73,
+                    "id_pedido": 6130,
+                    "id_produto": 351,
+                    "qtde": 2,
+                    "valor": "219.82"
+                }
+            ],
+            "valor_pedido": "219.82"
+        },
+        {
+            "data_pedido": "1985-03-22",
+            "id": 6132,
+            "id_cliente": 60,
+            "itens_pedidos": [
+                {
+                    "id": 167,
+                    "id_pedido": 6132,
+                    "id_produto": 316,
+                    "qtde": 9,
+                    "valor": "8841.42"
+                }
+            ],
+            "valor_pedido": "8841.42"
+        },
+        {
+            "data_pedido": "1982-12-14",
+            "id": 6133,
+            "id_cliente": 75,
+            "itens_pedidos": [
+                {
+                    "id": 163,
+                    "id_pedido": 6133,
+                    "id_produto": 251,
+                    "qtde": 5,
+                    "valor": "3708.75"
+                }
+            ],
+            "valor_pedido": "3708.75"
+        },
+        {
+            "data_pedido": "1989-01-26",
+            "id": 6150,
+            "id_cliente": 95,
+            "itens_pedidos": [
+                {
+                    "id": 90,
+                    "id_pedido": 6150,
+                    "id_produto": 251,
+                    "qtde": 7,
+                    "valor": "5192.25"
+                }
+            ],
+            "valor_pedido": "5192.25"
+        },
+        {
+            "data_pedido": "1996-08-14",
+            "id": 6153,
+            "id_cliente": 60,
+            "itens_pedidos": [
+                {
+                    "id": 16,
+                    "id_pedido": 6153,
+                    "id_produto": 233,
+                    "qtde": 6,
+                    "valor": "1964.82"
+                }
+            ],
+            "valor_pedido": "1964.82"
+        },
+        {
+            "data_pedido": "1973-12-25",
+            "id": 6179,
+            "id_cliente": 78,
+            "itens_pedidos": [
+                {
+                    "id": 171,
+                    "id_pedido": 6179,
+                    "id_produto": 234,
+                    "qtde": 9,
+                    "valor": "7396.56"
+                }
+            ],
+            "valor_pedido": "7396.56"
+        },
+        {
+            "data_pedido": "2003-10-30",
+            "id": 6182,
+            "id_cliente": 32,
+            "itens_pedidos": [
+                {
+                    "id": 91,
+                    "id_pedido": 6182,
+                    "id_produto": 366,
+                    "qtde": 4,
+                    "valor": "1023.04"
+                }
+            ],
+            "valor_pedido": "1023.04"
+        },
+        {
+            "data_pedido": "1997-04-11",
+            "id": 6183,
+            "id_cliente": 76,
+            "itens_pedidos": [
+                {
+                    "id": 52,
+                    "id_pedido": 6183,
+                    "id_produto": 322,
+                    "qtde": 7,
+                    "valor": "4893.28"
+                },
+                {
+                    "id": 89,
+                    "id_pedido": 6183,
+                    "id_produto": 221,
+                    "qtde": 3,
+                    "valor": "681.60"
+                }
+            ],
+            "valor_pedido": "5574.88"
+        },
+        {
+            "data_pedido": "1976-10-28",
+            "id": 6184,
+            "id_cliente": 24,
+            "itens_pedidos": [
+                {
+                    "id": 29,
+                    "id_pedido": 6184,
+                    "id_produto": 205,
+                    "qtde": 2,
+                    "valor": "970.96"
+                }
+            ],
+            "valor_pedido": "970.96"
+        },
+        {
+            "data_pedido": "2022-06-27",
+            "id": 6195,
+            "id_cliente": 97,
+            "itens_pedidos": [
+                {
+                    "id": 92,
+                    "id_pedido": 6195,
+                    "id_produto": 302,
+                    "qtde": 3,
+                    "valor": "1320.03"
+                }
+            ],
+            "valor_pedido": "1320.03"
+        },
+        {
+            "data_pedido": "2005-10-31",
+            "id": 6196,
+            "id_cliente": 64,
+            "itens_pedidos": [
+                {
+                    "id": 17,
+                    "id_pedido": 6196,
+                    "id_produto": 327,
+                    "qtde": 9,
+                    "valor": "4374.18"
+                }
+            ],
+            "valor_pedido": "4374.18"
+        },
+        {
+            "data_pedido": "2012-12-25",
+            "id": 6200,
+            "id_cliente": 51,
+            "itens_pedidos": [
+                {
+                    "id": 57,
+                    "id_pedido": 6200,
+                    "id_produto": 327,
+                    "qtde": 10,
+                    "valor": "4860.20"
+                }
+            ],
+            "valor_pedido": "4860.20"
+        },
+        {
+            "data_pedido": "2013-08-24",
+            "id": 6203,
+            "id_cliente": 22,
+            "itens_pedidos": [
+                {
+                    "id": 43,
+                    "id_pedido": 6203,
+                    "id_produto": 289,
+                    "qtde": 4,
+                    "valor": "3009.60"
+                }
+            ],
+            "valor_pedido": "3009.60"
+        },
+        {
+            "data_pedido": "1978-01-09",
+            "id": 6221,
+            "id_cliente": 59,
+            "itens_pedidos": [
+                {
+                    "id": 134,
+                    "id_pedido": 6221,
+                    "id_produto": 362,
+                    "qtde": 6,
+                    "valor": "2921.40"
+                }
+            ],
+            "valor_pedido": "2921.40"
+        },
+        {
+            "data_pedido": "2007-03-22",
+            "id": 6222,
+            "id_cliente": 44,
+            "itens_pedidos": [
+                {
+                    "id": 34,
+                    "id_pedido": 6222,
+                    "id_produto": 261,
+                    "qtde": 5,
+                    "valor": "2672.05"
+                }
+            ],
+            "valor_pedido": "2672.05"
+        },
+        {
+            "data_pedido": "1973-10-04",
+            "id": 6225,
+            "id_cliente": 59,
+            "itens_pedidos": [
+                {
+                    "id": 40,
+                    "id_pedido": 6225,
+                    "id_produto": 356,
+                    "qtde": 5,
+                    "valor": "4991.95"
+                },
+                {
+                    "id": 69,
+                    "id_pedido": 6225,
+                    "id_produto": 245,
+                    "qtde": 8,
+                    "valor": "950.08"
+                }
+            ],
+            "valor_pedido": "5942.03"
+        },
+        {
+            "data_pedido": "2001-11-05",
+            "id": 6228,
+            "id_cliente": 73,
+            "itens_pedidos": [
+                {
+                    "id": 82,
+                    "id_pedido": 6228,
+                    "id_produto": 359,
+                    "qtde": 3,
+                    "valor": "1697.07"
+                }
+            ],
+            "valor_pedido": "1697.07"
+        },
+        {
+            "data_pedido": "2018-04-07",
+            "id": 6229,
+            "id_cliente": 15,
+            "itens_pedidos": [
+                {
+                    "id": 68,
+                    "id_pedido": 6229,
+                    "id_produto": 276,
+                    "qtde": 10,
+                    "valor": "5707.60"
+                }
+            ],
+            "valor_pedido": "5707.60"
+        },
+        {
+            "data_pedido": "1990-04-17",
+            "id": 6234,
+            "id_cliente": 24,
+            "itens_pedidos": [
+                {
+                    "id": 37,
+                    "id_pedido": 6234,
+                    "id_produto": 340,
+                    "qtde": 9,
+                    "valor": "6111.99"
+                },
+                {
+                    "id": 151,
+                    "id_pedido": 6234,
+                    "id_produto": 374,
+                    "qtde": 9,
+                    "valor": "8993.07"
+                }
+            ],
+            "valor_pedido": "15105.06"
+        },
+        {
+            "data_pedido": "1999-07-03",
+            "id": 6240,
+            "id_cliente": 76,
+            "itens_pedidos": [
+                {
+                    "id": 145,
+                    "id_pedido": 6240,
+                    "id_produto": 220,
+                    "qtde": 5,
+                    "valor": "1379.85"
+                }
+            ],
+            "valor_pedido": "1379.85"
+        },
+        {
+            "data_pedido": "1999-09-03",
+            "id": 6241,
+            "id_cliente": 98,
+            "itens_pedidos": [
+                {
+                    "id": 28,
+                    "id_pedido": 6241,
+                    "id_produto": 301,
+                    "qtde": 9,
+                    "valor": "4240.35"
+                }
+            ],
+            "valor_pedido": "4240.35"
+        },
+        {
+            "data_pedido": "1970-01-20",
+            "id": 6245,
+            "id_cliente": 54,
+            "itens_pedidos": [
+                {
+                    "id": 176,
+                    "id_pedido": 6245,
+                    "id_produto": 348,
+                    "qtde": 6,
+                    "valor": "5043.36"
+                }
+            ],
+            "valor_pedido": "5043.36"
+        },
+        {
+            "data_pedido": "1986-03-26",
+            "id": 6249,
+            "id_cliente": 42,
+            "itens_pedidos": [
+                {
+                    "id": 194,
+                    "id_pedido": 6249,
+                    "id_produto": 341,
+                    "qtde": 7,
+                    "valor": "6938.89"
+                }
+            ],
+            "valor_pedido": "6938.89"
+        },
+        {
+            "data_pedido": "2022-06-07",
+            "id": 6250,
+            "id_cliente": 93,
+            "itens_pedidos": [
+                {
+                    "id": 13,
+                    "id_pedido": 6250,
+                    "id_produto": 281,
+                    "qtde": 6,
+                    "valor": "1286.70"
+                },
+                {
+                    "id": 58,
+                    "id_pedido": 6250,
+                    "id_produto": 365,
+                    "qtde": 8,
+                    "valor": "3250.88"
+                }
+            ],
+            "valor_pedido": "4537.58"
+        },
+        {
+            "data_pedido": "1986-03-27",
+            "id": 6264,
+            "id_cliente": 47,
+            "itens_pedidos": [
+                {
+                    "id": 70,
+                    "id_pedido": 6264,
+                    "id_produto": 241,
+                    "qtde": 4,
+                    "valor": "3790.48"
+                },
+                {
+                    "id": 112,
+                    "id_pedido": 6264,
+                    "id_produto": 242,
+                    "qtde": 4,
+                    "valor": "3069.88"
+                },
+                {
+                    "id": 165,
+                    "id_pedido": 6264,
+                    "id_produto": 334,
+                    "qtde": 2,
+                    "valor": "1237.84"
+                }
+            ],
+            "valor_pedido": "8098.20"
+        },
+        {
+            "data_pedido": "1999-09-24",
+            "id": 6267,
+            "id_cliente": 25,
+            "itens_pedidos": [
+                {
+                    "id": 47,
+                    "id_pedido": 6267,
+                    "id_produto": 213,
+                    "qtde": 8,
+                    "valor": "2880.64"
+                }
+            ],
+            "valor_pedido": "2880.64"
+        },
+        {
+            "data_pedido": "2013-11-02",
+            "id": 6268,
+            "id_cliente": 38,
+            "itens_pedidos": [
+                {
+                    "id": 41,
+                    "id_pedido": 6268,
+                    "id_produto": 334,
+                    "qtde": 8,
+                    "valor": "4951.36"
+                }
+            ],
+            "valor_pedido": "4951.36"
+        },
+        {
+            "data_pedido": "2016-12-24",
+            "id": 6269,
+            "id_cliente": 65,
+            "itens_pedidos": [
+                {
+                    "id": 98,
+                    "id_pedido": 6269,
+                    "id_produto": 258,
+                    "qtde": 4,
+                    "valor": "3782.20"
+                },
+                {
+                    "id": 108,
+                    "id_pedido": 6269,
+                    "id_produto": 290,
+                    "qtde": 8,
+                    "valor": "1280.48"
+                }
+            ],
+            "valor_pedido": "5062.68"
+        },
+        {
+            "data_pedido": "2018-05-10",
+            "id": 6270,
+            "id_cliente": 47,
+            "itens_pedidos": [
+                {
+                    "id": 188,
+                    "id_pedido": 6270,
+                    "id_produto": 227,
+                    "qtde": 5,
+                    "valor": "1106.30"
+                }
+            ],
+            "valor_pedido": "1106.30"
+        },
+        {
+            "data_pedido": "1991-11-28",
+            "id": 6276,
+            "id_cliente": 84,
+            "itens_pedidos": [
+                {
+                    "id": 168,
+                    "id_pedido": 6276,
+                    "id_produto": 314,
+                    "qtde": 4,
+                    "valor": "3091.48"
+                }
+            ],
+            "valor_pedido": "3091.48"
+        },
+        {
+            "data_pedido": "1995-12-09",
+            "id": 6280,
+            "id_cliente": 25,
+            "itens_pedidos": [
+                {
+                    "id": 72,
+                    "id_pedido": 6280,
+                    "id_produto": 382,
+                    "qtde": 9,
+                    "valor": "5329.08"
+                }
+            ],
+            "valor_pedido": "5329.08"
+        },
+        {
+            "data_pedido": "2001-03-29",
+            "id": 6287,
+            "id_cliente": 65,
+            "itens_pedidos": [
+                {
+                    "id": 18,
+                    "id_pedido": 6287,
+                    "id_produto": 326,
+                    "qtde": 8,
+                    "valor": "1320.80"
+                },
+                {
+                    "id": 140,
+                    "id_pedido": 6287,
+                    "id_produto": 387,
+                    "qtde": 4,
+                    "valor": "1302.44"
+                }
+            ],
+            "valor_pedido": "2623.24"
+        },
+        {
+            "data_pedido": "2020-05-13",
+            "id": 6290,
+            "id_cliente": 33,
+            "itens_pedidos": [
+                {
+                    "id": 36,
+                    "id_pedido": 6290,
+                    "id_produto": 351,
+                    "qtde": 3,
+                    "valor": "329.73"
+                }
+            ],
+            "valor_pedido": "329.73"
+        },
+        {
+            "data_pedido": "2009-12-18",
+            "id": 6302,
+            "id_cliente": 3,
+            "itens_pedidos": [
+                {
+                    "id": 200,
+                    "id_pedido": 6302,
+                    "id_produto": 381,
+                    "qtde": 1,
+                    "valor": "315.99"
+                }
+            ],
+            "valor_pedido": "315.99"
+        },
+        {
+            "data_pedido": "1990-07-21",
+            "id": 6307,
+            "id_cliente": 13,
+            "itens_pedidos": [
+                {
+                    "id": 100,
+                    "id_pedido": 6307,
+                    "id_produto": 327,
+                    "qtde": 2,
+                    "valor": "972.04"
+                }
+            ],
+            "valor_pedido": "972.04"
+        },
+        {
+            "data_pedido": "2023-01-11",
+            "id": 6324,
+            "id_cliente": 16,
+            "itens_pedidos": [
+                {
+                    "id": 97,
+                    "id_pedido": 6324,
+                    "id_produto": 255,
+                    "qtde": 3,
+                    "valor": "560.79"
+                }
+            ],
+            "valor_pedido": "560.79"
+        },
+        {
+            "data_pedido": "1970-07-07",
+            "id": 6331,
+            "id_cliente": 5,
+            "itens_pedidos": [
+                {
+                    "id": 33,
+                    "id_pedido": 6331,
+                    "id_produto": 326,
+                    "qtde": 6,
+                    "valor": "990.60"
+                }
+            ],
+            "valor_pedido": "990.60"
+        },
+        {
+            "data_pedido": "2021-02-05",
+            "id": 6335,
+            "id_cliente": 65,
+            "itens_pedidos": [
+                {
+                    "id": 67,
+                    "id_pedido": 6335,
+                    "id_produto": 326,
+                    "qtde": 6,
+                    "valor": "990.60"
+                }
+            ],
+            "valor_pedido": "990.60"
+        },
+        {
+            "data_pedido": "1972-03-25",
+            "id": 6336,
+            "id_cliente": 18,
+            "itens_pedidos": [
+                {
+                    "id": 187,
+                    "id_pedido": 6336,
+                    "id_produto": 203,
+                    "qtde": 10,
+                    "valor": "4202.60"
+                }
+            ],
+            "valor_pedido": "4202.60"
+        },
+        {
+            "data_pedido": "1978-08-28",
+            "id": 6347,
+            "id_cliente": 27,
+            "itens_pedidos": [
+                {
+                    "id": 196,
+                    "id_pedido": 6347,
+                    "id_produto": 321,
+                    "qtde": 6,
+                    "valor": "3555.06"
+                }
+            ],
+            "valor_pedido": "3555.06"
+        },
+        {
+            "data_pedido": "1982-05-17",
+            "id": 6348,
+            "id_cliente": 80,
+            "itens_pedidos": [
+                {
+                    "id": 59,
+                    "id_pedido": 6348,
+                    "id_produto": 279,
+                    "qtde": 5,
+                    "valor": "3219.30"
+                }
+            ],
+            "valor_pedido": "3219.30"
+        },
+        {
+            "data_pedido": "1978-07-13",
+            "id": 6355,
+            "id_cliente": 19,
+            "itens_pedidos": [
+                {
+                    "id": 181,
+                    "id_pedido": 6355,
+                    "id_produto": 276,
+                    "qtde": 5,
+                    "valor": "2853.80"
+                }
+            ],
+            "valor_pedido": "2853.80"
+        },
+        {
+            "data_pedido": "2006-04-16",
+            "id": 6359,
+            "id_cliente": 85,
+            "itens_pedidos": [
+                {
+                    "id": 26,
+                    "id_pedido": 6359,
+                    "id_produto": 283,
+                    "qtde": 5,
+                    "valor": "4392.30"
+                }
+            ],
+            "valor_pedido": "4392.30"
+        },
+        {
+            "data_pedido": "2007-12-11",
+            "id": 6362,
+            "id_cliente": 92,
+            "itens_pedidos": [
+                {
+                    "id": 132,
+                    "id_pedido": 6362,
+                    "id_produto": 266,
+                    "qtde": 1,
+                    "valor": "390.58"
+                }
+            ],
+            "valor_pedido": "390.58"
+        },
+        {
+            "data_pedido": "1976-03-01",
+            "id": 6364,
+            "id_cliente": 100,
+            "itens_pedidos": [
+                {
+                    "id": 161,
+                    "id_pedido": 6364,
+                    "id_produto": 232,
+                    "qtde": 8,
+                    "valor": "7710.88"
+                }
+            ],
+            "valor_pedido": "7710.88"
+        },
+        {
+            "data_pedido": "1974-05-04",
+            "id": 6366,
+            "id_cliente": 84,
+            "itens_pedidos": [
+                {
+                    "id": 85,
+                    "id_pedido": 6366,
+                    "id_produto": 244,
+                    "qtde": 2,
+                    "valor": "1772.78"
+                }
+            ],
+            "valor_pedido": "1772.78"
+        },
+        {
+            "data_pedido": "2009-07-12",
+            "id": 6372,
+            "id_cliente": 16,
+            "itens_pedidos": [
+                {
+                    "id": 149,
+                    "id_pedido": 6372,
+                    "id_produto": 277,
+                    "qtde": 5,
+                    "valor": "3936.00"
+                }
+            ],
+            "valor_pedido": "3936.00"
+        },
+        {
+            "data_pedido": "2009-05-20",
+            "id": 6380,
+            "id_cliente": 96,
+            "itens_pedidos": [
+                {
+                    "id": 32,
+                    "id_pedido": 6380,
+                    "id_produto": 285,
+                    "qtde": 1,
+                    "valor": "510.64"
+                }
+            ],
+            "valor_pedido": "510.64"
+        },
+        {
+            "data_pedido": "1984-02-22",
+            "id": 6390,
+            "id_cliente": 4,
+            "itens_pedidos": [
+                {
+                    "id": 96,
+                    "id_pedido": 6390,
+                    "id_produto": 264,
+                    "qtde": 1,
+                    "valor": "907.53"
+                }
+            ],
+            "valor_pedido": "907.53"
+        },
+        {
+            "data_pedido": "2021-08-20",
+            "id": 6391,
+            "id_cliente": 54,
+            "itens_pedidos": [
+                {
+                    "id": 160,
+                    "id_pedido": 6391,
+                    "id_produto": 316,
+                    "qtde": 9,
+                    "valor": "8841.42"
+                }
+            ],
+            "valor_pedido": "8841.42"
+        },
+        {
+            "data_pedido": "1998-10-27",
+            "id": 6397,
+            "id_cliente": 87,
+            "itens_pedidos": [
+                {
+                    "id": 136,
+                    "id_pedido": 6397,
+                    "id_produto": 342,
+                    "qtde": 1,
+                    "valor": "905.76"
+                }
+            ],
+            "valor_pedido": "905.76"
+        },
+        {
+            "data_pedido": "1995-02-20",
+            "id": 6401,
+            "id_cliente": 23,
+            "itens_pedidos": [
+                {
+                    "id": 62,
+                    "id_pedido": 6401,
+                    "id_produto": 287,
+                    "qtde": 2,
+                    "valor": "1358.78"
+                }
+            ],
+            "valor_pedido": "1358.78"
+        },
+        {
+            "data_pedido": "1974-11-19",
+            "id": 6403,
+            "id_cliente": 20,
+            "itens_pedidos": [
+                {
+                    "id": 164,
+                    "id_pedido": 6403,
+                    "id_produto": 312,
+                    "qtde": 6,
+                    "valor": "1660.68"
+                }
+            ],
+            "valor_pedido": "1660.68"
+        },
+        {
+            "data_pedido": "2008-10-25",
+            "id": 6423,
+            "id_cliente": 63,
+            "itens_pedidos": [
+                {
+                    "id": 122,
+                    "id_pedido": 6423,
+                    "id_produto": 277,
+                    "qtde": 8,
+                    "valor": "6297.60"
+                }
+            ],
+            "valor_pedido": "6297.60"
+        },
+        {
+            "data_pedido": "2001-06-28",
+            "id": 6425,
+            "id_cliente": 15,
+            "itens_pedidos": [
+                {
+                    "id": 22,
+                    "id_pedido": 6425,
+                    "id_produto": 396,
+                    "qtde": 9,
+                    "valor": "3675.06"
+                },
+                {
+                    "id": 87,
+                    "id_pedido": 6425,
+                    "id_produto": 258,
+                    "qtde": 1,
+                    "valor": "945.55"
+                }
+            ],
+            "valor_pedido": "4620.61"
+        },
+        {
+            "data_pedido": "1988-05-28",
+            "id": 6428,
+            "id_cliente": 19,
+            "itens_pedidos": [
+                {
+                    "id": 155,
+                    "id_pedido": 6428,
+                    "id_produto": 309,
+                    "qtde": 8,
+                    "valor": "6415.84"
+                }
+            ],
+            "valor_pedido": "6415.84"
+        },
+        {
+            "data_pedido": "2012-07-14",
+            "id": 6431,
+            "id_cliente": 30,
+            "itens_pedidos": [
+                {
+                    "id": 109,
+                    "id_pedido": 6431,
+                    "id_produto": 219,
+                    "qtde": 3,
+                    "valor": "460.86"
+                }
+            ],
+            "valor_pedido": "460.86"
+        },
+        {
+            "data_pedido": "1995-12-22",
+            "id": 6433,
+            "id_cliente": 1,
+            "itens_pedidos": [
+                {
+                    "id": 143,
+                    "id_pedido": 6433,
+                    "id_produto": 358,
+                    "qtde": 5,
+                    "valor": "2917.00"
+                }
+            ],
+            "valor_pedido": "2917.00"
+        },
+        {
+            "data_pedido": "1978-09-16",
+            "id": 6435,
+            "id_cliente": 25,
+            "itens_pedidos": [
+                {
+                    "id": 142,
+                    "id_pedido": 6435,
+                    "id_produto": 225,
+                    "qtde": 5,
+                    "valor": "855.70"
+                }
+            ],
+            "valor_pedido": "855.70"
+        },
+        {
+            "data_pedido": "1976-04-30",
+            "id": 6440,
+            "id_cliente": 43,
+            "itens_pedidos": [
+                {
+                    "id": 158,
+                    "id_pedido": 6440,
+                    "id_produto": 302,
+                    "qtde": 7,
+                    "valor": "3080.07"
+                }
+            ],
+            "valor_pedido": "3080.07"
+        },
+        {
+            "data_pedido": "2017-04-28",
+            "id": 6443,
+            "id_cliente": 71,
+            "itens_pedidos": [
+                {
+                    "id": 93,
+                    "id_pedido": 6443,
+                    "id_produto": 381,
+                    "qtde": 10,
+                    "valor": "3159.90"
+                }
+            ],
+            "valor_pedido": "3159.90"
+        },
+        {
+            "data_pedido": "1976-04-02",
+            "id": 6444,
+            "id_cliente": 71,
+            "itens_pedidos": [
+                {
+                    "id": 178,
+                    "id_pedido": 6444,
+                    "id_produto": 300,
+                    "qtde": 8,
+                    "valor": "1076.96"
+                }
+            ],
+            "valor_pedido": "1076.96"
+        },
+        {
+            "data_pedido": "2017-04-22",
+            "id": 6464,
+            "id_cliente": 74,
+            "itens_pedidos": [
+                {
+                    "id": 198,
+                    "id_pedido": 6464,
+                    "id_produto": 282,
+                    "qtde": 7,
+                    "valor": "4172.77"
+                }
+            ],
+            "valor_pedido": "4172.77"
+        },
+        {
+            "data_pedido": "2017-09-30",
+            "id": 6465,
+            "id_cliente": 71,
+            "itens_pedidos": [
+                {
+                    "id": 118,
+                    "id_pedido": 6465,
+                    "id_produto": 258,
+                    "qtde": 2,
+                    "valor": "1891.10"
+                }
+            ],
+            "valor_pedido": "1891.10"
+        },
+        {
+            "data_pedido": "1993-06-03",
+            "id": 6466,
+            "id_cliente": 95,
+            "itens_pedidos": [
+                {
+                    "id": 76,
+                    "id_pedido": 6466,
+                    "id_produto": 332,
+                    "qtde": 8,
+                    "valor": "5233.04"
+                }
+            ],
+            "valor_pedido": "5233.04"
+        },
+        {
+            "data_pedido": "1997-12-14",
+            "id": 6481,
+            "id_cliente": 47,
+            "itens_pedidos": [
+                {
+                    "id": 101,
+                    "id_pedido": 6481,
+                    "id_produto": 213,
+                    "qtde": 3,
+                    "valor": "1080.24"
+                }
+            ],
+            "valor_pedido": "1080.24"
+        },
+        {
+            "data_pedido": "1985-08-05",
+            "id": 6482,
+            "id_cliente": 9,
+            "itens_pedidos": [
+                {
+                    "id": 21,
+                    "id_pedido": 6482,
+                    "id_produto": 223,
+                    "qtde": 10,
+                    "valor": "6184.80"
+                },
+                {
+                    "id": 148,
+                    "id_pedido": 6482,
+                    "id_produto": 231,
+                    "qtde": 4,
+                    "valor": "3486.76"
+                }
+            ],
+            "valor_pedido": "9671.56"
+        },
+        {
+            "data_pedido": "1996-12-02",
+            "id": 6483,
+            "id_cliente": 74,
+            "itens_pedidos": [
+                {
+                    "id": 115,
+                    "id_pedido": 6483,
+                    "id_produto": 209,
+                    "qtde": 6,
+                    "valor": "5080.98"
+                }
+            ],
+            "valor_pedido": "5080.98"
+        },
+        {
+            "data_pedido": "2006-09-19",
+            "id": 6492,
+            "id_cliente": 86,
+            "itens_pedidos": [
+                {
+                    "id": 124,
+                    "id_pedido": 6492,
+                    "id_produto": 324,
+                    "qtde": 2,
+                    "valor": "1700.80"
+                }
+            ],
+            "valor_pedido": "1700.80"
+        },
+        {
+            "data_pedido": "1977-08-07",
+            "id": 6494,
+            "id_cliente": 69,
+            "itens_pedidos": [
+                {
+                    "id": 111,
+                    "id_pedido": 6494,
+                    "id_produto": 299,
+                    "qtde": 10,
+                    "valor": "3204.30"
+                }
+            ],
+            "valor_pedido": "3204.30"
+        },
+        {
+            "data_pedido": "2022-02-26",
+            "id": 6495,
+            "id_cliente": 8,
+            "itens_pedidos": [
+                {
+                    "id": 173,
+                    "id_pedido": 6495,
+                    "id_produto": 355,
+                    "qtde": 2,
+                    "valor": "386.84"
+                }
+            ],
+            "valor_pedido": "386.84"
+        },
+        {
+            "data_pedido": "1978-07-16",
+            "id": 6502,
+            "id_cliente": 62,
+            "itens_pedidos": [
+                {
+                    "id": 141,
+                    "id_pedido": 6502,
+                    "id_produto": 399,
+                    "qtde": 6,
+                    "valor": "5831.22"
+                }
+            ],
+            "valor_pedido": "5831.22"
+        },
+        {
+            "data_pedido": "2006-07-15",
+            "id": 6504,
+            "id_cliente": 16,
+            "itens_pedidos": [
+                {
+                    "id": 185,
+                    "id_pedido": 6504,
+                    "id_produto": 212,
+                    "qtde": 3,
+                    "valor": "1148.13"
+                }
+            ],
+            "valor_pedido": "1148.13"
+        },
+        {
+            "data_pedido": "1991-12-22",
+            "id": 6505,
+            "id_cliente": 27,
+            "itens_pedidos": [
+                {
+                    "id": 23,
+                    "id_pedido": 6505,
+                    "id_produto": 306,
+                    "qtde": 3,
+                    "valor": "1541.28"
+                }
+            ],
+            "valor_pedido": "1541.28"
+        },
+        {
+            "data_pedido": "1980-06-28",
+            "id": 6506,
+            "id_cliente": 53,
+            "itens_pedidos": [
+                {
+                    "id": 2,
+                    "id_pedido": 6506,
+                    "id_produto": 345,
+                    "qtde": 1,
+                    "valor": "389.35"
+                }
+            ],
+            "valor_pedido": "389.35"
+        },
+        {
+            "data_pedido": "1998-11-09",
+            "id": 6532,
+            "id_cliente": 7,
+            "itens_pedidos": [
+                {
+                    "id": 182,
+                    "id_pedido": 6532,
+                    "id_produto": 271,
+                    "qtde": 1,
+                    "valor": "600.03"
+                }
+            ],
+            "valor_pedido": "600.03"
+        },
+        {
+            "data_pedido": "1986-12-31",
+            "id": 6544,
+            "id_cliente": 7,
+            "itens_pedidos": [
+                {
+                    "id": 14,
+                    "id_pedido": 6544,
+                    "id_produto": 361,
+                    "qtde": 1,
+                    "valor": "536.11"
+                }
+            ],
+            "valor_pedido": "536.11"
+        },
+        {
+            "data_pedido": "2002-05-05",
+            "id": 6547,
+            "id_cliente": 76,
+            "itens_pedidos": [
+                {
+                    "id": 138,
+                    "id_pedido": 6547,
+                    "id_produto": 327,
+                    "qtde": 6,
+                    "valor": "2916.12"
+                }
+            ],
+            "valor_pedido": "2916.12"
+        },
+        {
+            "data_pedido": "1972-06-06",
+            "id": 6552,
+            "id_cliente": 43,
+            "itens_pedidos": [
+                {
+                    "id": 48,
+                    "id_pedido": 6552,
+                    "id_produto": 227,
+                    "qtde": 3,
+                    "valor": "663.78"
+                }
+            ],
+            "valor_pedido": "663.78"
+        },
+        {
+            "data_pedido": "2015-01-21",
+            "id": 6556,
+            "id_cliente": 20,
+            "itens_pedidos": [
+                {
+                    "id": 174,
+                    "id_pedido": 6556,
+                    "id_produto": 310,
+                    "qtde": 2,
+                    "valor": "1381.20"
+                }
+            ],
+            "valor_pedido": "1381.20"
+        },
+        {
+            "data_pedido": "1979-11-22",
+            "id": 6558,
+            "id_cliente": 21,
+            "itens_pedidos": [
+                {
+                    "id": 103,
+                    "id_pedido": 6558,
+                    "id_produto": 373,
+                    "qtde": 10,
+                    "valor": "6741.20"
+                },
+                {
+                    "id": 126,
+                    "id_pedido": 6558,
+                    "id_produto": 383,
+                    "qtde": 9,
+                    "valor": "6576.30"
+                },
+                {
+                    "id": 154,
+                    "id_pedido": 6558,
+                    "id_produto": 346,
+                    "qtde": 4,
+                    "valor": "3397.00"
+                }
+            ],
+            "valor_pedido": "16714.50"
+        },
+        {
+            "data_pedido": "1970-03-07",
+            "id": 6565,
+            "id_cliente": 42,
+            "itens_pedidos": [
+                {
+                    "id": 50,
+                    "id_pedido": 6565,
+                    "id_produto": 346,
+                    "qtde": 2,
+                    "valor": "1698.50"
+                }
+            ],
+            "valor_pedido": "1698.50"
+        },
+        {
+            "data_pedido": "1988-12-11",
+            "id": 6572,
+            "id_cliente": 31,
+            "itens_pedidos": [
+                {
+                    "id": 139,
+                    "id_pedido": 6572,
+                    "id_produto": 293,
+                    "qtde": 1,
+                    "valor": "291.66"
+                }
+            ],
+            "valor_pedido": "291.66"
+        },
+        {
+            "data_pedido": "1979-12-24",
+            "id": 6581,
+            "id_cliente": 16,
+            "itens_pedidos": [
+                {
+                    "id": 150,
+                    "id_pedido": 6581,
+                    "id_produto": 233,
+                    "qtde": 2,
+                    "valor": "654.94"
+                }
+            ],
+            "valor_pedido": "654.94"
+        },
+        {
+            "data_pedido": "1979-07-31",
+            "id": 6585,
+            "id_cliente": 55,
+            "itens_pedidos": [
+                {
+                    "id": 63,
+                    "id_pedido": 6585,
+                    "id_produto": 270,
+                    "qtde": 10,
+                    "valor": "1188.00"
+                },
+                {
+                    "id": 84,
+                    "id_pedido": 6585,
+                    "id_produto": 389,
+                    "qtde": 4,
+                    "valor": "3261.72"
+                }
+            ],
+            "valor_pedido": "4449.72"
+        },
+        {
+            "data_pedido": "1999-04-15",
+            "id": 6586,
+            "id_cliente": 80,
+            "itens_pedidos": [
+                {
+                    "id": 39,
+                    "id_pedido": 6586,
+                    "id_produto": 359,
+                    "qtde": 4,
+                    "valor": "2262.76"
+                }
+            ],
+            "valor_pedido": "2262.76"
+        },
+        {
+            "data_pedido": "1976-02-16",
+            "id": 6590,
+            "id_cliente": 15,
+            "itens_pedidos": [
+                {
+                    "id": 169,
+                    "id_pedido": 6590,
+                    "id_produto": 360,
+                    "qtde": 3,
+                    "valor": "2840.46"
+                }
+            ],
+            "valor_pedido": "2840.46"
+        },
+        {
+            "data_pedido": "1981-06-26",
+            "id": 6593,
+            "id_cliente": 63,
+            "itens_pedidos": [
+                {
+                    "id": 9,
+                    "id_pedido": 6593,
+                    "id_produto": 276,
+                    "qtde": 2,
+                    "valor": "1141.52"
+                }
+            ],
+            "valor_pedido": "1141.52"
+        },
+        {
+            "data_pedido": "2006-11-28",
+            "id": 6602,
+            "id_cliente": 48,
+            "itens_pedidos": [
+                {
+                    "id": 153,
+                    "id_pedido": 6602,
+                    "id_produto": 314,
+                    "qtde": 6,
+                    "valor": "4637.22"
+                }
+            ],
+            "valor_pedido": "4637.22"
+        },
+        {
+            "data_pedido": "1987-01-24",
+            "id": 6606,
+            "id_cliente": 6,
+            "itens_pedidos": [
+                {
+                    "id": 80,
+                    "id_pedido": 6606,
+                    "id_produto": 359,
+                    "qtde": 8,
+                    "valor": "4525.52"
+                }
+            ],
+            "valor_pedido": "4525.52"
+        },
+        {
+            "data_pedido": "1980-08-20",
+            "id": 6611,
+            "id_cliente": 55,
+            "itens_pedidos": [
+                {
+                    "id": 24,
+                    "id_pedido": 6611,
+                    "id_produto": 225,
+                    "qtde": 1,
+                    "valor": "171.14"
+                }
+            ],
+            "valor_pedido": "171.14"
+        },
+        {
+            "data_pedido": "2002-09-07",
+            "id": 6618,
+            "id_cliente": 94,
+            "itens_pedidos": [
+                {
+                    "id": 27,
+                    "id_pedido": 6618,
+                    "id_produto": 297,
+                    "qtde": 5,
+                    "valor": "1053.20"
+                }
+            ],
+            "valor_pedido": "1053.20"
+        },
+        {
+            "data_pedido": "1993-04-04",
+            "id": 6624,
+            "id_cliente": 30,
+            "itens_pedidos": [
+                {
+                    "id": 183,
+                    "id_pedido": 6624,
+                    "id_produto": 382,
+                    "qtde": 1,
+                    "valor": "592.12"
+                }
+            ],
+            "valor_pedido": "592.12"
+        },
+        {
+            "data_pedido": "1992-01-15",
+            "id": 6625,
+            "id_cliente": 75,
+            "itens_pedidos": [
+                {
+                    "id": 130,
+                    "id_pedido": 6625,
+                    "id_produto": 279,
+                    "qtde": 1,
+                    "valor": "643.86"
+                }
+            ],
+            "valor_pedido": "643.86"
+        },
+        {
+            "data_pedido": "1977-02-28",
+            "id": 6630,
+            "id_cliente": 19,
+            "itens_pedidos": [
+                {
+                    "id": 10,
+                    "id_pedido": 6630,
+                    "id_produto": 248,
+                    "qtde": 6,
+                    "valor": "4615.44"
+                },
+                {
+                    "id": 46,
+                    "id_pedido": 6630,
+                    "id_produto": 395,
+                    "qtde": 8,
+                    "valor": "3449.12"
+                }
+            ],
+            "valor_pedido": "8064.56"
+        },
+        {
+            "data_pedido": "1976-10-24",
+            "id": 6641,
+            "id_cliente": 41,
+            "itens_pedidos": [
+                {
+                    "id": 172,
+                    "id_pedido": 6641,
+                    "id_produto": 246,
+                    "qtde": 1,
+                    "valor": "968.08"
+                }
+            ],
+            "valor_pedido": "968.08"
+        },
+        {
+            "data_pedido": "1982-06-23",
+            "id": 6645,
+            "id_cliente": 27,
+            "itens_pedidos": [
+                {
+                    "id": 8,
+                    "id_pedido": 6645,
+                    "id_produto": 238,
+                    "qtde": 1,
+                    "valor": "197.38"
+                }
+            ],
+            "valor_pedido": "197.38"
+        },
+        {
+            "data_pedido": "2000-11-10",
+            "id": 6655,
+            "id_cliente": 82,
+            "itens_pedidos": [
+                {
+                    "id": 61,
+                    "id_pedido": 6655,
+                    "id_produto": 254,
+                    "qtde": 7,
+                    "valor": "1861.09"
+                }
+            ],
+            "valor_pedido": "1861.09"
+        },
+        {
+            "data_pedido": "1984-02-07",
+            "id": 6663,
+            "id_cliente": 41,
+            "itens_pedidos": [
+                {
+                    "id": 31,
+                    "id_pedido": 6663,
+                    "id_produto": 268,
+                    "qtde": 6,
+                    "valor": "641.88"
+                }
+            ],
+            "valor_pedido": "641.88"
+        },
+        {
+            "data_pedido": "2009-06-11",
+            "id": 6666,
+            "id_cliente": 72,
+            "itens_pedidos": [
+                {
+                    "id": 45,
+                    "id_pedido": 6666,
+                    "id_produto": 374,
+                    "qtde": 1,
+                    "valor": "999.23"
+                }
+            ],
+            "valor_pedido": "999.23"
+        },
+        {
+            "data_pedido": "2007-01-24",
+            "id": 6668,
+            "id_cliente": 47,
+            "itens_pedidos": [
+                {
+                    "id": 104,
+                    "id_pedido": 6668,
+                    "id_produto": 327,
+                    "qtde": 6,
+                    "valor": "2916.12"
+                }
+            ],
+            "valor_pedido": "2916.12"
+        },
+        {
+            "data_pedido": "1994-10-01",
+            "id": 6671,
+            "id_cliente": 56,
+            "itens_pedidos": [
+                {
+                    "id": 180,
+                    "id_pedido": 6671,
+                    "id_produto": 278,
+                    "qtde": 8,
+                    "valor": "6845.84"
+                }
+            ],
+            "valor_pedido": "6845.84"
+        },
+        {
+            "data_pedido": "2020-04-17",
+            "id": 6672,
+            "id_cliente": 25,
+            "itens_pedidos": [
+                {
+                    "id": 192,
+                    "id_pedido": 6672,
+                    "id_produto": 239,
+                    "qtde": 10,
+                    "valor": "6842.80"
+                }
+            ],
+            "valor_pedido": "6842.80"
+        },
+        {
+            "data_pedido": "2013-11-14",
+            "id": 6678,
+            "id_cliente": 9,
+            "itens_pedidos": [
+                {
+                    "id": 166,
+                    "id_pedido": 6678,
+                    "id_produto": 278,
+                    "qtde": 9,
+                    "valor": "7701.57"
+                }
+            ],
+            "valor_pedido": "7701.57"
+        },
+        {
+            "data_pedido": "1997-07-26",
+            "id": 6685,
+            "id_cliente": 59,
+            "itens_pedidos": [
+                {
+                    "id": 129,
+                    "id_pedido": 6685,
+                    "id_produto": 222,
+                    "qtde": 9,
+                    "valor": "7935.03"
+                }
+            ],
+            "valor_pedido": "7935.03"
+        },
+        {
+            "data_pedido": "2022-10-20",
+            "id": 6693,
+            "id_cliente": 91,
+            "itens_pedidos": [
+                {
+                    "id": 79,
+                    "id_pedido": 6693,
+                    "id_produto": 237,
+                    "qtde": 5,
+                    "valor": "1358.30"
+                }
+            ],
+            "valor_pedido": "1358.30"
+        },
+        {
+            "data_pedido": "1992-01-03",
+            "id": 6695,
+            "id_cliente": 19,
+            "itens_pedidos": [
+                {
+                    "id": 107,
+                    "id_pedido": 6695,
+                    "id_produto": 266,
+                    "qtde": 3,
+                    "valor": "1171.74"
+                },
+                {
+                    "id": 133,
+                    "id_pedido": 6695,
+                    "id_produto": 290,
+                    "qtde": 5,
+                    "valor": "800.30"
+                }
+            ],
+            "valor_pedido": "1972.04"
+        },
+        {
+            "data_pedido": "2009-09-23",
+            "id": 6696,
+            "id_cliente": 5,
+            "itens_pedidos": [
+                {
+                    "id": 95,
+                    "id_pedido": 6696,
+                    "id_produto": 307,
+                    "qtde": 9,
+                    "valor": "5436.45"
+                }
+            ],
+            "valor_pedido": "5436.45"
+        },
+        {
+            "data_pedido": "2013-10-24",
+            "id": 6701,
+            "id_cliente": 67,
+            "itens_pedidos": [
+                {
+                    "id": 152,
+                    "id_pedido": 6701,
+                    "id_produto": 268,
+                    "qtde": 8,
+                    "valor": "855.84"
+                }
+            ],
+            "valor_pedido": "855.84"
+        },
+        {
+            "data_pedido": "1998-12-30",
+            "id": 6712,
+            "id_cliente": 95,
+            "itens_pedidos": [
+                {
+                    "id": 74,
+                    "id_pedido": 6712,
+                    "id_produto": 334,
+                    "qtde": 7,
+                    "valor": "4332.44"
+                }
+            ],
+            "valor_pedido": "4332.44"
+        },
+        {
+            "data_pedido": "2012-02-05",
+            "id": 6716,
+            "id_cliente": 78,
+            "itens_pedidos": [
+                {
+                    "id": 191,
+                    "id_pedido": 6716,
+                    "id_produto": 356,
+                    "qtde": 5,
+                    "valor": "4991.95"
+                }
+            ],
+            "valor_pedido": "4991.95"
+        },
+        {
+            "data_pedido": "2006-07-24",
+            "id": 6722,
+            "id_cliente": 62,
+            "itens_pedidos": [
+                {
+                    "id": 157,
+                    "id_pedido": 6722,
+                    "id_produto": 370,
+                    "qtde": 3,
+                    "valor": "349.14"
+                }
+            ],
+            "valor_pedido": "349.14"
+        },
+        {
+            "data_pedido": "2020-10-01",
+            "id": 6723,
+            "id_cliente": 77,
+            "itens_pedidos": [
+                {
+                    "id": 64,
+                    "id_pedido": 6723,
+                    "id_produto": 290,
+                    "qtde": 5,
+                    "valor": "800.30"
+                }
+            ],
+            "valor_pedido": "800.30"
+        },
+        {
+            "data_pedido": "1984-07-25",
+            "id": 6724,
+            "id_cliente": 61,
+            "itens_pedidos": [
+                {
+                    "id": 65,
+                    "id_pedido": 6724,
+                    "id_produto": 210,
+                    "qtde": 10,
+                    "valor": "7013.50"
+                }
+            ],
+            "valor_pedido": "7013.50"
+        },
+        {
+            "data_pedido": "1976-09-03",
+            "id": 6732,
+            "id_cliente": 8,
+            "itens_pedidos": [
+                {
+                    "id": 56,
+                    "id_pedido": 6732,
+                    "id_produto": 205,
+                    "qtde": 10,
+                    "valor": "4854.80"
+                }
+            ],
+            "valor_pedido": "4854.80"
+        },
+        {
+            "data_pedido": "1988-07-18",
+            "id": 6734,
+            "id_cliente": 2,
+            "itens_pedidos": [
+                {
+                    "id": 83,
+                    "id_pedido": 6734,
+                    "id_produto": 281,
+                    "qtde": 2,
+                    "valor": "428.90"
+                }
+            ],
+            "valor_pedido": "428.90"
+        },
+        {
+            "data_pedido": "2012-06-29",
+            "id": 6735,
+            "id_cliente": 38,
+            "itens_pedidos": [
+                {
+                    "id": 199,
+                    "id_pedido": 6735,
+                    "id_produto": 238,
+                    "qtde": 6,
+                    "valor": "1184.28"
+                }
+            ],
+            "valor_pedido": "1184.28"
+        },
+        {
+            "data_pedido": "1975-10-16",
+            "id": 6744,
+            "id_cliente": 70,
+            "itens_pedidos": [
+                {
+                    "id": 189,
+                    "id_pedido": 6744,
+                    "id_produto": 390,
+                    "qtde": 3,
+                    "valor": "621.63"
+                }
+            ],
+            "valor_pedido": "621.63"
+        },
+        {
+            "data_pedido": "2021-05-16",
+            "id": 6746,
+            "id_cliente": 47,
+            "itens_pedidos": [
+                {
+                    "id": 156,
+                    "id_pedido": 6746,
+                    "id_produto": 381,
+                    "qtde": 9,
+                    "valor": "2843.91"
+                }
+            ],
+            "valor_pedido": "2843.91"
+        },
+        {
+            "data_pedido": "2016-04-12",
+            "id": 6755,
+            "id_cliente": 34,
+            "itens_pedidos": [
+                {
+                    "id": 78,
+                    "id_pedido": 6755,
+                    "id_produto": 277,
+                    "qtde": 5,
+                    "valor": "3936.00"
+                }
+            ],
+            "valor_pedido": "3936.00"
+        },
+        {
+            "data_pedido": "1986-05-04",
+            "id": 6762,
+            "id_cliente": 84,
+            "itens_pedidos": [
+                {
+                    "id": 25,
+                    "id_pedido": 6762,
+                    "id_produto": 244,
+                    "qtde": 8,
+                    "valor": "7091.12"
+                }
+            ],
+            "valor_pedido": "7091.12"
+        },
+        {
+            "data_pedido": "2012-04-01",
+            "id": 6768,
+            "id_cliente": 48,
+            "itens_pedidos": [
+                {
+                    "id": 71,
+                    "id_pedido": 6768,
+                    "id_produto": 388,
+                    "qtde": 8,
+                    "valor": "3868.40"
+                }
+            ],
+            "valor_pedido": "3868.40"
+        },
+        {
+            "data_pedido": "1999-04-03",
+            "id": 6771,
+            "id_cliente": 88,
+            "itens_pedidos": [
+                {
+                    "id": 162,
+                    "id_pedido": 6771,
+                    "id_produto": 233,
+                    "qtde": 9,
+                    "valor": "2947.23"
+                }
+            ],
+            "valor_pedido": "2947.23"
+        },
+        {
+            "data_pedido": "2019-11-19",
+            "id": 6776,
+            "id_cliente": 56,
+            "itens_pedidos": [
+                {
+                    "id": 4,
+                    "id_pedido": 6776,
+                    "id_produto": 294,
+                    "qtde": 7,
+                    "valor": "6445.74"
+                }
+            ],
+            "valor_pedido": "6445.74"
+        },
+        {
+            "data_pedido": "2002-09-02",
+            "id": 6782,
+            "id_cliente": 47,
+            "itens_pedidos": [
+                {
+                    "id": 81,
+                    "id_pedido": 6782,
+                    "id_produto": 314,
+                    "qtde": 4,
+                    "valor": "3091.48"
+                }
+            ],
+            "valor_pedido": "3091.48"
+        },
+        {
+            "data_pedido": "2010-12-09",
+            "id": 6801,
+            "id_cliente": 9,
+            "itens_pedidos": [
+                {
+                    "id": 88,
+                    "id_pedido": 6801,
+                    "id_produto": 208,
+                    "qtde": 10,
+                    "valor": "3343.20"
+                }
+            ],
+            "valor_pedido": "3343.20"
+        },
+        {
+            "data_pedido": "2019-01-10",
+            "id": 6814,
+            "id_cliente": 81,
+            "itens_pedidos": [
+                {
+                    "id": 179,
+                    "id_pedido": 6814,
+                    "id_produto": 270,
+                    "qtde": 7,
+                    "valor": "831.60"
+                }
+            ],
+            "valor_pedido": "831.60"
+        },
+        {
+            "data_pedido": "1998-08-29",
+            "id": 6815,
+            "id_cliente": 48,
+            "itens_pedidos": [
+                {
+                    "id": 197,
+                    "id_pedido": 6815,
+                    "id_produto": 280,
+                    "qtde": 3,
+                    "valor": "2652.21"
+                }
+            ],
+            "valor_pedido": "2652.21"
+        },
+        {
+            "data_pedido": "1976-05-19",
+            "id": 6819,
+            "id_cliente": 36,
+            "itens_pedidos": [
+                {
+                    "id": 44,
+                    "id_pedido": 6819,
+                    "id_produto": 291,
+                    "qtde": 9,
+                    "valor": "3121.47"
+                }
+            ],
+            "valor_pedido": "3121.47"
+        },
+        {
+            "data_pedido": "1973-11-07",
+            "id": 6836,
+            "id_cliente": 93,
+            "itens_pedidos": [
+                {
+                    "id": 110,
+                    "id_pedido": 6836,
+                    "id_produto": 283,
+                    "qtde": 7,
+                    "valor": "6149.22"
+                }
+            ],
+            "valor_pedido": "6149.22"
+        },
+        {
+            "data_pedido": "1982-12-24",
+            "id": 6840,
+            "id_cliente": 20,
+            "itens_pedidos": [
+                {
+                    "id": 6,
+                    "id_pedido": 6840,
+                    "id_produto": 328,
+                    "qtde": 8,
+                    "valor": "1484.40"
+                }
+            ],
+            "valor_pedido": "1484.40"
+        },
+        {
+            "data_pedido": "1991-10-05",
+            "id": 6846,
+            "id_cliente": 47,
+            "itens_pedidos": [
+                {
+                    "id": 20,
+                    "id_pedido": 6846,
+                    "id_produto": 257,
+                    "qtde": 2,
+                    "valor": "968.74"
+                }
+            ],
+            "valor_pedido": "968.74"
+        },
+        {
+            "data_pedido": "2022-09-03",
+            "id": 6847,
+            "id_cliente": 21,
+            "itens_pedidos": [
+                {
+                    "id": 123,
+                    "id_pedido": 6847,
+                    "id_produto": 362,
+                    "qtde": 8,
+                    "valor": "3895.20"
+                }
+            ],
+            "valor_pedido": "3895.20"
+        },
+        {
+            "data_pedido": "2022-04-05",
+            "id": 6849,
+            "id_cliente": 22,
+            "itens_pedidos": [
+                {
+                    "id": 131,
+                    "id_pedido": 6849,
+                    "id_produto": 227,
+                    "qtde": 3,
+                    "valor": "663.78"
+                }
+            ],
+            "valor_pedido": "663.78"
+        },
+        {
+            "data_pedido": "1983-06-28",
+            "id": 6852,
+            "id_cliente": 16,
+            "itens_pedidos": [
+                {
+                    "id": 53,
+                    "id_pedido": 6852,
+                    "id_produto": 293,
+                    "qtde": 4,
+                    "valor": "1166.64"
+                },
+                {
+                    "id": 125,
+                    "id_pedido": 6852,
+                    "id_produto": 386,
+                    "qtde": 9,
+                    "valor": "3836.52"
+                }
+            ],
+            "valor_pedido": "5003.16"
+        },
+        {
+            "data_pedido": "1980-01-07",
+            "id": 6864,
+            "id_cliente": 74,
+            "itens_pedidos": [
+                {
+                    "id": 127,
+                    "id_pedido": 6864,
+                    "id_produto": 374,
+                    "qtde": 5,
+                    "valor": "4996.15"
+                }
+            ],
+            "valor_pedido": "4996.15"
+        },
+        {
+            "data_pedido": "2013-10-30",
+            "id": 6872,
+            "id_cliente": 34,
+            "itens_pedidos": [
+                {
+                    "id": 60,
+                    "id_pedido": 6872,
+                    "id_produto": 221,
+                    "qtde": 6,
+                    "valor": "1363.20"
+                }
+            ],
+            "valor_pedido": "1363.20"
+        },
+        {
+            "data_pedido": "1986-09-02",
+            "id": 6880,
+            "id_cliente": 81,
+            "itens_pedidos": [
+                {
+                    "id": 38,
+                    "id_pedido": 6880,
+                    "id_produto": 313,
+                    "qtde": 4,
+                    "valor": "2878.08"
+                }
+            ],
+            "valor_pedido": "2878.08"
+        },
+        {
+            "data_pedido": "2014-02-28",
+            "id": 6895,
+            "id_cliente": 43,
+            "itens_pedidos": [
+                {
+                    "id": 117,
+                    "id_pedido": 6895,
+                    "id_produto": 250,
+                    "qtde": 5,
+                    "valor": "2001.20"
+                },
+                {
+                    "id": 146,
+                    "id_pedido": 6895,
+                    "id_produto": 236,
+                    "qtde": 6,
+                    "valor": "5096.82"
+                }
+            ],
+            "valor_pedido": "7098.02"
+        },
+        {
+            "data_pedido": "1997-02-23",
+            "id": 6909,
+            "id_cliente": 90,
+            "itens_pedidos": [
+                {
+                    "id": 19,
+                    "id_pedido": 6909,
+                    "id_produto": 345,
+                    "qtde": 9,
+                    "valor": "3504.15"
+                }
+            ],
+            "valor_pedido": "3504.15"
+        },
+        {
+            "data_pedido": "2022-10-04",
+            "id": 6913,
+            "id_cliente": 31,
+            "itens_pedidos": [
+                {
+                    "id": 30,
+                    "id_pedido": 6913,
+                    "id_produto": 295,
+                    "qtde": 1,
+                    "valor": "172.15"
+                }
+            ],
+            "valor_pedido": "172.15"
+        },
+        {
+            "data_pedido": "2019-06-01",
+            "id": 6915,
+            "id_cliente": 74,
+            "itens_pedidos": [
+                {
+                    "id": 1,
+                    "id_pedido": 6915,
+                    "id_produto": 315,
+                    "qtde": 8,
+                    "valor": "7890.88"
+                }
+            ],
+            "valor_pedido": "7890.88"
+        },
+        {
+            "data_pedido": "2018-02-26",
+            "id": 6916,
+            "id_cliente": 11,
+            "itens_pedidos": [
+                {
+                    "id": 144,
+                    "id_pedido": 6916,
+                    "id_produto": 334,
+                    "qtde": 10,
+                    "valor": "6189.20"
+                }
+            ],
+            "valor_pedido": "6189.20"
+        },
+        {
+            "data_pedido": "1986-03-14",
+            "id": 6918,
+            "id_cliente": 31,
+            "itens_pedidos": [
+                {
+                    "id": 42,
+                    "id_pedido": 6918,
+                    "id_produto": 332,
+                    "qtde": 6,
+                    "valor": "3924.78"
+                },
+                {
+                    "id": 94,
+                    "id_pedido": 6918,
+                    "id_produto": 223,
+                    "qtde": 10,
+                    "valor": "6184.80"
+                }
+            ],
+            "valor_pedido": "10109.58"
+        },
+        {
+            "data_pedido": "1981-02-01",
+            "id": 6929,
+            "id_cliente": 11,
+            "itens_pedidos": [
+                {
+                    "id": 55,
+                    "id_pedido": 6929,
+                    "id_produto": 326,
+                    "qtde": 5,
+                    "valor": "825.50"
+                }
+            ],
+            "valor_pedido": "825.50"
+        },
+        {
+            "data_pedido": "2009-02-17",
+            "id": 6934,
+            "id_cliente": 47,
+            "itens_pedidos": [
+                {
+                    "id": 116,
+                    "id_pedido": 6934,
+                    "id_produto": 292,
+                    "qtde": 4,
+                    "valor": "1542.52"
+                }
+            ],
+            "valor_pedido": "1542.52"
+        },
+        {
+            "data_pedido": "2015-06-16",
+            "id": 6935,
+            "id_cliente": 70,
+            "itens_pedidos": [
+                {
+                    "id": 113,
+                    "id_pedido": 6935,
+                    "id_produto": 336,
+                    "qtde": 3,
+                    "valor": "2806.44"
+                }
+            ],
+            "valor_pedido": "2806.44"
+        },
+        {
+            "data_pedido": "2006-04-07",
+            "id": 6940,
+            "id_cliente": 33,
+            "itens_pedidos": [
+                {
+                    "id": 159,
+                    "id_pedido": 6940,
+                    "id_produto": 206,
+                    "qtde": 2,
+                    "valor": "1141.84"
+                }
+            ],
+            "valor_pedido": "1141.84"
+        },
+        {
+            "data_pedido": "1988-04-26",
+            "id": 6954,
+            "id_cliente": 65,
+            "itens_pedidos": [
+                {
+                    "id": 190,
+                    "id_pedido": 6954,
+                    "id_produto": 379,
+                    "qtde": 5,
+                    "valor": "3387.90"
+                }
+            ],
+            "valor_pedido": "3387.90"
+        },
+        {
+            "data_pedido": "2005-01-12",
+            "id": 6956,
+            "id_cliente": 60,
+            "itens_pedidos": [
+                {
+                    "id": 105,
+                    "id_pedido": 6956,
+                    "id_produto": 289,
+                    "qtde": 5,
+                    "valor": "3762.00"
+                }
+            ],
+            "valor_pedido": "3762.00"
+        },
+        {
+            "data_pedido": "1976-06-14",
+            "id": 6973,
+            "id_cliente": 35,
+            "itens_pedidos": [
+                {
+                    "id": 186,
+                    "id_pedido": 6973,
+                    "id_produto": 287,
+                    "qtde": 6,
+                    "valor": "4076.34"
+                }
+            ],
+            "valor_pedido": "4076.34"
+        },
+        {
+            "data_pedido": "1995-07-16",
+            "id": 6979,
+            "id_cliente": 66,
+            "itens_pedidos": [
+                {
+                    "id": 99,
+                    "id_pedido": 6979,
+                    "id_produto": 364,
+                    "qtde": 6,
+                    "valor": "3783.18"
+                }
+            ],
+            "valor_pedido": "3783.18"
+        },
+        {
+            "data_pedido": "1975-12-25",
+            "id": 6981,
+            "id_cliente": 76,
+            "itens_pedidos": [
+                {
+                    "id": 195,
+                    "id_pedido": 6981,
+                    "id_produto": 207,
+                    "qtde": 6,
+                    "valor": "1403.64"
+                },
+                {
+                    "id": 202,
+                    "id_pedido": 6981,
+                    "id_produto": 230,
+                    "qtde": 10,
+                    "valor": "455.12"
+                },
+                {
+                    "id": 206,
+                    "id_pedido": 6981,
+                    "id_produto": 230,
+                    "qtde": 10,
+                    "valor": null
+                }
+            ],
+            "valor_pedido": "1858.76"
+        },
+        {
+            "data_pedido": "1989-05-08",
+            "id": 6986,
+            "id_cliente": 13,
+            "itens_pedidos": [
+                {
+                    "id": 7,
+                    "id_pedido": 6986,
+                    "id_produto": 285,
+                    "qtde": 5,
+                    "valor": "2553.20"
+                }
+            ],
+            "valor_pedido": "2553.20"
+        },
+        {
+            "data_pedido": "1999-06-13",
+            "id": 6988,
+            "id_cliente": 45,
+            "itens_pedidos": [
+                {
+                    "id": 119,
+                    "id_pedido": 6988,
+                    "id_produto": 281,
+                    "qtde": 9,
+                    "valor": "1930.05"
+                }
+            ],
+            "valor_pedido": "1930.05"
+        },
+        {
+            "data_pedido": "2001-12-19",
+            "id": 6996,
+            "id_cliente": 11,
+            "itens_pedidos": [
+                {
+                    "id": 35,
+                    "id_pedido": 6996,
+                    "id_produto": 289,
+                    "qtde": 4,
+                    "valor": "3009.60"
+                }
+            ],
+            "valor_pedido": "3009.60"
+        }
+    ]
+}
