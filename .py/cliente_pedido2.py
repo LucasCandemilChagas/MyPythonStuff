@@ -14,7 +14,7 @@ db_config = mysql.connector.connect(
 cursor = db_config.cursor()
 cursorCli = db_config.cursor()
 cursorPed = db_config.cursor()
-
+cursorCli_ped = db_config.cursor()
 # Comando SQL para criar a tabela
 create_table_query = """
 CREATE TABLE clientes_pedidos (
@@ -50,6 +50,9 @@ for row in rows:
     countPedidos = 0
     valTotal = 0
     for line in rowsPed: 
+        cursorCli_ped.execute(f"""
+               select * from clientes_pedidos where codigo_cliente = {line[1]}
+               """)
         if line[1] == codCli:
            countPedidos+=1
            valTotal = valTotal + line[3]
