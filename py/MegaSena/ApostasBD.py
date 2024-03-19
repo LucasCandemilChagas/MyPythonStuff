@@ -1,6 +1,6 @@
 import mysql.connector
 import random
-from Modelos.Apostas import Aposta
+from Apostas import Aposta
 
 class ApostaBD:
     verificaRep = False
