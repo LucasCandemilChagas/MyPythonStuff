@@ -29,6 +29,7 @@ class ApostaBD:
                                 )
                                 """
             self.cursorAposta.execute(self.create_table_query)
+            print("Criada")
             tabela = True
             
     #insercao de dados no banco

@@ -9,8 +9,8 @@ class Apuracao:
         
     def verificaVencedor(self):
         sorteio = Sorteio()
-        for i in sorteio.getApostaS():
-            aposta = i.getApostas
+        for i in sorteio.apostas:
+            aposta = i
             if aposta == self.numeros_sorteados:
                 verifica = True
                 vencedores.append(i)
