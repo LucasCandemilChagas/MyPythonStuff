@@ -1,3 +1,2 @@
 # MyPythonStuff
-# Programas em Python das minhas anotações do curso da udemy do perian data
-
+# Programas em Python das minhas anotações do curso da Udemy do Perian Data, juntamente com as anotacoes dele na pasta Complete-Python-3-Bootcamp-master/ e alguns outros programas
