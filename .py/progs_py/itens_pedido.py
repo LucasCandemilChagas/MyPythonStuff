@@ -9,10 +9,10 @@ gerador = faker.Faker()
 gerador.add_provider(faker_commerce.Provider)
 
 db_config = mysql.connector.connect(
-  host="localhost",
-  user="root",
-  database="lucas",
-  password="root"
+  host="",
+  user="",
+  database="",
+  password=""
 )
 
 # Conectando ao banco de dados

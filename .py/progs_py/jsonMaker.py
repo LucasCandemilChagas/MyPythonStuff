@@ -4,10 +4,10 @@ import shutil
 
 # Logando ao banco de dados
 db_config = mysql.connector.connect(
-  host="localhost",
-  user="root",
-  database="lucas",
-  password="root"
+  host="",
+  user="",
+  database="",
+  password=""
 )
 
 # Conectando duas vezes ao banco de dados
