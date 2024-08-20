@@ -1,1 +1,0 @@
-Os programas dentro desta pasta nao fazem parte do curso do Perian Data
