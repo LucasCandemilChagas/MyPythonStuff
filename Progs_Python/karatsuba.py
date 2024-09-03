@@ -13,18 +13,22 @@ class Karatsuba:
         if len(a) == 1 and len(b) == 1:
             return self.mult_bin_strings(a, b)
         
-        tam_m1a_m2a = len(a)//2
-        tam_m1b_m2b = len(b)//2
+        m1a = a[:int(len(a)/2)]
+        m2a = a[int(len(a)/2):]
+        m1b = b[:int(len(b)/2)]
+        m2b = b[int(len(b)/2):]
+        print(f'A - {a} B - {b}')
+        print(f"Metade 1 A - {m1a} Metade 1 B - {m1b}")
+        print(f"Metade 2 A - {m2a} Metade 2 B - {m2b}")
         
-        m1a = a[:tam_m1a_m2a]
-        m2a = a[tam_m1a_m2a:]
-        m1b = b[:tam_m1b_m2b]
-        m2b = b[tam_m1b_m2b:]
-        
-
+        print('a1b1')
         a1b1 = self.mult_bin_strings(m1a,m1b)
+        
+        print('a2b2')
         a2b2 = self.mult_bin_strings(m2a,m2b)
+        print('Entrou na recursao\n')
         z = self.algoritmo_mult_num_longos(self.sum_bin_strings(m1a,m1b),self.sum_bin_strings(m2a,m2b))
+        print('Saiu da recursao')
 
         diff = self.diff_bin_strings(self.diff_bin_strings(z,a1b1),a2b2)
         
@@ -86,23 +90,39 @@ class Karatsuba:
         return sub[::-1].lstrip('0')
     
     def mult_bin_strings(self,x,y):
+        print(f'Multiplica {x} com {y}')
         yi = y[::-1]
         result = ''
         for ind,i in enumerate(yi):
             if i == '1':
                 desc = x + '0' * ind
-                result = self.sum_bin_strings(result, desc)
+                print(f'Result - {result} Desc - {desc} Index - {ind}')
+                if result == '':
+                    print(f'Resultado nao existia')
+                    result = desc
+                else:
+                    result = self.sum_bin_strings(result, desc)
             else:
                 desc = '0' * len(x)
+                print(f'Result - {result} Desc - {desc}')
                 result = self.sum_bin_strings(result,desc)
-            
-        return result.lstrip('0')
+        print(f"Resultado da mult {result}")    
+        return result
                 
     
     def sum_bin_strings(self,x,y):
+        print(f'Entrou na soma com x - {x} y - {y}')
+        if x == '0' * len(x):
+            print('Uma delas era tudo 0')
+            return y
+        elif y == '0' * len(y):
+            print('Uma delas era tudo 0')
+            return x
+        
         tam_max_x_y = max(len(x),len(y))
         xi = x.zfill(tam_max_x_y)[::-1]
         yi = y.zfill(tam_max_x_y)[::-1]
+        
         c = '0'
         sum = ''
         for i in range(tam_max_x_y):
@@ -133,7 +153,7 @@ class Karatsuba:
                         sum += '0'
                 else:
                     sum+='1'
-    
+        print(f'Resultado da soma {sum[::-1]}')
         return sum[::-1]
         
 
@@ -154,8 +174,8 @@ except ValueError:
 bin1 = sys.argv[1]
 bin2 = sys.argv[2]
 
-#print(k.algoritmo_mult_num_longos(bin1,bin2))
-print(k.mult_bin_strings(bin1,bin2))
+print(k.algoritmo_mult_num_longos(bin1,bin2))
+#print(k.mult_bin_strings(bin1,bin2))
 #print(k.diff_bin_strings(bin1,bin2))
 #print(k.sum_bin_strings(bin1,bin2))
 
