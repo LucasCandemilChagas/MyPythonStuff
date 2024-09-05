@@ -1,42 +1,91 @@
 import sys
 import re
+import math
 class Karatsuba:
     def __init__(self):
         pass
 
-    def desloca_esquerda(self,m):
-        deslocado = m + '0' * len(m)
+    def desloca_esquerda(self,m, zeros = 1):
+        deslocado = m + '0' * zeros
         return deslocado
 
-    def algoritmo_mult_num_longos(self,a,b):        
+    def algoritmo_mult_num_longos(self,a,b,m1a='',m2a='',m1b='',m2b=''):        
+
+        #m1a,m2a,m1b,m2b = self.cria_metades_a_b(a,b)       
         
-        if len(a) == 1 and len(b) == 1:
-            return self.mult_bin_strings(a, b)
-        
-        m1a = a[:int(len(a)/2)]
-        m2a = a[int(len(a)/2):]
-        m1b = b[:int(len(b)/2)]
-        m2b = b[int(len(b)/2):]
-        print(f'A - {a} B - {b}')
         print(f"Metade 1 A - {m1a} Metade 1 B - {m1b}")
         print(f"Metade 2 A - {m2a} Metade 2 B - {m2b}")
-        
+
         print('a1b1')
         a1b1 = self.mult_bin_strings(m1a,m1b)
+        print(f'a1b1 = {a1b1}')
         
         print('a2b2')
         a2b2 = self.mult_bin_strings(m2a,m2b)
-        print('Entrou na recursao\n')
-        z = self.algoritmo_mult_num_longos(self.sum_bin_strings(m1a,m1b),self.sum_bin_strings(m2a,m2b))
+        print(f'a2b2 = {a2b2}')
+        
+        meio1 = self.sum_bin_strings(m1a,m2a)
+        meio2 = self.sum_bin_strings(m1b,m2b)
+        
+        if len(m1a+m2a) == 1 and len(m1b+m2b) == 1:
+            print(f'Saida inicial A - {m1a+m2a} B - {m1b+m2b}')
+            return self.sum_bin_strings(self.sum_bin_strings(self.desloca_esquerda(self.diff_bin_strings(self.diff_bin_strings(self.mult_bin_strings(meio1,meio2),a1b1),a2b2)),self.desloca_esquerda(a1b1,2)),a2b2)
+        
+        print('Entrou na recursao')
+        print(f"Metade 1 A - {m1a} Metade 1 B - {m1b}")
+        print(f"Metade 2 A - {m2a} Metade 2 B - {m2b}\n")
+        
+        novo_m1a = m1a[:int(len(m1a)/2)]
+        novo_m2a = m2a[int(len(m2a)/2):]
+        novo_m1b = m1b[:int(len(m1b)/2)]
+        novo_m2b = m2b[int(len(m2b)/2):]
+        
+        z = self.algoritmo_mult_num_longos(meio1,meio2)
         print('Saiu da recursao')
+        print(f'Z - {z}')
 
         diff = self.diff_bin_strings(self.diff_bin_strings(z,a1b1),a2b2)
         
-        diff_shift = self.desloca_esquerda(diff)
-        a1b1_shift = self.desloca_esquerda(a1b1)
+        print(f'Diff antes do desloc = {diff}')
+        print(f'a1b1 antes do desloc= {a1b1}')
+        
+        diff_shift = self.desloca_esquerda(self.diff_bin_strings(self.diff_bin_strings(z,a1b1),a2b2))
+        a1b1_shift = self.desloca_esquerda(a1b1,2)
+        
+        print(f'Diff depois do desloc = {diff_shift}')
+        print(f'a1b1 depois do desloc= {a1b1_shift}')
         
         return self.sum_bin_strings(self.sum_bin_strings(diff_shift,a1b1_shift),a2b2)
 
+    def verifica_tams_par(self,x,y):
+        if (len(x)+len(y)) % 2  == 0:
+            return True
+        return False
+    
+    def verifica_tam_impar(self,x):
+        if len(x) % 2 != 0:
+            return True
+        return False
+    
+    def cria_metades_a_b(self,a,b):
+         
+        if self.verifica_tam_impar(a):
+            print('A eh impar')
+            m1a = a[:int(len(a)//2)+1]
+            m2a = a[int(len(a)//2)+1:]     
+        else:
+            m1a = a[:int(len(a)/2)]
+            m2a = a[int(len(a)/2):]
+        if self.verifica_tam_impar(b):
+            print('B eh impar')
+            m1b = b[:int(len(b)//2)+1]
+            m2b = b[int(len(b)//2)+1:]
+        else:
+            m1b = b[:int(len(b)/2)]
+            m2b = b[int(len(b)/2):]
+                    
+        return m1a,m2a,m1b,m2b
+    
     def verifica_igualdade_bit(self,bit1,bit2):
         if bit1 == bit2:
             return True
@@ -53,6 +102,7 @@ class Karatsuba:
         return False
     
     def diff_bin_strings(self,x:str,y:str):
+        print(f'Entrou na sub com {x} {y}')
         if len(x) < len(y):
             novo_y = x
             x = y
@@ -86,14 +136,15 @@ class Karatsuba:
                         carry = '0'
                     else:
                         sub+='1'
-               
-        return sub[::-1].lstrip('0')
+        print(f'Saiu da sub com {sub[::-1]}')       
+        return sub[::-1]
     
     def mult_bin_strings(self,x,y):
         print(f'Multiplica {x} com {y}')
         yi = y[::-1]
         result = ''
         for ind,i in enumerate(yi):
+            print(f'Bit {i}')
             if i == '1':
                 desc = x + '0' * ind
                 print(f'Result - {result} Desc - {desc} Index - {ind}')
@@ -174,8 +225,8 @@ except ValueError:
 bin1 = sys.argv[1]
 bin2 = sys.argv[2]
 
-print(k.algoritmo_mult_num_longos(bin1,bin2))
-#print(k.mult_bin_strings(bin1,bin2))
+print(f'Alg - {k.algoritmo_mult_num_longos(bin1,bin2)}')
+#print(f'Mult - {k.mult_bin_strings(bin1,bin2)}')
 #print(k.diff_bin_strings(bin1,bin2))
 #print(k.sum_bin_strings(bin1,bin2))
 
