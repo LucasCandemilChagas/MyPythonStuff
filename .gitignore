@@ -133,7 +133,7 @@ env.bak/
 venv.bak/
 
 #Ignorar a pasta das anotacoes do professor do curso
-**/Complete-Python-3-Bootcamp-master/
+Progs_Curso_Udemy/Complete-Python-3-Bootcamp-master/
 
 # Spyder project settings
 .spyderproject
