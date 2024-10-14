@@ -264,6 +264,6 @@ poetry.toml
 pyrightconfig.json
 
 #Ignorar a pasta das anotacoes do professor do curso
-Progs_Curso_Udemy/Complete-Python-3-Bootcamp-master/
+Progs_Cursos_Udemy/Complete-Python-3-Bootcamp-master/
 
 # End of https://www.toptal.com/developers/gitignore/api/django,python
