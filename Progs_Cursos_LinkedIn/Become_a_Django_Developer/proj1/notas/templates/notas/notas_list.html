@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Essas são as notas</h1>
+
+    <ul>
+        {% for nota in notas %}
+            <li class="nota-li">{{ nota.title }}</li> 
+        {% endfor %}
+    </ul>
+{% endblock %}
