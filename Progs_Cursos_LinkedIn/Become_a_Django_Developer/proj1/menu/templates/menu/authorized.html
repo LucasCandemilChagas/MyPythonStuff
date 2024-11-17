@@ -1,3 +1,9 @@
-<html>
+{% extends "base.html" %}
+
+{% block content %}
     <h1>You are in an authorized-only area</h1>
-</html>
+
+    <a href="{% url 'item.novo' %}" class="btn-secondary">Criar item Sobre</a>
+
+    <a href="{% url 'menu.principal' %}" class="btn btn-primary my-5">Voltar</a>
+{% endblock %}

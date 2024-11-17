@@ -15,7 +15,8 @@ class MenuView(TemplateView):
 class AuthorizedView(LoginRequiredMixin, TemplateView):
     template_name ='menu/authorized.html'
     login_url='/admin'
-    
+
+
 # Not Class-Based View 
 #@login_required(login_url='/admin')
 #def authorized(request):

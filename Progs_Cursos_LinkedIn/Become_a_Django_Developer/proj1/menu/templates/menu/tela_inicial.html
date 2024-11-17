@@ -1,9 +1,14 @@
-<html>
-    <header><title>ZehBets</title></header>
-    <body><h1>Bem-Vindo ao melhor Cassino de todos!</h1>
-    <p>{{today}}</p>
-    </body>
+{% extends "base.html" %}
 
-    <body><h1>Onde ate rico fica pobre.</h1></body>
+{% block content %}
+    <h1 class="my-5">Bem-Vindo ao melhor site de apostas de todos!</h1>
+    <p class="my-5">{{today}}</p>
 
-</html>
+    <h1>Onde o adulto chora e a mae nao ve</h1>
+
+
+    <a href="{% url 'sobre.lista' %}" class="btn">Sobre</a>
+    <a href="{% url 'suporte.lista' %}" class="btn">Suporte</a>
+    <a href="{% url 'restricted.area' %}" class="btn">Apenas para Conta Funcionario</a>
+
+{% endblock %}

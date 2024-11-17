@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="my-5 text-center">Sobre</h1>
+
+    <div class="row row-cols3 g-2">
+        {% for nota in sobre %}
+        <div class="p-1">
+                <a href="{% url 'item.info' pk=nota.id %}">
+                    <h3 class="">{{nota.title}}</h3>
+                </a>
+        </div>
+        {% endfor %}
+    </div>
+    <a href="{% url 'menu.principal' %}" class="btn btn-primary my-5">Voltar</a>
+{% endblock %}

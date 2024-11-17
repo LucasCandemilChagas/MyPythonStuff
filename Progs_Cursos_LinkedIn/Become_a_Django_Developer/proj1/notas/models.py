@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
 class Nota(models.Model):
@@ -10,3 +11,5 @@ class Nota(models.Model):
     
     # And finally, add a publication date
     created_at = models.DateTimeField(auto_now_add=True)
+    
+    usser = models.ForeignKey(User, on_delete=models.CASCADE, related_name="sobre")
