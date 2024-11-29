@@ -6,8 +6,10 @@
         <p class="my-5 nota-li">{{nota.description}}</p>
     </div>
     <div class="buttons">
-        <a href="{% url 'item.editar' pk=nota.id %}" class="btn btn-secondary">Editar</a>
-        <a href="{% url 'item.deletar' pk=nota.id %}" class="btn btn-secondary">Excluir</a>
-        <a href="{% url 'sobre.lista' %}" class="btn btn-primary">Voltar</a>
+        <li>
+            <a href="{% url 'item.editar' pk=nota.id %}" class="btn btn-secondary">Editar</a>
+            <a href="{% url 'item.deletar' pk=nota.id %}" class="btn btn-secondary">Excluir</a>
+            <a href="{% url 'sobre.lista' %}" class="btn btn-primary">Voltar</a>
+        </li>
     </div>
 {% endblock %}

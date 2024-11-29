@@ -9,3 +9,4 @@ urlpatterns = [
     path('item/novo', views.ItemCreateView.as_view(), name="item.novo"),
     path('suporte/', views.SuporteListView.as_view(), name="suporte.lista"),
 ]
+

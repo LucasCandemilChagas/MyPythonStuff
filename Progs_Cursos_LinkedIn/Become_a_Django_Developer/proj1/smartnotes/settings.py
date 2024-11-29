@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # Apps created by Me
     'menu',
     'notas',
+    'usuario',
 ]
 
 MIDDLEWARE = [
@@ -78,6 +79,7 @@ WSGI_APPLICATION = 'smartnotes.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
+
 
 DATABASES = {
     'default': {
@@ -130,3 +132,9 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CONTEXT_PROCESSORS = [
+    'django.template.context_processors.request',
+]
+
+LOGIN_REDIRECT_URL = '/'

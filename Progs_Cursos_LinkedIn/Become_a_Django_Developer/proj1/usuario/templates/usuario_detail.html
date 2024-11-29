@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="my-5 text-center">Usuario</h1>
+    <div class="inf_user my-5 text-start p-5">
+        <h5>Username: {{user.username}}</h5>
+        <h5>Since: {{user.date_joined}}</h5>
+        <h5>Apostas:</h5>
+        <h5>Numero de Vitorias:</h5>
+        <h5>Numero de Derrotas:</h5>
+
+    </div>
+{% endblock %}

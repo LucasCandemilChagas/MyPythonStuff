@@ -12,4 +12,4 @@ class Nota(models.Model):
     # And finally, add a publication date
     created_at = models.DateTimeField(auto_now_add=True)
     
-    usser = models.ForeignKey(User, on_delete=models.CASCADE, related_name="sobre")
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="sobre")

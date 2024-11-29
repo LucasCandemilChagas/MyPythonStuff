@@ -1,6 +1,7 @@
 from django.views.generic import CreateView, DetailView, ListView, UpdateView
 from django.views.generic.edit import DeleteView
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.http.response import HttpResponseRedirect
 
 from .forms import NotaForm
 from .models import Nota
@@ -34,6 +35,14 @@ class ItemCreateView(LoginRequiredMixin, CreateView):
     success_url = '/sobre'
     form_class = NotaForm
     login_url = "/admin"
+    
+    def form_valid(self, form):
+        self.object = form.save(commit=False)
+        self.object.user = self.request.user
+        self.object.save()
+        return HttpResponseRedirect(self.get_success_url())
+
+    
 
 # This is part of the U of CRUD
 class ItemUpdateView(LoginRequiredMixin, UpdateView):
@@ -42,7 +51,6 @@ class ItemUpdateView(LoginRequiredMixin, UpdateView):
     success_url = '/sobre'
     form_class = NotaForm
     login_url = "/admin"
-    
 
 # This is part of the D of CRUD
 class ItemDeleteView(LoginRequiredMixin, DeleteView):
@@ -50,9 +58,6 @@ class ItemDeleteView(LoginRequiredMixin, DeleteView):
     template_name = "sobre/nota_delete.html"
     success_url = '/sobre'
     login_url = "/admin"
-    
-    
-    
 
 #def detail(request, pk):
 #    try:

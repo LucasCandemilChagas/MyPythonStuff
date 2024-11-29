@@ -1,9 +1,16 @@
-{% extends "base.html" %}
+<html>
 
-{% block content %}
+    <head>
+        <title>Area de Funcionario</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    </head>
+
     <h1>You are in an authorized-only area</h1>
+    <a href="{% url 'item.novo' %}" class="btn my-2">Criar item Sobre</a>
 
-    <a href="{% url 'item.novo' %}" class="btn-secondary">Criar item Sobre</a>
+    <div class="voltar_menu">
+        <a href="{% url 'menu.principal' %}" class="btn btn-primary my-5">Voltar</a>
+    </div>
 
-    <a href="{% url 'menu.principal' %}" class="btn btn-primary my-5">Voltar</a>
-{% endblock %}
+
+</html>
