@@ -6,10 +6,11 @@
         <p class="my-5 nota-li">{{nota.description}}</p>
     </div>
     <div class="buttons">
-        <li>
-            <a href="{% url 'item.editar' pk=nota.id %}" class="btn btn-secondary">Editar</a>
-            <a href="{% url 'item.deletar' pk=nota.id %}" class="btn btn-secondary">Excluir</a>
-            <a href="{% url 'sobre.lista' %}" class="btn btn-primary">Voltar</a>
-        </li>
+        <ul style="list-style-type: none; padding-left: 0;">
+            <li class="edit_del my-5">
+                <a href="{% url 'item.editar' pk=nota.id %}" class="btn btn-secondary">Editar</a>
+                <a href="{% url 'item.deletar' pk=nota.id %}" class="btn btn-secondary">Excluir</a>
+            </li>
+        </ul>
     </div>
 {% endblock %}
