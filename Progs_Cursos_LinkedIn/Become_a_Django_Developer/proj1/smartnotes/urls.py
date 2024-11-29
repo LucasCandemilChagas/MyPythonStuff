@@ -22,4 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('menu.urls')), # Eliminates Dependencies
     path('sobre/', include('notas.urls')),
+    path('apostar/', include('apostar.urls')),
+    path('usuario/', include('usuario.urls')),
 ]

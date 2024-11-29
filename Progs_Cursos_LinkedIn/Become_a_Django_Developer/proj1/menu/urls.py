@@ -9,5 +9,4 @@ urlpatterns = [
     path('login/', views.LoginInterfaceView.as_view(), name="login.area"),
     path('logout/', views.LogoutInterfaceView.as_view(), name="logout.area"),
     path('signup/', views.SignupView.as_view(), name="signup.area"),
-    path('usuario/<int:pk>', u_view.user_detail, name="usuario.tela"),
 ]

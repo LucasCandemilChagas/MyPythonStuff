@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'menu',
     'notas',
     'usuario',
+    'apostar',
 ]
 
 MIDDLEWARE = [

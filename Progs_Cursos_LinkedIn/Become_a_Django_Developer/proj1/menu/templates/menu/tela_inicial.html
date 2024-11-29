@@ -5,7 +5,11 @@
     <h1 class="my-5">ZehBet</h1>
 
     <h3 class="my-5">Bem-Vindo ao melhor site de apostas de todos!</h3>
-
+    {% if user.is_authenticated %}
+    <h1 class="btn btn-primary my-5">Apostar</h1>
+    {% else %}
+    <h3 class="my-5">Para apostar deve se logar</h3>
+    {% endif %}
     <h3 class="my-9">Onde o adulto chora e a mae nao ve</h3>
 
 
