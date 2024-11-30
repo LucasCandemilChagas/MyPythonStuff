@@ -11,8 +11,8 @@ def aposta(request):
                     f"{filled_form.cleaned_data['numero3']} "
                     f"{filled_form.cleaned_data['numero4']} "
                     f"{filled_form.cleaned_data['numero5']} enviada com sucesso!")
-            new_form = ApostaForm()
-            return render(request, 'aposta/aposta.html', {'apostaform':new_form, 'nota':nota})
+            filled_form = ApostaForm()
+            return render(request, 'aposta/aposta.html', {'apostaform':filled_form, 'nota':nota})
     else:
         filled_form = ApostaForm()
     return render(request, 'aposta/aposta.html', {'apostaform':filled_form})

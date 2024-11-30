@@ -13,5 +13,18 @@
 </form>
 
 <h4>{{nota}}</h4>
+{% if apostaform.errors %}
+<div class="alert alert-danger my-5" >
+    <ul>
+        {% for field, errors in apostaform.errors.items %}
+            {% for item in apostaform %}
+                {% if field == item.name %}
+                <li style="list-style-type: none; padding-left: 0;"><strong>{{ item.label }}</strong>: {{ errors|join:", " }}</li>
+                {%endif%}
+            {% endfor%}
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
 
 {% endblock %}
