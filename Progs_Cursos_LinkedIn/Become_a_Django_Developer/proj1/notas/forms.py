@@ -25,5 +25,5 @@ class NotaForm(forms.ModelForm):
     def clean_title(self):
         title = self.cleaned_data['title']
         if re.search(r'[^a-zA-Z\s]', title):
-            raise ValidationError('We only accpet items that have just letters and spaces!')
+            raise ValidationError('We only accept items that have just letters and spaces!')
         return title

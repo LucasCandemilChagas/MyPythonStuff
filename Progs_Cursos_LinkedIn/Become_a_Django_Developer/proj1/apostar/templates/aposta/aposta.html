@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="my-5">Sua Aposta</h1>
+
+
+<h3>Numeros entre 1 a 50</h3>
+
+<form class="my-5" action="{% url 'aposta.selecao'%}" method="post">
+    {% csrf_token %}
+    {{apostaform.as_p}}
+    <input type="submit">
+</form>
+
+<h4>{{nota}}</h4>
+
+{% endblock %}
