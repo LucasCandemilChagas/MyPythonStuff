@@ -15,6 +15,8 @@
 
     <a href="{% url 'sobre.lista' %}" class="btn">Sobre</a>
     <a href="{% url 'suporte.lista' %}" class="btn">Suporte</a>
+    {% if user.is_staff %}
     <a href="{% url 'restricted.area' %}" class="btn">Apenas para Conta Funcionario</a>
+    {% endif %}
 
 {% endblock %}

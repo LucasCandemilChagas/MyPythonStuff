@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1 class="my-5">Suas Apostas</h1>
+
+<form class="my-5" action="{% url 'mais' %}" method="post">
+    {% csrf_token %}
+    {{ formset.management_form }}
+
+    {% for form in formset %}
+        {{ form.as_p }}
+        <br><br>
+    {% endfor %}
+    <input type="submit" value="Confirmar Apostas">
+</form>
+
+
+
+<h2>{{ obs }}</h2>
+{% endblock %}

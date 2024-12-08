@@ -6,13 +6,22 @@
 
 <h3>Numeros entre 1 a 50</h3>
 
+<br><br>
+
+
+<form action="{% url 'mais' %}" method="get">
+    {{multiplas_apostasform}}
+    <input type="submit" value="Ok">
+</form>
+
 <form class="my-5" action="{% url 'aposta.selecao'%}" method="post">
     {% csrf_token %}
     {{apostaform.as_p}}
-    <input type="submit">
+    <input type="submit" value="Confirmar Aposta" action="{% url 'menu.principal'%}">
 </form>
 
 <h4>{{nota}}</h4>
+
 {% if apostaform.errors %}
 <div class="alert alert-danger my-5" >
     <ul>

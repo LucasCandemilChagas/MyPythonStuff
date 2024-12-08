@@ -1,9 +1,10 @@
 {% extends 'base.html' %}
 
 {% block content %}
+    <h1 class="my-5">ZehBet!</h1>
     <form class="my-5" method="post">
         {% csrf_token %}
         {{ form.as_p }}
-        <button type="submit">Submit</button>
+        <button type="submit">Entrar</button>
     </form>
 {% endblock %}
