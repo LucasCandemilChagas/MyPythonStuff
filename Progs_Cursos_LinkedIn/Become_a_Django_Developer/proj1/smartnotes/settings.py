@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'notas',
     'usuario',
     'apostar',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE = [
